@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-07-04T08:53:34.834383+00:00",
+  "date": "2026-07-03",
+  "digest_path": "digests/2026-07-03.md",
+  "artifact_name": "ai-daily-brief-2026-07-03",
+  "stats": {
+    "raw_candidates": 178,
+    "scored_candidates": 9,
+    "deduplicated_candidates": 9,
+    "selected_candidates": 3,
+    "filtered_candidates": 175,
+    "blocked_examples": [
+      {
+        "title": "How ChatGPT adoption has expanded",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Inside Genebench-Pro",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Introducing GeneBench-Pro",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Core dump epidemiology: fixing an 18-year-old bug",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Mapping Europe’s AI Workforce Opportunity",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Previewing GPT-5.6 Sol: a next-generation model",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "How agents are transforming work",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Helping build shared standards for advanced AI",
+        "reason": "不在日报日期窗口内"
+      }
+    ],
+    "main_filter_reasons": [
+      "score < MIN_SCORE",
+      "重复报道合并",
+      "营销、课程、广告或标题党内容过滤",
+      "不在日报日期窗口内",
+      "readable_value < 70",
+      "产品启发分不足",
+      "无法解释明确产品或技术启发"
+    ]
+  },
+  "selected": [
+    {
+      "id": "e27f77af222c6c81",
+      "title": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T14:25:11Z",
+      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "metrics": {
+        "stars": 25823,
+        "forks": 2902,
+        "open_issues": 104,
+        "recent_update": "2026-07-03T14:25:11Z"
+      },
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "gemini",
+        "generative-ai",
+        "gpt-4",
+        "information-retrieval",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "orchestration",
+        "python",
+        "pytorch",
+        "question-answering",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "summarization",
+        "transformers"
+      ],
+      "raw": {
+        "language": "MDX",
+        "query": "multimodal ai"
+      },
+      "score": 89.98,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 96.31,
+        "novelty": 95,
+        "product_inspiration": 98,
+        "readable_value": 100
+      },
+      "why_important": "deepset-ai/haystack 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100
+    },
+    {
+      "id": "b4ba51333bc79dab",
+      "title": "morphik-org/morphik-core",
+      "url": "https://github.com/morphik-org/morphik-core",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T01:55:57Z",
+      "summary": "The most accurate document search and store for building AI apps",
+      "metrics": {
+        "stars": 3625,
+        "forks": 309,
+        "open_issues": 60,
+        "recent_update": "2026-07-03T01:55:57Z"
+      },
+      "tags": [
+        "artificial-intelligence",
+        "cache-augmented-generation",
+        "colpali",
+        "database",
+        "litellm",
+        "multimodal",
+        "rag",
+        "rules-based-ingestion"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "multimodal ai"
+      },
+      "score": 81.52,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 88.09,
+        "novelty": 84,
+        "product_inspiration": 77,
+        "readable_value": 100
+      },
+      "why_important": "morphik-org/morphik-core 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100
+    },
+    {
+      "id": "2b0d66f40f22fade",
+      "title": "modelstudioai/cli",
+      "url": "https://github.com/modelstudioai/cli",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T10:29:28Z",
+      "summary": "Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and workflow capabilities as structured tool calls.",
+      "metrics": {
+        "stars": 258,
+        "forks": 18,
+        "open_issues": 4,
+        "recent_update": "2026-07-03T10:29:28Z"
+      },
+      "tags": [
+        "ai-agent",
+        "ai-cli",
+        "aliyun",
+        "bailian",
+        "cli",
+        "command-line-tool",
+        "dashscope",
+        "llm-tools",
+        "mcp",
+        "mcp-server",
+        "modelstudio",
+        "qwen",
+        "skills",
+        "text-to-image",
+        "text-to-video"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "multimodal ai"
+      },
+      "score": 78.94,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 52.18,
+        "novelty": 95,
+        "product_inspiration": 98,
+        "readable_value": 100
+      },
+      "why_important": "modelstudioai/cli 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100
+    }
+  ]
+}

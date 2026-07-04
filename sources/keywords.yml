@@ -1,0 +1,62 @@
+english:
+  - AI
+  - LLM
+  - large language model
+  - agent
+  - AI agent
+  - coding agent
+  - AI coding
+  - MCP
+  - model context protocol
+  - RAG
+  - multimodal
+  - OpenAI
+  - Anthropic
+  - Claude
+  - ChatGPT
+  - Cursor
+  - Replit
+  - LangChain
+  - LlamaIndex
+  - Hugging Face
+  - local LLM
+  - inference
+  - tool use
+  - computer use
+  - reasoning model
+chinese:
+  - AI
+  - 人工智能
+  - 大模型
+  - 智能体
+  - AI 编程
+  - 编程助手
+  - 多模态
+  - 本地模型
+  - 开源模型
+  - 推理模型
+  - 工具调用
+downrank:
+  - funding
+  - raised
+  - valuation
+  - acquires
+  - investor
+  - 融资
+  - 估值
+blocked:
+  - coupon
+  - giveaway
+  - sponsored
+  - course
+  - webinar
+  - newsletter sponsor
+  - top 10 tools
+  - tool directory
+  - promo code
+  - 课程
+  - 优惠
+  - 训练营
+  - 工具榜单
+  - 付费社群
+  - 广告

@@ -1,0 +1,79 @@
+sources:
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Anthropic News
+    url: https://www.anthropic.com/news/rss.xml
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Google DeepMind Blog
+    url: https://deepmind.google/discover/blog/rss.xml
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/rss/
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Microsoft AI Blog
+    url: https://blogs.microsoft.com/ai/feed/
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Vercel Blog
+    url: https://vercel.com/blog/rss
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: LangChain Blog
+    url: https://blog.langchain.com/rss/
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: LlamaIndex Blog
+    url: https://www.llamaindex.ai/blog/rss.xml
+    source_type: official
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: Cursor Blog
+    url: https://www.cursor.com/blog
+    source_type: official
+    fetch_type: page_placeholder
+    enabled: false
+    timeout: 15
+  - name: Replit Blog
+    url: https://blog.replit.com/
+    source_type: official
+    fetch_type: page_placeholder
+    enabled: false
+    timeout: 15

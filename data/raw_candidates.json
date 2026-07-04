@@ -1,0 +1,4343 @@
+{
+  "generated_at": "2026-07-04T08:53:34.811301+00:00",
+  "items": [
+    {
+      "id": "e5a4f94ba2cc089c",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T09:00:00+00:00",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9948786518e97e80",
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "585e133b6dd453c3",
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "ae6af4542b05e51d",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "313fb0533257e7ec",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T07:00:00+00:00",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "5c2353f92113505d",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-28T17:00:00+00:00",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "278282f766326ff4",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-26T10:00:00+00:00",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "107e6a54d7c59686",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-25T02:00:00+00:00",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "efd65a3e2d456356",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-24T06:00:00+00:00",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "eed9362a2cd455e8",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T13:00:00+00:00",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a6460a8b1c1781da",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T17:00:00+00:00",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "807d3cd942cddcbb",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "77166c320a9f8046",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-22T10:00:00+00:00",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3a711c6ab35a3942",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-22T10:00:00+00:00",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f247f04ea232c43c",
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-22T00:00:00+00:00",
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3ae832a0078e30ea",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-21T23:00:00+00:00",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "87ad4430648ea322",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T17:00:00+00:00",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "351473b5bf85de6d",
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T11:00:00+00:00",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "8033d4beb52296ae",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T08:00:00+00:00",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "fe9ee2232f34bf16",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T10:00:00+00:00",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "72e9442ef39ef65e",
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3b13640bbf82210e",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "578e9b4be6b61cc5",
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-14T17:00:00+00:00",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "94e287720eae49e7",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-12T10:00:00+00:00",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a13bbacae87de3de",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "49d301f423e7bc38",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7c1ebd1e033b33ea",
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "ea063f2063878e63",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e650eee725590e3f",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f016e199bf0e5d12",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-10T20:00:00+00:00",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "034707c5e34bc407",
+      "title": "The latest AI news we announced in June 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T18:15:00+00:00",
+      "summary": "Here are Google’s latest AI updates from June 2026.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "ca21cc1f376d6e90",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T16:00:00+00:00",
+      "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1fdc89d34411346e",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T06:00:00+00:00",
+      "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4210b9b234924701",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T16:00:00+00:00",
+      "summary": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "38db2e3972a801ab",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-25T16:00:00+00:00",
+      "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "5c1278311462d6e4",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T15:00:00+00:00",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3d40c6e06194d416",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-15T15:00:00+00:00",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3cb67a182d4877b5",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T20:00:00+00:00",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6ac8a28b963bba8c",
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-05T14:45:00+00:00",
+      "summary": "Here are Google’s latest AI updates from May 2026",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "2fa089a79952d018",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-03T13:00:00+00:00",
+      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "c6ab69b89825d00d",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-06-01T16:00:00+00:00",
+      "summary": "Learn how Googlers used AI to produce Google I/O 2026.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "248485db29dc10ac",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-29T19:00:00+00:00",
+      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e054f44b7149d7be",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-29T17:30:00+00:00",
+      "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "2b177098137807ab",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "dac9d1e6d1a3e2f4",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-28T15:00:00+00:00",
+      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "746ca9f3c5d6eefc",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-22T18:00:00+00:00",
+      "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d1836f49be6317b0",
+      "title": "We’re announcing new community investments in Missouri.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-20T20:40:00+00:00",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1021ad4b9fcb069b",
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-20T19:30:00+00:00",
+      "summary": "We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7ee48fe96920df99",
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-20T16:45:00+00:00",
+      "summary": "See and hear your colleagues in true-to-life size and sound, making hybrid meetings feel more inclusive and connected.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "130622d99c2dc66e",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "source": "Google AI Blog",
+      "source_type": "official",
+      "published_at": "2026-05-19T17:45:00+00:00",
+      "summary": "One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1ad30005b0b50ee4",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "36349c9bdc98c6ec",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T18:32:50+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0d5bb6cc0c5343de",
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T14:39:11+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "cef4da6a13e9c489",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d2d0095e40361423",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T18:02:48+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1dfc629dda2960f9",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-26T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b00cf5c74ee60455",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-24T16:00:13+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "8ce140b7f6183f58",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d41751d45f87c02b",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4ca3dcce00089116",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6b4e7280ae0f11f8",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-22T13:18:56+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "45503b200857ccbe",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-22T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "5a95db57f8d6ac63",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T18:13:13+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d55df1b2c912b444",
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f1795c79317a6862",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "fb0da4eeb7dc0529",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T10:18:05+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "80455ca6ee929252",
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T09:01:25+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "00fd239c13314157",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "94ac3e91467bd6f1",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "58f8da6320c2cd23",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-09T10:46:19+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "ca773c21186742d4",
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-09T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1b5d555f12196015",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-08T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9331b9442d288c41",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-04T18:57:45+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a516e8ec9acb5870",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-04T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a13e3ab2cf52025c",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-03T12:55:11+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "5151c5002efb6df8",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e26dfe3f3dcf6e41",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-02T14:13:23+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9033c879eccf17c6",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-01T15:45:17+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "c57e75465e0381f0",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-06-01T13:51:18+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6582ec3c81fcdb2a",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "published_at": "2026-05-29T00:00:00+00:00",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b2cae65432d769f2",
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-07-02T16:00:00+00:00",
+      "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How GitHub used secret scanning to reach inbox zero appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "82454be0142e8783",
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T15:59:29+00:00",
+      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f3975181f4b83f50",
+      "title": "How GitHub maintains compliance for open source dependencies",
+      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T17:28:16+00:00",
+      "summary": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for open source dependencies appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "526cd952f8bbeddb",
+      "title": "Highlights from Git 2.55",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-55/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T17:25:25+00:00",
+      "summary": "The open source Git project just released Git 2.55. Here is GitHub’s look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.55 appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9a7b906bfec60b99",
+      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
+      "url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T16:10:20+00:00",
+      "summary": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Advisory Database and what happens when vulnerability volume breaks records appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "51f2ccc90ca83265",
+      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+      "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-26T16:53:57+00:00",
+      "summary": "GitHub joined the United Nations Development Programme in Ghana to explore how open source governance can support one of West Africa's most ambitious digital reform efforts. The post GitHub and UNDP team up to advance development priorities in Ghana with open source appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6f3f567d9de29ac8",
+      "title": "Transitioning as a Hubber",
+      "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-26T12:00:00+00:00",
+      "summary": "How GitHub's culture and benefits helped me be the best version of myself. The post Transitioning as a Hubber appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "5c140f349b15121d",
+      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-25T22:59:45+00:00",
+      "summary": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models. The post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "85638d809e58fa9d",
+      "title": "I automated my job (and it made me a better leader)",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T16:00:00+00:00",
+      "summary": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites. The post I automated my job (and it made me a better leader) appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "847986c2c7f34d33",
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "source": "GitHub Blog",
+      "source_type": "official",
+      "published_at": "2026-06-23T15:48:00+00:00",
+      "summary": "We’re calling for targeted amendments to resolve conflicts with open source licensing and align with international transparency frameworks while preserving regulatory intent. The post GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source appeared first on The GitHub Blog .",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "rss"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "37345e04a23ff969",
+      "title": "Vercel Sandbox now supports FUSE-based filesystems",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-03T01:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "539f098de49ecda7",
+      "title": "Manage Vercel Flags segments with Vercel CLI",
+      "url": "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-03T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0b6cb0758c398d90",
+      "title": "Agent Runs now available in the Vercel MCP and CLI",
+      "url": "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-03T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9b91d449d17dc02f",
+      "title": "Routing rules now available on AI Gateway",
+      "url": "https://vercel.com/changelog/ai-gateway-routing-rules",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-02T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "14d4841812477188",
+      "title": "Secure internal communication between services",
+      "url": "https://vercel.com/changelog/secure-internal-communication-between-services",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T19:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6571b19e16da21ae",
+      "title": "Claude Fable 5 access restored on AI Gateway",
+      "url": "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T07:01:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4c420920ca8ae5af",
+      "title": "Enforce consistent code for agents and humans with konsistent",
+      "url": "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f3fc52d60fe35e13",
+      "title": "Dry-run deployments with Vercel CLI",
+      "url": "https://vercel.com/changelog/dry-run-deployments-with-vercel-cli",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "372fda7b0efd5eb4",
+      "title": "Vercel Security Dashboard is in private beta",
+      "url": "https://vercel.com/changelog/vercel-security-dashboard-is-in-private-beta",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b509d160746191cd",
+      "title": "Resend joins the Vercel Marketplace",
+      "url": "https://vercel.com/changelog/resend-vercel-marketplace",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-07-01T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d17f89ff9c24950f",
+      "title": "Run any Dockerfile on Vercel",
+      "url": "https://vercel.com/blog/dockerfile-on-vercel",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T16:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7858d1b2829a0052",
+      "title": "Vercel Ship 2026 recap",
+      "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T16:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e689f7776300d3cf",
+      "title": "Vercel and Shopify are rebuilding Hydrogen",
+      "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T04:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "8848f54b6d117bdd",
+      "title": "Vercel Services: Run full stack on Vercel",
+      "url": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T04:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3916dbb8524371d1",
+      "title": "Vercel Agent has updated pricing",
+      "url": "https://vercel.com/changelog/vercel-agent-has-updated-pricing",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b0b1f1777efc0e63",
+      "title": "Claude Sonnet 5 now available on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/claude-sonnet-5-ai-gateway",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "219360824e19834d",
+      "title": "Vercel Private Blob is now generally available",
+      "url": "https://vercel.com/changelog/vercel-private-blob-is-now-generally-available",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "c38252fab2997109",
+      "title": "An expanded Vercel Agent: chat, investigations, and approved actions, now in public beta",
+      "url": "https://vercel.com/changelog/an-expanded-vercel-agent-chat-investigations-and-approved-actions-now-in-public-beta",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "bfcdc530f2f7e697",
+      "title": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) now on AI Gateway",
+      "url": "https://vercel.com/changelog/nano-banana-2-lite-gemini-3-1-flash-lite-image-ai-gateway",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "84f73abce3ee4af9",
+      "title": "Vercel Sandbox now support Custom Images",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-support-custom-images",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "f4a2189cf1e531a8",
+      "title": "Introducing VCR: Vercel Container Registry",
+      "url": "https://vercel.com/changelog/introducing-vcr-vercel-container-registry",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "504aa89701412265",
+      "title": "Run multiple frameworks in one project with Vercel Services",
+      "url": "https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-services",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "aaae01b98d18fadf",
+      "title": "Bring your Dockerfile to Vercel Functions",
+      "url": "https://vercel.com/changelog/bring-your-dockerfile-to-vercel-functions",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6799fba6a4a45dc1",
+      "title": "Expanded Audit Log coverage, now delivered through Vercel Drains",
+      "url": "https://vercel.com/changelog/expanded-audit-log-coverage-now-delivered-through-vercel-drains",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0316857db64d1440",
+      "title": "Vercel Open Source Program: Spring 2026 cohort",
+      "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T13:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1a4311d900461ad2",
+      "title": "Vercel Functions can now be up to 5GB in package size",
+      "url": "https://vercel.com/changelog/vercel-functions-can-now-be-up-to-5-gb-in-package-size",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T11:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1ebd198ce32bc476",
+      "title": "Query Speed Insights from the Vercel CLI",
+      "url": "https://vercel.com/changelog/query-speed-insights-from-the-vercel-cli",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T08:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a2b76e1a1245662e",
+      "title": "Build realtime voice agents on AI Gateway",
+      "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T07:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e1b4061b09cf1a33",
+      "title": "Sandboxes now expire based on last use",
+      "url": "https://vercel.com/changelog/sandboxes-now-expire-based-on-last-use",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T01:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3944b22796029b2b",
+      "title": "xAI Grok audio models now available on Vercel AI Gateway",
+      "url": "https://vercel.com/changelog/xai-grok-audio-models-now-available-on-vercel-ai-gateway",
+      "source": "Vercel Blog",
+      "source_type": "official",
+      "published_at": "2026-06-29T00:00:00.000Z",
+      "summary": "",
+      "metrics": {},
+      "tags": [],
+      "raw": {
+        "fetch_type": "atom"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "df0538590e5f9341",
+      "title": "generalbots/generalbots",
+      "url": "https://github.com/generalbots/generalbots",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:57:19Z",
+      "summary": "Complete open-source AI collaboration suite and multi-agent platform featuring LLM orchestration, automation, and virtual assistants. Scales seamlessly from small deployments to large enterprise environments.",
+      "metrics": {
+        "stars": 80,
+        "forks": 39,
+        "open_issues": 2,
+        "recent_update": "2026-07-03T23:57:19Z"
+      },
+      "tags": [
+        "azure",
+        "bot",
+        "bot-platform",
+        "bot-server",
+        "botbuilder",
+        "bots",
+        "general-bots",
+        "gpt",
+        "llm",
+        "messenger",
+        "messenger-bot",
+        "orchestrator",
+        "rag",
+        "sms",
+        "virtual-assistant",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "9993ff3ccce95df9",
+      "title": "e2b-dev/E2B",
+      "url": "https://github.com/e2b-dev/E2B",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:54:24Z",
+      "summary": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "metrics": {
+        "stars": 12832,
+        "forks": 957,
+        "open_issues": 60,
+        "recent_update": "2026-07-03T23:54:24Z"
+      },
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "code-interpreter",
+        "copilot",
+        "development",
+        "devtools",
+        "gpt",
+        "gpt-4",
+        "javascript",
+        "llm",
+        "nextjs",
+        "openai",
+        "python",
+        "react",
+        "software",
+        "typescript"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "46cda7eee5ac8f5e",
+      "title": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:41:56Z",
+      "summary": "Build resilient agents.",
+      "metrics": {
+        "stars": 36446,
+        "forks": 6105,
+        "open_issues": 601,
+        "recent_update": "2026-07-03T23:41:56Z"
+      },
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "54aa22eab9a86162",
+      "title": "ddalcu/mlx-serve",
+      "url": "https://github.com/ddalcu/mlx-serve",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:32:26Z",
+      "summary": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.",
+      "metrics": {
+        "stars": 214,
+        "forks": 12,
+        "open_issues": 3,
+        "recent_update": "2026-07-03T23:32:26Z"
+      },
+      "tags": [
+        "agent",
+        "anthropic-api",
+        "apple-silicon",
+        "claude-code",
+        "deepseek-v4",
+        "diffusion",
+        "gguf",
+        "image-generation",
+        "inference",
+        "llm",
+        "local-llm",
+        "macos",
+        "macos-app",
+        "mlx",
+        "openai-api",
+        "tool-calling",
+        "video-generation",
+        "voice-agent",
+        "voice-cloning",
+        "zig"
+      ],
+      "raw": {
+        "language": "Zig",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4725a892579ccd97",
+      "title": "rivet-dev/secure-exec",
+      "url": "https://github.com/rivet-dev/secure-exec",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-04T05:40:20Z",
+      "summary": "Secure Node.js Execution Without a Sandbox A lightweight library for secure Node.js execution. No containers, no VMs — just npm-compatible sandboxing out of the box.",
+      "metrics": {
+        "stars": 926,
+        "forks": 48,
+        "open_issues": 28,
+        "recent_update": "2026-07-04T05:40:20Z"
+      },
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "code-execution",
+        "code-interpreter",
+        "llm",
+        "sandbox",
+        "sandboxing",
+        "v8",
+        "wasi",
+        "wasix",
+        "wasm"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b5ddb326f64c18cb",
+      "title": "Hmbown/CodeWhale",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:18:16Z",
+      "summary": "Open-source, community-driven agent harness",
+      "metrics": {
+        "stars": 39412,
+        "forks": 3403,
+        "open_issues": 316,
+        "recent_update": "2026-07-03T23:18:16Z"
+      },
+      "tags": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "98875f5a4129045d",
+      "title": "Mesh-LLM/mesh-llm",
+      "url": "https://github.com/Mesh-LLM/mesh-llm",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-04T08:52:25Z",
+      "summary": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
+      "metrics": {
+        "stars": 1259,
+        "forks": 153,
+        "open_issues": 46,
+        "recent_update": "2026-07-04T08:52:25Z"
+      },
+      "tags": [
+        "agents",
+        "ai",
+        "decentralized",
+        "distributed",
+        "llm"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1c8f19fc5bf9da4b",
+      "title": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:57:23Z",
+      "summary": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "metrics": {
+        "stars": 8362,
+        "forks": 731,
+        "open_issues": 246,
+        "recent_update": "2026-07-03T22:57:23Z"
+      },
+      "tags": [
+        "a2a",
+        "agents",
+        "agents-sdk",
+        "ai",
+        "aiagentframework",
+        "gemini",
+        "genai",
+        "go",
+        "llm",
+        "mcp",
+        "multi-agent-collaboration",
+        "multi-agent-systems",
+        "sdk",
+        "vertex-ai"
+      ],
+      "raw": {
+        "language": "Go",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7f70f0b93d68582b",
+      "title": "ghost-in-the-droid/android-agent",
+      "url": "https://github.com/ghost-in-the-droid/android-agent",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:57:04Z",
+      "summary": "Open-source Android device automation framework — control real phones via ADB with Python skills, a Vue dashboard, and LLM-powered tooling",
+      "metrics": {
+        "stars": 231,
+        "forks": 24,
+        "open_issues": 2,
+        "recent_update": "2026-07-03T22:57:04Z"
+      },
+      "tags": [
+        "adb",
+        "android",
+        "android-automation",
+        "automation",
+        "bot-framework",
+        "fastapi",
+        "mcp",
+        "open-source",
+        "phone-farm",
+        "python",
+        "skill-system",
+        "vue"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "6c5bce329b91192f",
+      "title": "lotus-data/lotus",
+      "url": "https://github.com/lotus-data/lotus",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:55:38Z",
+      "summary": "Optimized Agentic and LLM Bulk Processing Over Your Data",
+      "metrics": {
+        "stars": 1643,
+        "forks": 147,
+        "open_issues": 44,
+        "recent_update": "2026-07-03T22:55:38Z"
+      },
+      "tags": [
+        "agentic-data-processing",
+        "ai-data-processing",
+        "data",
+        "llm",
+        "llm-data-processing",
+        "llm-document-processing",
+        "pandas",
+        "python",
+        "semantic-operators",
+        "semantic-search",
+        "unstructured-data"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "llm agent"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "bb1c50c1f65ff210",
+      "title": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:57:55Z",
+      "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "metrics": {
+        "stars": 40258,
+        "forks": 8247,
+        "open_issues": 550,
+        "recent_update": "2026-07-03T23:57:55Z"
+      },
+      "tags": [
+        "ai",
+        "anthropic",
+        "artifacts",
+        "aws",
+        "azure",
+        "chatgpt",
+        "chatgpt-clone",
+        "claude",
+        "clone",
+        "deepseek",
+        "gemini",
+        "google",
+        "gpt-5",
+        "librechat",
+        "mcp",
+        "o1",
+        "openai",
+        "responses-api",
+        "vision",
+        "webui"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7fa4474dcdb2a521",
+      "title": "maplibre/maplibre-agent-skills",
+      "url": "https://github.com/maplibre/maplibre-agent-skills",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:51:54Z",
+      "summary": "Community-maintained agent skills for MapLibre GL JS — helping AI coding assistants write better mapping code",
+      "metrics": {
+        "stars": 122,
+        "forks": 8,
+        "open_issues": 16,
+        "recent_update": "2026-07-03T23:51:54Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "JavaScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "32bc75a5752e9ce5",
+      "title": "ruvnet/metaharness",
+      "url": "https://github.com/ruvnet/metaharness",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:38:38Z",
+      "summary": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
+      "metrics": {
+        "stars": 363,
+        "forks": 35,
+        "open_issues": 13,
+        "recent_update": "2026-07-03T23:38:38Z"
+      },
+      "tags": [
+        "agent-harness",
+        "agent-harness-generator",
+        "agent-scaffolding",
+        "agentic-ai",
+        "agentic-framework",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "create-agent-harness",
+        "hermes-agent",
+        "mcp",
+        "mcp-server",
+        "multi-agent",
+        "openai-codex",
+        "openclaw",
+        "pi-dev",
+        "rvm",
+        "sandboxing",
+        "scaffold",
+        "scaffolding"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7918d7a289015f32",
+      "title": "ilang-ai/Imprint",
+      "url": "https://github.com/ilang-ai/Imprint",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:36:58Z",
+      "summary": "Your AI’s DNA: one skill for memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, and SEO. It learns your patterns from conversations, encodes them in structure, and carries them across platforms. Use it for any code, project, document, feature, commit, or new session.",
+      "metrics": {
+        "stars": 98,
+        "forks": 5,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T23:36:58Z"
+      },
+      "tags": [
+        "agent-skill",
+        "ai-collaborate",
+        "claude-code",
+        "cursor",
+        "gemini-cli-extension",
+        "imprint"
+      ],
+      "raw": {
+        "language": null,
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "fc284a915b9dc4b3",
+      "title": "ykdojo/claude-code-tips",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:28:35Z",
+      "summary": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+      "metrics": {
+        "stars": 9009,
+        "forks": 691,
+        "open_issues": 4,
+        "recent_update": "2026-07-03T23:28:35Z"
+      },
+      "tags": [
+        "agentic",
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-workflow",
+        "ai",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "cli",
+        "developer-tools",
+        "productivity",
+        "tips-and-tricks"
+      ],
+      "raw": {
+        "language": "HTML",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0bd092f118f75c4d",
+      "title": "microsoft/SharePoint-Embedded-Samples",
+      "url": "https://github.com/microsoft/SharePoint-Embedded-Samples",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:19:06Z",
+      "summary": "Official samples and developer tools for building on SharePoint Embedded, the document storage API on Microsoft 365. Includes React, TypeScript, and ASP.NET Core boilerplates, an MCP server for AI coding agents, Copilot and Power Platform assets, Postman and Bruno collections, and admin scripts.",
+      "metrics": {
+        "stars": 103,
+        "forks": 56,
+        "open_issues": 5,
+        "recent_update": "2026-07-03T23:19:06Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "TypeScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "cf235f7872faba75",
+      "title": "artokun/comfyui-mcp",
+      "url": "https://github.com/artokun/comfyui-mcp",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:17:54Z",
+      "summary": "The local-first, agent-native control plane for ComfyUI — MCP server + Claude Code plugin. 108 tools, 29 AI skills (Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2). Author & run workflows, edit your live graph in natural language, manage models & custom nodes. Local, LAN, VPS, or Comfy Cloud.",
+      "metrics": {
+        "stars": 263,
+        "forks": 45,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T23:17:54Z"
+      },
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "comfyui",
+        "comfyui-extension",
+        "comfyui-mcp",
+        "comfyui-mcp-server",
+        "flux",
+        "image-generation",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "qwen",
+        "stable-diffusion",
+        "text-to-image",
+        "video-generation",
+        "wan"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "93ceb84af2951d5f",
+      "title": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:17:39Z",
+      "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "metrics": {
+        "stars": 6753,
+        "forks": 744,
+        "open_issues": 1206,
+        "recent_update": "2026-07-03T23:17:39Z"
+      },
+      "tags": [
+        "apache-arrow",
+        "computer-vision",
+        "data-analysis",
+        "data-analytics",
+        "data-centric",
+        "data-format",
+        "data-science",
+        "dataops",
+        "deep-learning",
+        "duckdb",
+        "embeddings",
+        "llms",
+        "machine-learning",
+        "mlops",
+        "python",
+        "rust"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "dcf8e6c16b7f3f31",
+      "title": "RealDeco/xiaozhi-esphome",
+      "url": "https://github.com/RealDeco/xiaozhi-esphome",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:59:19Z",
+      "summary": "Alternative code to use xiaozhi ai devices in esphome/home assistant.",
+      "metrics": {
+        "stars": 776,
+        "forks": 123,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T22:59:19Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "Rich Text Format",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "881f07870a08dc3b",
+      "title": "getagentseal/codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:58:04Z",
+      "summary": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "metrics": {
+        "stars": 8428,
+        "forks": 663,
+        "open_issues": 43,
+        "recent_update": "2026-07-03T22:58:04Z"
+      },
+      "tags": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "cursor-ide",
+        "developer-tools",
+        "observability",
+        "terminal-ui",
+        "token-usage"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "ai coding"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "32bc75a5752e9ce5",
+      "title": "ruvnet/metaharness",
+      "url": "https://github.com/ruvnet/metaharness",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:38:38Z",
+      "summary": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
+      "metrics": {
+        "stars": 363,
+        "forks": 35,
+        "open_issues": 13,
+        "recent_update": "2026-07-03T23:38:38Z"
+      },
+      "tags": [
+        "agent-harness",
+        "agent-harness-generator",
+        "agent-scaffolding",
+        "agentic-ai",
+        "agentic-framework",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "create-agent-harness",
+        "hermes-agent",
+        "mcp",
+        "mcp-server",
+        "multi-agent",
+        "openai-codex",
+        "openclaw",
+        "pi-dev",
+        "rvm",
+        "sandboxing",
+        "scaffold",
+        "scaffolding"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "a6aaf1030d54ae02",
+      "title": "dylanroscover/Embody",
+      "url": "https://github.com/dylanroscover/Embody",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:22:43Z",
+      "summary": "MCP server for TouchDesigner — build, wire, and debug networks with AI. Plus git-diffable externalization.",
+      "metrics": {
+        "stars": 131,
+        "forks": 3,
+        "open_issues": 3,
+        "recent_update": "2026-07-03T23:22:43Z"
+      },
+      "tags": [
+        "creative-coding",
+        "externalization",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "media-art",
+        "model-context-protocol",
+        "python",
+        "touchdesigner",
+        "version-control"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0bd092f118f75c4d",
+      "title": "microsoft/SharePoint-Embedded-Samples",
+      "url": "https://github.com/microsoft/SharePoint-Embedded-Samples",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:19:06Z",
+      "summary": "Official samples and developer tools for building on SharePoint Embedded, the document storage API on Microsoft 365. Includes React, TypeScript, and ASP.NET Core boilerplates, an MCP server for AI coding agents, Copilot and Power Platform assets, Postman and Bruno collections, and admin scripts.",
+      "metrics": {
+        "stars": 103,
+        "forks": 56,
+        "open_issues": 5,
+        "recent_update": "2026-07-03T23:19:06Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "TypeScript",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "cf235f7872faba75",
+      "title": "artokun/comfyui-mcp",
+      "url": "https://github.com/artokun/comfyui-mcp",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:17:54Z",
+      "summary": "The local-first, agent-native control plane for ComfyUI — MCP server + Claude Code plugin. 108 tools, 29 AI skills (Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2). Author & run workflows, edit your live graph in natural language, manage models & custom nodes. Local, LAN, VPS, or Comfy Cloud.",
+      "metrics": {
+        "stars": 263,
+        "forks": 45,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T23:17:54Z"
+      },
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "comfyui",
+        "comfyui-extension",
+        "comfyui-mcp",
+        "comfyui-mcp-server",
+        "flux",
+        "image-generation",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "qwen",
+        "stable-diffusion",
+        "text-to-image",
+        "video-generation",
+        "wan"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "edad979d735b4302",
+      "title": "mongodb-js/mongodb-mcp-server",
+      "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:14:13Z",
+      "summary": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
+      "metrics": {
+        "stars": 1075,
+        "forks": 268,
+        "open_issues": 43,
+        "recent_update": "2026-07-03T23:14:13Z"
+      },
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "mongodb",
+        "mongodb-atlas",
+        "mongodb-database"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "92496d13cf2610b8",
+      "title": "gokeshenzhen/TraceWeave",
+      "url": "https://github.com/gokeshenzhen/TraceWeave",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:59:11Z",
+      "summary": "简洁的测试平台日志，波形(FSDB/VCD)，根因分析MCP Server. A Simple and Universal MCP Server to Debug Testbench Simulation Failures Via Log Parsing And Waveform Analysis (FSDB/VCD)",
+      "metrics": {
+        "stars": 52,
+        "forks": 17,
+        "open_issues": 1,
+        "recent_update": "2026-07-03T22:59:11Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "Python",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "755c2663140ce770",
+      "title": "wshobson/maverick-mcp",
+      "url": "https://github.com/wshobson/maverick-mcp",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:51:43Z",
+      "summary": "MaverickMCP - Personal Stock Analysis MCP Server",
+      "metrics": {
+        "stars": 616,
+        "forks": 149,
+        "open_issues": 21,
+        "recent_update": "2026-07-03T22:51:43Z"
+      },
+      "tags": [
+        "anthropic",
+        "artificial-intelligence",
+        "claude",
+        "equities",
+        "fastmcp",
+        "finance",
+        "financial-analysis",
+        "fintech",
+        "investing",
+        "mcp",
+        "mcp-server",
+        "mcp-servers",
+        "pandas",
+        "python",
+        "stock-market",
+        "stocks",
+        "technical-analysis",
+        "tiingo",
+        "tiingo-api",
+        "trading"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "663c29da4e1314f6",
+      "title": "MCPJam/inspector",
+      "url": "https://github.com/MCPJam/inspector",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-04T01:47:13Z",
+      "summary": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "metrics": {
+        "stars": 2044,
+        "forks": 243,
+        "open_issues": 239,
+        "recent_update": "2026-07-04T01:47:13Z"
+      },
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "cicd",
+        "debugger",
+        "evals",
+        "evaluation",
+        "inspector",
+        "mcp",
+        "mcp-apps",
+        "mcp-clients",
+        "mcp-inspector",
+        "mcp-server",
+        "mcp-tools",
+        "modelcontextprotocol",
+        "oauth",
+        "oauth2",
+        "openai",
+        "openai-apps-sdk",
+        "opensource",
+        "tracing"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0d0f7d647e4a7a7d",
+      "title": "slackapi/slack-mcp-plugin",
+      "url": "https://github.com/slackapi/slack-mcp-plugin",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:42:02Z",
+      "summary": "Claude Code and Cursor plugin that enables your AI tools with a Slack MCP Server and Slack Developer Skills.",
+      "metrics": {
+        "stars": 75,
+        "forks": 20,
+        "open_issues": 42,
+        "recent_update": "2026-07-03T22:42:02Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "Python",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "fe3ec518c0fe6cc7",
+      "title": "jacob-bd/notebooklm-mcp-cli",
+      "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:39:28Z",
+      "summary": "Programmatic access to Google NotebookLM — via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+      "metrics": {
+        "stars": 5159,
+        "forks": 799,
+        "open_issues": 1,
+        "recent_update": "2026-07-03T22:39:28Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "Python",
+        "query": "mcp server"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "df0538590e5f9341",
+      "title": "generalbots/generalbots",
+      "url": "https://github.com/generalbots/generalbots",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:57:19Z",
+      "summary": "Complete open-source AI collaboration suite and multi-agent platform featuring LLM orchestration, automation, and virtual assistants. Scales seamlessly from small deployments to large enterprise environments.",
+      "metrics": {
+        "stars": 80,
+        "forks": 39,
+        "open_issues": 2,
+        "recent_update": "2026-07-03T23:57:19Z"
+      },
+      "tags": [
+        "azure",
+        "bot",
+        "bot-platform",
+        "bot-server",
+        "botbuilder",
+        "bots",
+        "general-bots",
+        "gpt",
+        "llm",
+        "messenger",
+        "messenger-bot",
+        "orchestrator",
+        "rag",
+        "sms",
+        "virtual-assistant",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "af45cf8368c640ff",
+      "title": "axoviq-ai/synthadoc",
+      "url": "https://github.com/axoviq-ai/synthadoc",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:58:19Z",
+      "summary": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
+      "metrics": {
+        "stars": 540,
+        "forks": 48,
+        "open_issues": 1,
+        "recent_update": "2026-07-03T23:58:19Z"
+      },
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "cli-tool",
+        "domain-adaptation",
+        "enterprise",
+        "enterprise-solutions",
+        "knowledge-graph",
+        "local-llm",
+        "obsidian-md",
+        "obsidian-plugin",
+        "personal-knowledge-management",
+        "pkm",
+        "rag-alternative",
+        "synthetic",
+        "synthetic-data"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "46cda7eee5ac8f5e",
+      "title": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:41:56Z",
+      "summary": "Build resilient agents.",
+      "metrics": {
+        "stars": 36446,
+        "forks": 6105,
+        "open_issues": 601,
+        "recent_update": "2026-07-03T23:41:56Z"
+      },
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "bea674de1dbcea2c",
+      "title": "thiswillbeyourgithub/wdoc",
+      "url": "https://github.com/thiswillbeyourgithub/wdoc",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:10:02Z",
+      "summary": "Summarize and query from a lot of heterogeneous documents. Any LLM provider, any filetype, advanced RAG, advanced summaries, scriptable, etc",
+      "metrics": {
+        "stars": 517,
+        "forks": 44,
+        "open_issues": 2,
+        "recent_update": "2026-07-03T23:10:02Z"
+      },
+      "tags": [
+        "langchain",
+        "llm",
+        "news",
+        "parser",
+        "pdf",
+        "python",
+        "question-answering",
+        "rag",
+        "summarizer"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e9c3f5d067af2a78",
+      "title": "Shishir435/ollama-client",
+      "url": "https://github.com/Shishir435/ollama-client",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:14:26Z",
+      "summary": "Ollama Client – Chat with Local LLMs Inside Your Browser A lightweight, privacy‑first Chrome extension to chat with local LLMs via Ollama, LM Studio, and llama.cpp. Supports streaming, stop/regenerate, RAG, and easy model switching — all without cloud APIs or data leaks.",
+      "metrics": {
+        "stars": 57,
+        "forks": 9,
+        "open_issues": 3,
+        "recent_update": "2026-07-03T23:14:26Z"
+      },
+      "tags": [
+        "ai-chatbot",
+        "chatbot",
+        "chatgpt",
+        "chrome-extension",
+        "lm-studio",
+        "markdownit",
+        "ollama",
+        "ollama-chat",
+        "ollama-chatbot",
+        "ollama-chatui",
+        "ollama-chrome-extension",
+        "ollama-client",
+        "ollama-gui",
+        "ollama-ui",
+        "ollamachrome",
+        "openai-compatible",
+        "react",
+        "shadcn-ui",
+        "typescript"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3f54c7bd6b42ac20",
+      "title": "tetherto/qvac",
+      "url": "https://github.com/tetherto/qvac",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:01:47Z",
+      "summary": "QVAC - Local AI SDK and libraries for building private, cross-platform, peer-to-peer AI applications. Run LLMs, speech-to-text, translation, and more locally on Linux, macOS, Windows, Android, and iOS.",
+      "metrics": {
+        "stars": 291,
+        "forks": 74,
+        "open_issues": 104,
+        "recent_update": "2026-07-03T23:01:47Z"
+      },
+      "tags": [
+        "ai",
+        "bare-runtime",
+        "cross-platform",
+        "embeddings",
+        "llm",
+        "local-ai",
+        "native-addon",
+        "open-source",
+        "peer-to-peer",
+        "privacy",
+        "rag",
+        "speech-to-text",
+        "tether",
+        "translation"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "19c6e088be7a0a1b",
+      "title": "Aatricks/llmedge",
+      "url": "https://github.com/Aatricks/llmedge",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:06:48Z",
+      "summary": "Android native AI inference library, bringing text, image, video, STT, TTS inference",
+      "metrics": {
+        "stars": 57,
+        "forks": 6,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T23:06:48Z"
+      },
+      "tags": [
+        "ai",
+        "android",
+        "edge-ai",
+        "gguf",
+        "huggingface",
+        "image-generation",
+        "image-recognition",
+        "inference",
+        "kotlin",
+        "llama-cpp",
+        "llm",
+        "llm-inference",
+        "ocr",
+        "on-device-ai",
+        "rag",
+        "speech-to-text",
+        "stable-diffusion",
+        "stable-diffusion-cpp",
+        "text-to-speech",
+        "vision-language-model"
+      ],
+      "raw": {
+        "language": "Kotlin",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "292482e29dbd3abe",
+      "title": "ratel-ai/ratel",
+      "url": "https://github.com/ratel-ai/ratel",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:43:06Z",
+      "summary": "Context engineering for AI agents. ~80% fewer tokens. Fix tool overload. Skills and memory with in-process BM25 retrieval. No vector DB. No embeddings.",
+      "metrics": {
+        "stars": 162,
+        "forks": 9,
+        "open_issues": 16,
+        "recent_update": "2026-07-03T22:43:06Z"
+      },
+      "tags": [
+        "accuracy",
+        "agents",
+        "claude-skills",
+        "context",
+        "harness",
+        "llm",
+        "llm-routing",
+        "mcp",
+        "mcp-server",
+        "memory",
+        "optimization",
+        "rag",
+        "skills",
+        "token-optimization",
+        "tool-calling",
+        "tool-selection"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "2ecc30f2f887a3ea",
+      "title": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T22:35:37Z",
+      "summary": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "metrics": {
+        "stars": 2286,
+        "forks": 379,
+        "open_issues": 34,
+        "recent_update": "2026-07-03T22:35:37Z"
+      },
+      "tags": [
+        "ai",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-understanding",
+        "codebase-search",
+        "developer-tools",
+        "graph-database",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "memgraph",
+        "monorepo",
+        "multi-language",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "tree-sitter"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "rag"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "93ceb84af2951d5f",
+      "title": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:17:39Z",
+      "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "metrics": {
+        "stars": 6753,
+        "forks": 744,
+        "open_issues": 1206,
+        "recent_update": "2026-07-03T23:17:39Z"
+      },
+      "tags": [
+        "apache-arrow",
+        "computer-vision",
+        "data-analysis",
+        "data-analytics",
+        "data-centric",
+        "data-format",
+        "data-science",
+        "dataops",
+        "deep-learning",
+        "duckdb",
+        "embeddings",
+        "llms",
+        "machine-learning",
+        "mlops",
+        "python",
+        "rust"
+      ],
+      "raw": {
+        "language": "Rust",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e698e2c11fc496f7",
+      "title": "codecentric/c4-genai-suite",
+      "url": "https://github.com/codecentric/c4-genai-suite",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T19:59:28Z",
+      "summary": "c4 GenAI Suite",
+      "metrics": {
+        "stars": 171,
+        "forks": 20,
+        "open_issues": 76,
+        "recent_update": "2026-07-03T19:59:28Z"
+      },
+      "tags": [
+        "ai",
+        "ai-agents",
+        "artificial-intelligence",
+        "assistant",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "dall-e",
+        "gemini",
+        "genai",
+        "image-generation",
+        "langchain",
+        "llm",
+        "llm-ui",
+        "mcp",
+        "multimodal",
+        "ollama",
+        "openai",
+        "rag",
+        "self-hosted"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "7e4f7ae17f57e070",
+      "title": "NVIDIA-NeMo/Speech",
+      "url": "https://github.com/NVIDIA-NeMo/Speech",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-04T02:01:48Z",
+      "summary": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "metrics": {
+        "stars": 17707,
+        "forks": 3486,
+        "open_issues": 204,
+        "recent_update": "2026-07-04T02:01:48Z"
+      },
+      "tags": [
+        "asr",
+        "deeplearning",
+        "generative-ai",
+        "machine-translation",
+        "neural-networks",
+        "speaker-diariazation",
+        "speaker-recognition",
+        "speech-synthesis",
+        "speech-translation",
+        "tts"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d987b75036c40e7b",
+      "title": "ayushh0110/ScreenMind",
+      "url": "https://github.com/ayushh0110/ScreenMind",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T17:15:33Z",
+      "summary": "AI-powered screen memory — captures, analyzes, and lets you search/chat your screen history. Powered by Gemma 4 . 100% local, 100% private.",
+      "metrics": {
+        "stars": 168,
+        "forks": 12,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T17:15:33Z"
+      },
+      "tags": [
+        "ai",
+        "fastapi",
+        "gemma",
+        "llama-cpp",
+        "localai",
+        "multimodal",
+        "privacy",
+        "productivity",
+        "python",
+        "recall-alternative",
+        "screenrecorder"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "1706043b9b2b4e92",
+      "title": "withceleste/celeste-python",
+      "url": "https://github.com/withceleste/celeste-python",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T15:08:49Z",
+      "summary": "Open source, type-safe primitives for multi-modal AI. All modelities, all providers, one interface 🌟",
+      "metrics": {
+        "stars": 217,
+        "forks": 23,
+        "open_issues": 15,
+        "recent_update": "2026-07-03T15:08:49Z"
+      },
+      "tags": [
+        "ai",
+        "async",
+        "developer-tools",
+        "multimodal",
+        "python",
+        "sdk",
+        "streaming",
+        "type-safe"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e27f77af222c6c81",
+      "title": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T14:25:11Z",
+      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "metrics": {
+        "stars": 25823,
+        "forks": 2902,
+        "open_issues": 104,
+        "recent_update": "2026-07-03T14:25:11Z"
+      },
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "gemini",
+        "generative-ai",
+        "gpt-4",
+        "information-retrieval",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "orchestration",
+        "python",
+        "pytorch",
+        "question-answering",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "summarization",
+        "transformers"
+      ],
+      "raw": {
+        "language": "MDX",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "d27f13ae60a10d31",
+      "title": "livekit/agents-js",
+      "url": "https://github.com/livekit/agents-js",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T21:47:00Z",
+      "summary": "Build realtime multimodal AI agents with Node.js",
+      "metrics": {
+        "stars": 873,
+        "forks": 315,
+        "open_issues": 234,
+        "recent_update": "2026-07-03T21:47:00Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "TypeScript",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "2b0d66f40f22fade",
+      "title": "modelstudioai/cli",
+      "url": "https://github.com/modelstudioai/cli",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T10:29:28Z",
+      "summary": "Official Model Studio CLI（阿里云百炼 CLI）built for AI Agent frameworks, exposing models, search, multimodal, and workflow capabilities as structured tool calls.",
+      "metrics": {
+        "stars": 258,
+        "forks": 18,
+        "open_issues": 4,
+        "recent_update": "2026-07-03T10:29:28Z"
+      },
+      "tags": [
+        "ai-agent",
+        "ai-cli",
+        "aliyun",
+        "bailian",
+        "cli",
+        "command-line-tool",
+        "dashscope",
+        "llm-tools",
+        "mcp",
+        "mcp-server",
+        "modelstudio",
+        "qwen",
+        "skills",
+        "text-to-image",
+        "text-to-video"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4fa080c811a37f7b",
+      "title": "lakesoul-io/LakeSoul",
+      "url": "https://github.com/lakesoul-io/LakeSoul",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T06:20:56Z",
+      "summary": "LakeSoul is an end-to-end, realtime cloud-native Lakehouse framework for fast data ingestion, concurrent updates, incremental analytics, multimodal data processing and vector search — powering next-generation BI and AI workloads.",
+      "metrics": {
+        "stars": 3241,
+        "forks": 418,
+        "open_issues": 19,
+        "recent_update": "2026-07-03T06:20:56Z"
+      },
+      "tags": [
+        "arrow",
+        "daft",
+        "datafusion",
+        "flink",
+        "gluten",
+        "huggingface",
+        "lakehouse",
+        "postgresql",
+        "python",
+        "pytorch",
+        "ray",
+        "rust",
+        "spark",
+        "sql",
+        "streaming",
+        "vector-search",
+        "vectorized",
+        "velox"
+      ],
+      "raw": {
+        "language": "Java",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b4ba51333bc79dab",
+      "title": "morphik-org/morphik-core",
+      "url": "https://github.com/morphik-org/morphik-core",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T01:55:57Z",
+      "summary": "The most accurate document search and store for building AI apps",
+      "metrics": {
+        "stars": 3625,
+        "forks": 309,
+        "open_issues": 60,
+        "recent_update": "2026-07-03T01:55:57Z"
+      },
+      "tags": [
+        "artificial-intelligence",
+        "cache-augmented-generation",
+        "colpali",
+        "database",
+        "litellm",
+        "multimodal",
+        "rag",
+        "rules-based-ingestion"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "multimodal ai"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "af45cf8368c640ff",
+      "title": "axoviq-ai/synthadoc",
+      "url": "https://github.com/axoviq-ai/synthadoc",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:58:19Z",
+      "summary": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
+      "metrics": {
+        "stars": 540,
+        "forks": 48,
+        "open_issues": 1,
+        "recent_update": "2026-07-03T23:58:19Z"
+      },
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "cli-tool",
+        "domain-adaptation",
+        "enterprise",
+        "enterprise-solutions",
+        "knowledge-graph",
+        "local-llm",
+        "obsidian-md",
+        "obsidian-plugin",
+        "personal-knowledge-management",
+        "pkm",
+        "rag-alternative",
+        "synthetic",
+        "synthetic-data"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "964ee8e9a15f38f9",
+      "title": "rafska/awesome-local-llm",
+      "url": "https://github.com/rafska/awesome-local-llm",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:31:45Z",
+      "summary": "A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally",
+      "metrics": {
+        "stars": 2352,
+        "forks": 274,
+        "open_issues": 91,
+        "recent_update": "2026-07-03T23:31:45Z"
+      },
+      "tags": [
+        "ai",
+        "awesome",
+        "awesome-list",
+        "llm",
+        "local",
+        "local-ai",
+        "local-llm",
+        "resources",
+        "self-hosted",
+        "selfhosted"
+      ],
+      "raw": {
+        "language": null,
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "0a97ac9ed0a5aae4",
+      "title": "HUANGCHIHHUNGLeo/claude-real-video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:25:18Z",
+      "summary": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+      "metrics": {
+        "stars": 632,
+        "forks": 27,
+        "open_issues": 0,
+        "recent_update": "2026-07-03T23:25:18Z"
+      },
+      "tags": [],
+      "raw": {
+        "language": "Python",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "4fc97102122e0bbd",
+      "title": "inference-gateway/inference-gateway",
+      "url": "https://github.com/inference-gateway/inference-gateway",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-04T02:22:48Z",
+      "summary": "An open-source, cloud-native, high-performance gateway unifying multiple LLM providers, from local solutions like Ollama to major cloud providers such as OpenAI, Groq, Cohere, Anthropic, Cloudflare and DeepSeek.",
+      "metrics": {
+        "stars": 129,
+        "forks": 21,
+        "open_issues": 8,
+        "recent_update": "2026-07-04T02:22:48Z"
+      },
+      "tags": [
+        "agnostic",
+        "anthropic",
+        "api",
+        "cohere",
+        "deepseek-v4-pro",
+        "gateway",
+        "gateway-api",
+        "golang",
+        "inference-api",
+        "kubernetes",
+        "llm",
+        "openai",
+        "opensource",
+        "opensource-projects",
+        "opentelemetry",
+        "performance",
+        "proxy",
+        "proxy-server",
+        "self-hosted",
+        "tracing"
+      ],
+      "raw": {
+        "language": "Go",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "e9c3f5d067af2a78",
+      "title": "Shishir435/ollama-client",
+      "url": "https://github.com/Shishir435/ollama-client",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:14:26Z",
+      "summary": "Ollama Client – Chat with Local LLMs Inside Your Browser A lightweight, privacy‑first Chrome extension to chat with local LLMs via Ollama, LM Studio, and llama.cpp. Supports streaming, stop/regenerate, RAG, and easy model switching — all without cloud APIs or data leaks.",
+      "metrics": {
+        "stars": 57,
+        "forks": 9,
+        "open_issues": 3,
+        "recent_update": "2026-07-03T23:14:26Z"
+      },
+      "tags": [
+        "ai-chatbot",
+        "chatbot",
+        "chatgpt",
+        "chrome-extension",
+        "lm-studio",
+        "markdownit",
+        "ollama",
+        "ollama-chat",
+        "ollama-chatbot",
+        "ollama-chatui",
+        "ollama-chrome-extension",
+        "ollama-client",
+        "ollama-gui",
+        "ollama-ui",
+        "ollamachrome",
+        "openai-compatible",
+        "react",
+        "shadcn-ui",
+        "typescript"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3f54c7bd6b42ac20",
+      "title": "tetherto/qvac",
+      "url": "https://github.com/tetherto/qvac",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T23:01:47Z",
+      "summary": "QVAC - Local AI SDK and libraries for building private, cross-platform, peer-to-peer AI applications. Run LLMs, speech-to-text, translation, and more locally on Linux, macOS, Windows, Android, and iOS.",
+      "metrics": {
+        "stars": 291,
+        "forks": 74,
+        "open_issues": 104,
+        "recent_update": "2026-07-03T23:01:47Z"
+      },
+      "tags": [
+        "ai",
+        "bare-runtime",
+        "cross-platform",
+        "embeddings",
+        "llm",
+        "local-ai",
+        "native-addon",
+        "open-source",
+        "peer-to-peer",
+        "privacy",
+        "rag",
+        "speech-to-text",
+        "tether",
+        "translation"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "14d6672ec01fccaf",
+      "title": "HuckleR2003/PC_Workman_HCK",
+      "url": "https://github.com/HuckleR2003/PC_Workman_HCK",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T21:58:35Z",
+      "summary": "System monitor with offline AI (82 intents, 9-layer routing) that learns YOUR PC. TURBO optimization, thermal baselines, voltage SPC, ghost driver detection, 373 process definitions. optimization features, 11 months solo. No cloud, no API, your data stays local. MIT licensed. - Marcin HCK Firmuga - Build in Public (3 days series every week)",
+      "metrics": {
+        "stars": 64,
+        "forks": 8,
+        "open_issues": 20,
+        "recent_update": "2026-07-03T21:58:35Z"
+      },
+      "tags": [
+        "ai",
+        "ai-agents",
+        "build-in-public",
+        "chatbot",
+        "education",
+        "javascript",
+        "llm",
+        "local-ai",
+        "natural-language-processing",
+        "open-source",
+        "pc-diagnostics",
+        "performance",
+        "pyqt5",
+        "python",
+        "solo",
+        "solo-project",
+        "sololearn",
+        "system-monitoring",
+        "windows",
+        "windows-11"
+      ],
+      "raw": {
+        "language": "Python",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "b81bb40a121aa7f9",
+      "title": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T21:44:55Z",
+      "summary": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
+      "metrics": {
+        "stars": 62550,
+        "forks": 6834,
+        "open_issues": 320,
+        "recent_update": "2026-07-03T21:44:55Z"
+      },
+      "tags": [
+        "agent-harness",
+        "agentic-ai",
+        "ai-agents",
+        "hermes-agent",
+        "llm",
+        "local-ai",
+        "localai",
+        "multimodal",
+        "no-code",
+        "open-claw",
+        "rag",
+        "self-hosted-ai",
+        "vector-database"
+      ],
+      "raw": {
+        "language": "JavaScript",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    },
+    {
+      "id": "3d23f9f95da0bd4a",
+      "title": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-03T20:57:29Z",
+      "summary": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
+      "metrics": {
+        "stars": 1746,
+        "forks": 401,
+        "open_issues": 46,
+        "recent_update": "2026-07-03T20:57:29Z"
+      },
+      "tags": [
+        "ai",
+        "ai-assistant",
+        "cheating",
+        "claude-code",
+        "claude-skills",
+        "cluely",
+        "cluely-alternative",
+        "cluely-clone",
+        "developer-tools",
+        "final-round-ai",
+        "interview",
+        "interviewcoder",
+        "llm",
+        "meeting-assistant",
+        "moltbook",
+        "moltbot",
+        "open-source",
+        "openclaw",
+        "trending",
+        "trending-repositories"
+      ],
+      "raw": {
+        "language": "TypeScript",
+        "query": "local llm"
+      },
+      "score": 0,
+      "score_breakdown": {},
+      "why_important": "",
+      "inspiration": ""
+    }
+  ]
+}

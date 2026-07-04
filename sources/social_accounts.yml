@@ -1,0 +1,51 @@
+official_accounts:
+  - platform: x
+    handle: OpenAI
+    note: OpenAI 官方账号
+  - platform: x
+    handle: AnthropicAI
+    note: Anthropic 官方账号
+  - platform: x
+    handle: GoogleDeepMind
+    note: Google DeepMind 官方账号
+  - platform: x
+    handle: huggingface
+    note: Hugging Face 官方账号
+high_quality_ai_researchers:
+  - platform: x
+    handle: karpathy
+    note: AI 研究和教育
+  - platform: x
+    handle: ylecun
+    note: Meta AI / 研究观点
+  - platform: x
+    handle: hardmaru
+    note: 研究与模型生态观察
+ai_builders:
+  - platform: x
+    handle: swyx
+    note: AI 工程和 builder 社区
+  - platform: x
+    handle: latentspacepod
+    note: AI builder 访谈和趋势
+ai_coding_tool_authors:
+  - platform: x
+    handle: cursor_ai
+    note: Cursor 官方账号
+  - platform: x
+    handle: replit
+    note: Replit 官方账号
+ai_product_observers:
+  - platform: x
+    handle: benedictevans
+    note: 科技产品观察
+  - platform: x
+    handle: stratechery
+    note: 科技商业和平台观察
+chinese_ai_product_observers:
+  - platform: x
+    handle: dotey
+    note: 中文 AI 产品和开发者观察
+  - platform: x
+    handle: orange_ai
+    note: 中文 AI 工具和产品观察
