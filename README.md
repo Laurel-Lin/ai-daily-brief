@@ -32,6 +32,7 @@ BRIEF_DATE=2026-07-03 python scripts/main.py
 - `digests/YYYY-MM-DD.md`
 - `data/latest.json`
 - `data/raw_candidates.json`
+- `data/repo_history.json`
 - `logs/app.log`
 
 没有 `OPENAI_API_KEY` 时会使用规则模板生成日报。没有 `SERVERCHAN_SENDKEY` 时只生成日报，不推送微信，并在日志中提示。
@@ -45,7 +46,7 @@ BRIEF_DATE=2026-07-03 python scripts/main.py
 
 不需要手动配置 `GITHUB_TOKEN`，GitHub Actions 会自动提供。
 
-后续如果接入 X API，再增加：
+如果要接入 X Recent Search，再增加：
 
 - `X_BEARER_TOKEN`
 
@@ -116,7 +117,27 @@ enabled: false
 - `ai_product_observers`
 - `chinese_ai_product_observers`
 
-第一版不会全量爬 X，只加载白名单并记录日志。后续接入 X API 时，使用 `X_BEARER_TOKEN` 扩展抓取器即可。
+系统会按分组批量查询白名单账号的近 24-48 小时内容。未配置 `X_BEARER_TOKEN` 时会跳过 X，并记录 `X_BEARER_TOKEN not configured, skip X fetch`。
+
+## 如何维护中文源
+
+编辑 `sources/chinese_sources.yml` 增加中文 RSS 源。第一版包含机器之心、量子位、InfoQ AI、AIbase、36氪 AI、少数派 AI。抓取失败不会影响主流程。
+
+小红书不做自动爬取。需要手动补充时编辑 `sources/xhs_manual.yml`：
+
+```yaml
+items:
+  - title: 示例标题
+    url: https://www.xiaohongshu.com/...
+    platform: xiaohongshu
+    likes: 120
+    collects: 30
+    comments: 18
+    note: 用户集中吐槽某 AI 工具部署复杂，说明低门槛模板有机会。
+    added_at: 2026-07-05T08:00:00+08:00
+```
+
+没有 `note` 的小红书条目不会进入精选。
 
 ## 如何新增关键词
 
@@ -128,6 +149,36 @@ enabled: false
 - `blocked`：直接过滤关键词。
 
 程序会用关键词初筛 RSS、HN、Reddit、GitHub 和 Hugging Face 候选。
+
+## GitHub 新信号机制
+
+GitHub 不再只按 `pushed_at` 和总 stars 选项目。候选会保存 `created_at`、`pushed_at`、`updated_at`、stars、forks、issues、topics、language、release、`star_delta_24h`、`star_delta_7d`、`fork_delta_7d` 等字段。
+
+`data/repo_history.json` 会按日期记录仓库指标，用来计算增长：
+
+```json
+{
+  "owner/repo": {
+    "2026-07-05": {
+      "stars": 1234,
+      "forks": 120,
+      "open_issues": 10,
+      "pushed_at": "...",
+      "created_at": "..."
+    }
+  }
+}
+```
+
+GitHub 信号类型包括：
+
+- `new_project`：30 天内创建，并达到基础 stars 或增长要求。
+- `fast_growing`：24h / 7d stars 或 7d forks 明显增长。
+- `major_release`：近期 release 或 release 文案命中重大版本关键词。
+- `mature_reference`：成熟基础设施，每天最多 1 条，且需要额外信号。
+- `maintenance_update`：老项目普通维护更新，默认过滤。
+
+老项目如果没有新增增长、近期 release 或外部讨论，分数会被限制到 70 以下，不能进入精选。
 
 ## 评分规则
 
@@ -145,8 +196,12 @@ score = 来源质量分 * 0.35
 来源质量默认分：
 
 - 官方源：95
-- 白名单高质量账号：85
+- X 官方账号：92
+- X 高质量研究者：85
+- X builder：82
+- X 产品观察者 / 中文观察者：78
 - HN / Reddit 高热讨论：75
+- 中文社区：78
 - 高质量技术博客：70
 - 普通媒体：50
 - 营销号 / 搬运号 / 标题党：直接过滤
@@ -156,11 +211,12 @@ score = 来源质量分 * 0.35
 - `digests/`：完整版 Markdown 日报。
 - `data/latest.json`：当天精选结果和统计。
 - `data/raw_candidates.json`：原始候选内容。
+- `data/repo_history.json`：GitHub 仓库历史指标，用于计算增量热度。
 - `logs/app.log`：运行日志。
 
 ## 当前 MVP 边界
 
-- X / 社交平台：第一版只保留白名单配置和接口结构，不做网页抓取，不影响主流程。
+- X / 社交平台：使用 X API Recent Search；没有 `X_BEARER_TOKEN` 时跳过，不影响主流程。
 - ModelScope：第一版保留占位接口；未配置稳定无鉴权 API 时跳过。
 - OpenAI：用于可选总结增强；没有密钥时使用规则模板兜底。
 - 热度数据：拿不到就写“未知”，不会编造。

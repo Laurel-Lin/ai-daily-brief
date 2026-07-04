@@ -30,10 +30,18 @@ def heat_evidence(candidate: dict[str, Any]) -> str:
     if source_type == "github":
         return "\n".join(
             [
+                f"- 信号类型：{signal_label(candidate)}",
+                f"- 创建时间：{format_metric(metrics.get('created_at'))}",
+                f"- 仓库年龄：{format_metric(metrics.get('repo_age_days'))} 天",
                 f"- stars：{format_metric(metrics.get('stars'))}",
                 f"- forks：{format_metric(metrics.get('forks'))}",
                 f"- open issues：{format_metric(metrics.get('open_issues'))}",
+                f"- 24h star 增长：{format_metric(metrics.get('star_delta_24h'))}",
+                f"- 7d star 增长：{format_metric(metrics.get('star_delta_7d'))}",
+                f"- 7d fork 增长：{format_metric(metrics.get('fork_delta_7d'))}",
+                f"- 最近 release：{format_metric(metrics.get('latest_release_at'))}",
                 f"- 最近更新：{format_metric(metrics.get('recent_update'))}",
+                f"- 为什么不是普通维护更新：{not_maintenance_reason(candidate)}",
             ]
         )
     if source_type == "hn":
@@ -61,6 +69,25 @@ def heat_evidence(candidate: dict[str, Any]) -> str:
                 f"- 最近更新：{format_metric(metrics.get('recent_update'))}",
             ]
         )
+    if str(source_type).startswith("x_"):
+        return "\n".join(
+            [
+                f"- x_heat：{format_metric(metrics.get('x_heat'))}",
+                f"- likes：{format_metric(metrics.get('like_count'))}",
+                f"- reposts：{format_metric(metrics.get('repost_count'))}",
+                f"- replies：{format_metric(metrics.get('reply_count'))}",
+                f"- quotes：{format_metric(metrics.get('quote_count'))}",
+            ]
+        )
+    if source_type in {"chinese_media", "chinese_community"}:
+        return "\n".join(
+            [
+                f"- 来源：{candidate.get('source')}",
+                f"- likes：{format_metric(metrics.get('likes'))}",
+                f"- collects：{format_metric(metrics.get('collects'))}",
+                f"- comments：{format_metric(metrics.get('comments'))}",
+            ]
+        )
     return "\n".join(
         [
             f"- 来源：{candidate.get('source')}",
@@ -80,7 +107,48 @@ def inline_heat(candidate: dict[str, Any]) -> str:
         return f"{format_metric(metrics.get('upvotes'))} upvotes / {format_metric(metrics.get('comments'))} comments"
     if candidate.get("source_type") in {"huggingface", "modelscope"}:
         return f"{format_metric(metrics.get('likes'))} likes / {format_metric(metrics.get('downloads'))} downloads"
+    if str(candidate.get("source_type", "")).startswith("x_"):
+        return f"x_heat {format_metric(metrics.get('x_heat'))}"
+    if candidate.get("source_type") in {"chinese_media", "chinese_community"}:
+        return f"{format_metric(metrics.get('likes'))} likes / {format_metric(metrics.get('comments'))} comments"
     return "公开热度数据未知"
+
+
+def signal_label(candidate: dict[str, Any]) -> str:
+    source_type = candidate.get("source_type")
+    metrics = candidate.get("metrics", {})
+    if source_type == "github":
+        mapping = {
+            "new_project": "新项目",
+            "fast_growing": "快速增长",
+            "major_release": "重大版本",
+            "mature_reference": "成熟基础设施，仅限每日最多 1 条",
+            "maintenance_update": "普通维护更新",
+        }
+        return mapping.get(metrics.get("signal_type"), "开源信号")
+    if source_type == "official":
+        return "官方发布"
+    if source_type in {"hn", "reddit"} or str(source_type).startswith("x_"):
+        return "高热讨论"
+    if source_type in {"chinese_media", "chinese_community"}:
+        return "中文社区信号"
+    if source_type in {"huggingface", "modelscope"}:
+        return "模型生态"
+    return "用户需求"
+
+
+def not_maintenance_reason(candidate: dict[str, Any]) -> str:
+    metrics = candidate.get("metrics", {})
+    signal_type = metrics.get("signal_type")
+    if signal_type == "new_project":
+        return "仓库创建时间很近，属于新项目发现，不是老项目 pushed_at 维护。"
+    if signal_type == "fast_growing":
+        return "存在明确 star/fork 增长信号，不只是 pushed_at 更新。"
+    if signal_type == "major_release":
+        return "存在近期 release 或 release 文案命中重要版本关键词。"
+    if signal_type == "mature_reference":
+        return "作为成熟基础设施候选被每日限额保留，需要继续结合外部讨论验证。"
+    return "无法证明不是普通维护更新。"
 
 
 def text_blob(candidate: dict[str, Any]) -> str:
@@ -94,6 +162,10 @@ def classify(candidate: dict[str, Any]) -> str:
         return "模型生态"
     if source_type in {"hn", "reddit", "whitelist_social"}:
         return "用户反馈"
+    if str(source_type).startswith("x_"):
+        return "用户反馈" if source_type != "x_official" else "产品更新"
+    if source_type in {"chinese_media", "chinese_community"}:
+        return "国内社区"
     if "mcp" in text:
         return "Agent"
     if any(term in text for term in ["coding", "code", "cli", "cursor", "claude code", "copilot", "编程"]):
@@ -223,6 +295,13 @@ def why_today(candidate: dict[str, Any]) -> str:
     updated = metrics.get("recent_update") or candidate.get("published_at")
     source_type = candidate.get("source_type")
     if source_type == "github":
+        signal = signal_label(candidate)
+        if metrics.get("signal_type") == "new_project":
+            return f"它属于{signal}：创建时间是 {format_metric(metrics.get('created_at'))}，不是老项目例行更新；当前 stars 为 {format_metric(metrics.get('stars'))}，值得观察能否继续增长。"
+        if metrics.get("signal_type") == "fast_growing":
+            return f"它属于{signal}：24h star 增长 {format_metric(metrics.get('star_delta_24h'))}，7d star 增长 {format_metric(metrics.get('star_delta_7d'))}，热度来自新增关注而不是总 stars。"
+        if metrics.get("signal_type") == "major_release":
+            return f"它属于{signal}：最近 release 是 {format_metric(metrics.get('latest_release_at'))}，更接近产品/能力发布，不是普通 pushed_at。"
         if stars >= 10000:
             return f"它已经有 {stars} stars 和 {forks} forks，同时最近更新在 {format_metric(updated)}，说明不是冷门概念项目，而是有较大开发者关注度的工具。"
         role = infer_tool_role(candidate)
@@ -231,6 +310,10 @@ def why_today(candidate: dict[str, Any]) -> str:
         return "这是官方发布，不依赖二手解读；它的价值在于观察平台把 AI 能力嵌进了哪个产品动作或开发环节。"
     if source_type in {"hn", "reddit", "whitelist_social"}:
         return f"它有明确讨论指标：{inline_heat(candidate)}。讨论型内容的价值在于暴露真实支持点和反对意见。"
+    if str(source_type).startswith("x_"):
+        return f"它来自白名单 X 账号，公开互动热度为 {inline_heat(candidate)}；如果内容能说明产品变化或用户需求，就值得作为社交信号跟踪。"
+    if source_type in {"chinese_media", "chinese_community"}:
+        return "它来自中文社区/中文媒体源，价值在于补足国内用户需求、产品机会和信息差，而不是只看英文技术圈。"
     if source_type in {"huggingface", "modelscope"}:
         return f"模型热度依据是 {inline_heat(candidate)}。如果热度继续上升，说明它可能正在进入更多实验或产品原型。"
     return "它与今天的 AI 产品和开发者工具主题相关，但还需要更多外部信号验证。"
@@ -248,6 +331,8 @@ def inspiration(candidate: dict[str, Any]) -> str:
         return "对模型生态的启发是：模型是否值得用，不只看榜单，还要看部署成本、任务适配和社区反馈。"
     if item_type == "用户反馈":
         return "对用户需求的启发是：评论区的抱怨、迁移理由和失败案例，往往比发布稿更接近真实需求。"
+    if item_type == "国内社区":
+        return "对 AI 产品的启发是：中文社区更容易暴露本土用户的部署门槛、价格敏感点、工具选择和内容平台需求。"
     return "对 AI 产品的启发是：平台更新只有进入具体工作流，才会变成用户能感知的效率变化。"
 
 
@@ -263,6 +348,8 @@ def build_brief(candidate: dict[str, Any], index: int) -> dict[str, str]:
         "inspiration": clean_text(inspiration(candidate)),
         "tracking": track,
         "tracking_reason": track_reason,
+        "signal": signal_label(candidate),
+        "source": candidate.get("source", ""),
     }
 
 
@@ -344,7 +431,13 @@ def split_sections(candidates: list[dict[str, Any]]) -> dict[str, list[dict[str,
         "main": main,
         "github": [item for item in rest if item.get("source_type") == "github"][:3],
         "models": [item for item in rest if item.get("source_type") in {"huggingface", "modelscope"}][:3],
-        "social": [item for item in rest if item.get("source_type") in {"hn", "reddit", "whitelist_social"}][:3],
+        "social": [
+            item
+            for item in rest
+            if item.get("source_type") in {"hn", "reddit", "whitelist_social"}
+            or str(item.get("source_type", "")).startswith("x_")
+        ][:3],
+        "chinese": [item for item in rest if item.get("source_type") in {"chinese_media", "chinese_community"}][:3],
     }
 
 
@@ -409,17 +502,21 @@ def build_judgments(candidates: list[dict[str, Any]]) -> list[dict[str, str]]:
 
 
 def render_overview_table(main: list[dict[str, Any]]) -> list[str]:
-    lines = ["| 优先级 | 内容 | 类型 | 它是什么 | 为什么值得看 | 追踪价值 |", "|---|---|---|---|---|---|"]
+    lines = [
+        "| 优先级 | 内容 | 来源 | 信号类型 | 它是什么 | 为什么值得看 | 追踪价值 |",
+        "|---|---|---|---|---|---|---|",
+    ]
     if not main:
-        lines.append("| - | 今日无精选 | - | 今日未发现足够高质量内容 | 保持空位比硬凑更有价值 | 低 |")
+        lines.append("| - | 今日无精选 | - | - | 今日未发现足够高质量内容 | 保持空位比硬凑更有价值 | 低 |")
         return lines
     for index, candidate in enumerate(main):
         brief = build_brief(candidate, index)
         lines.append(
-            "| {priority} | {title} | {type} | {what} | {why} | {tracking} |".format(
+            "| {priority} | {title} | {source} | {signal} | {what} | {why} | {tracking} |".format(
                 priority=brief["priority"],
                 title=brief["title"].replace("|", "/"),
-                type=brief["type"],
+                source=brief["source"].replace("|", "/"),
+                signal=brief["signal"],
                 what=truncate(brief["what"], 70).replace("|", "/"),
                 why=truncate(brief["why"], 70).replace("|", "/"),
                 tracking=brief["tracking"],
@@ -435,6 +532,7 @@ def render_card(candidate: dict[str, Any], index: int) -> str:
             f"### {brief['priority']}｜{brief['title']}",
             "",
             f"标签：{brief['type']}",
+            f"信号类型：{brief['signal']}",
             "",
             "它是什么：",
             brief["what"],
@@ -517,7 +615,21 @@ def render_markdown(date_str: str, candidates: list[dict[str, Any]], stats: dict
                 ]
             )
 
-    supplement_lines.extend(["### 国内社区信号", "", "今日未发现足够高质量的中文社区信号。", ""])
+    supplement_lines.extend(["### 国内社区信号", ""])
+    if sections["chinese"]:
+        for candidate in sections["chinese"]:
+            supplement_lines.extend(
+                [
+                    f"- 内容：{candidate.get('title')}",
+                    f"- 用户在讨论什么：{truncate(candidate.get('summary', ''), 80)}",
+                    "- 真实需求是什么：需要从原文或手动 note 里确认具体需求，系统不会编造。",
+                    "- 类型：中文社区信号",
+                    f"- 链接：{candidate.get('url')}",
+                    "",
+                ]
+            )
+    else:
+        supplement_lines.extend(["今日未发现足够高质量的中文社区信号。", ""])
     lines.extend(["## 分类补充", ""])
     lines.extend(supplement_lines)
 

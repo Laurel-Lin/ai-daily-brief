@@ -13,11 +13,18 @@ LOGGER = logging.getLogger("ai_daily_brief")
 SOURCE_QUALITY = {
     "official": 95,
     "whitelist_social": 85,
+    "x_official": 92,
+    "x_researcher": 85,
+    "x_builder": 82,
+    "x_product_observer": 78,
+    "x_chinese_observer": 78,
     "hn": 75,
     "reddit": 75,
     "github": 78,
     "huggingface": 80,
     "modelscope": 80,
+    "chinese_media": 72,
+    "chinese_community": 78,
     "technical_blog": 70,
     "media": 50,
 }
@@ -40,7 +47,7 @@ def source_quality(candidate: dict[str, Any]) -> int:
 
 
 def bounded_log_score(value: int | float | None, base: int, cap: int = 100) -> float:
-    if value is None:
+    if value in (None, "unknown"):
         return 25
     try:
         value = max(0, float(value))
@@ -55,10 +62,37 @@ def popularity_score(candidate: dict[str, Any]) -> float:
     metrics = candidate.get("metrics", {})
     source_type = candidate.get("source_type")
     if source_type == "github":
-        stars = bounded_log_score(metrics.get("stars"), 5000)
-        forks = bounded_log_score(metrics.get("forks"), 1000)
-        issues = bounded_log_score(metrics.get("open_issues"), 300)
-        return stars * 0.55 + forks * 0.25 + issues * 0.20
+        star_delta_24h = metrics.get("star_delta_24h")
+        star_delta_7d = metrics.get("star_delta_7d")
+        fork_delta_7d = metrics.get("fork_delta_7d")
+        has_delta = isinstance(star_delta_24h, int) or isinstance(star_delta_7d, int)
+        delta_value = 0
+        if isinstance(star_delta_24h, int):
+            delta_value += star_delta_24h * 2
+        if isinstance(star_delta_7d, int):
+            delta_value += star_delta_7d
+        star_delta_score = bounded_log_score(delta_value if has_delta else None, 300)
+        total_star_score = bounded_log_score(metrics.get("stars"), 10000)
+        fork_delta_score = bounded_log_score(fork_delta_7d if isinstance(fork_delta_7d, int) else None, 80)
+        issue_activity_score = bounded_log_score(metrics.get("open_issues"), 300)
+        signal_type = metrics.get("signal_type")
+        recency_signal_score = {
+            "new_project": 90,
+            "fast_growing": 95,
+            "major_release": 90,
+            "mature_reference": 55,
+            "maintenance_update": 10,
+        }.get(signal_type, 35)
+        score = (
+            star_delta_score * 0.45
+            + total_star_score * 0.20
+            + fork_delta_score * 0.15
+            + issue_activity_score * 0.10
+            + recency_signal_score * 0.10
+        )
+        if not has_delta:
+            score = min(65, total_star_score * 0.65 + recency_signal_score * 0.35)
+        return score
     if source_type == "hn":
         points = bounded_log_score(metrics.get("points"), 800)
         comments = bounded_log_score(metrics.get("comments"), 400)
@@ -72,6 +106,13 @@ def popularity_score(candidate: dict[str, Any]) -> float:
         downloads = bounded_log_score(metrics.get("downloads"), 500000)
         discussion = bounded_log_score(metrics.get("discussion"), 200)
         return likes * 0.35 + downloads * 0.45 + discussion * 0.20
+    if str(source_type).startswith("x_"):
+        return bounded_log_score(metrics.get("x_heat"), 1000)
+    if source_type in {"chinese_media", "chinese_community"}:
+        if source_type == "chinese_community":
+            heat = (metrics.get("likes") or 0) + (metrics.get("collects") or 0) * 2 + (metrics.get("comments") or 0) * 3
+            return bounded_log_score(heat, 1000)
+        return 60
     if source_type == "official":
         return 72
     return 50
@@ -117,6 +158,10 @@ def product_inspiration_score(candidate: dict[str, Any]) -> float:
         "编程",
         "多模态",
         "本地模型",
+        "用户需求",
+        "产品机会",
+        "吐槽",
+        "争议",
     ]
     hits = sum(1 for term in high_value_terms if term in text)
     score = 45 + min(45, hits * 12)
@@ -228,6 +273,8 @@ def score_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     prod = product_inspiration_score(candidate)
     readable = readable_value_score(candidate)
     score = sq * 0.35 + pop * 0.25 + nov * 0.20 + prod * 0.20
+    if candidate.get("source_type") == "github":
+        score = apply_github_caps(candidate, score)
     candidate["score"] = round(score, 2)
     candidate["readable_value"] = round(readable, 2)
     candidate["score_breakdown"] = {
@@ -239,6 +286,32 @@ def score_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     }
     enrich_reasoning(candidate)
     return candidate
+
+
+def recent_release(metrics: dict[str, Any]) -> bool:
+    age = utc_age_hours(metrics.get("latest_release_at"))
+    return age is not None and age <= 24 * 7
+
+
+def apply_github_caps(candidate: dict[str, Any], score: float) -> float:
+    metrics = candidate.get("metrics", {})
+    repo_age_days = metrics.get("repo_age_days")
+    signal_type = metrics.get("signal_type")
+    star_delta_7d = metrics.get("star_delta_7d")
+    has_discussion = bool(metrics.get("external_discussion"))
+    if signal_type == "maintenance_update":
+        return min(score, 50)
+    if isinstance(repo_age_days, int) and repo_age_days > 730 and signal_type not in {"fast_growing", "major_release"}:
+        return min(score, 60)
+    if (
+        isinstance(repo_age_days, int)
+        and repo_age_days > 365
+        and not (isinstance(star_delta_7d, int) and star_delta_7d >= 50)
+        and not recent_release(metrics)
+        and not has_discussion
+    ):
+        return min(score, 70)
+    return score
 
 
 def deduplicate(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -275,6 +348,7 @@ def filter_and_score(
     keywords = load_keywords()
     blocked = []
     scorable = []
+    mature_selected = 0
     for candidate in candidates:
         if report_date and not is_in_report_window(candidate.get("published_at"), report_date):
             blocked.append({"title": candidate.get("title"), "reason": "不在日报日期窗口内"})
@@ -283,16 +357,30 @@ def filter_and_score(
         if is_bad:
             blocked.append({"title": candidate.get("title"), "reason": reason})
             continue
-        scorable.append(score_candidate(candidate))
+        scored = score_candidate(candidate)
+        if scored.get("source_type") == "github" and scored.get("metrics", {}).get("signal_type") == "maintenance_update":
+            blocked.append({"title": scored.get("title"), "reason": "老项目普通维护更新"})
+            continue
+        scorable.append(scored)
 
     unique = deduplicate(scorable)
-    selected = [
-        candidate
-        for candidate in unique
-        if candidate.get("score", 0) >= min_score
-        and candidate.get("readable_value", 0) >= 70
-        and candidate.get("score_breakdown", {}).get("product_inspiration", 0) >= 70
-    ]
+    selected = []
+    for candidate in unique:
+        if candidate.get("score", 0) < min_score:
+            continue
+        if candidate.get("readable_value", 0) < 70:
+            continue
+        if candidate.get("score_breakdown", {}).get("product_inspiration", 0) < 70:
+            continue
+        if candidate.get("source_type") == "github":
+            signal_type = candidate.get("metrics", {}).get("signal_type")
+            if signal_type == "maintenance_update":
+                continue
+            if signal_type == "mature_reference":
+                if mature_selected >= 1:
+                    continue
+                mature_selected += 1
+        selected.append(candidate)
     selected.sort(key=lambda item: item.get("score", 0), reverse=True)
     selected = selected[:max_items]
 
@@ -310,6 +398,7 @@ def filter_and_score(
             "不在日报日期窗口内",
             "readable_value < 70",
             "产品启发分不足",
+            "老项目普通维护更新",
             "无法解释明确产品或技术启发",
         ],
     }

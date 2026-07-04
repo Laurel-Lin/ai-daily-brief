@@ -118,6 +118,16 @@ def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def read_json(path: Path, fallback: Any) -> Any:
+    if not path.exists():
+        return fallback
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        logging.getLogger("ai_daily_brief").warning("Failed to read JSON from %s, using fallback", path)
+        return fallback
+
+
 def normalize_text(text: str | None) -> str:
     if not text:
         return ""
@@ -148,6 +158,20 @@ def utc_age_hours(published_at: str | None) -> float | None:
         if not dt.tzinfo:
             dt = dt.replace(tzinfo=timezone.utc)
         return max(0.0, (datetime.now(timezone.utc) - dt.astimezone(timezone.utc)).total_seconds() / 3600)
+    except ValueError:
+        return None
+
+
+def days_between(date_str: str, iso_value: str | None) -> int | None:
+    if not iso_value:
+        return None
+    try:
+        target = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=get_timezone())
+        normalized = iso_value.replace("Z", "+00:00")
+        dt = datetime.fromisoformat(normalized)
+        if not dt.tzinfo:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return max(0, (target - dt.astimezone(get_timezone())).days)
     except ValueError:
         return None
 

@@ -1,0 +1,37 @@
+sources:
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: InfoQ AI
+    url: https://www.infoq.cn/feed/tag/AI
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: AIbase
+    url: https://www.aibase.com/zh/news/rss
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: 36氪 AI
+    url: https://36kr.com/feed
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
+  - name: 少数派 AI
+    url: https://sspai.com/feed
+    source_type: chinese_media
+    fetch_type: rss
+    enabled: true
+    timeout: 15
