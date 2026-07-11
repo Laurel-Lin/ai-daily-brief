@@ -5,11 +5,13 @@ import math
 import os
 import re
 from datetime import datetime, timedelta
+from difflib import SequenceMatcher
 from typing import Any
 
 from fetch_sources import load_keywords
 from utils import (
     DIGESTS_DIR,
+    FEEDBACK_FILE,
     SELECTED_HISTORY_FILE,
     candidate_history_keys,
     canonical_title,
@@ -17,6 +19,7 @@ from utils import (
     is_in_report_window,
     normalize_text,
     read_json,
+    read_yaml,
     utc_age_hours,
 )
 
@@ -56,6 +59,39 @@ def is_blocked(candidate: dict[str, Any], keywords: dict[str, list[str]]) -> tup
 
 def source_quality(candidate: dict[str, Any]) -> int:
     return SOURCE_QUALITY.get(candidate.get("source_type"), 55)
+
+
+def feedback_result(candidate: dict[str, Any]) -> tuple[int, list[str], bool]:
+    config = read_yaml(FEEDBACK_FILE, {"rules": []})
+    adjustment = 0
+    notes: list[str] = []
+    rejected = False
+    searchable = {
+        "title": normalize_text(candidate.get("title", "")).lower(),
+        "url": canonical_url(candidate.get("url", "")).lower(),
+        "source": normalize_text(candidate.get("source", "")).lower(),
+        "source_type": normalize_text(candidate.get("source_type", "")).lower(),
+        "tags": " ".join(candidate.get("tags", [])).lower(),
+        "all": normalize_text(
+            f"{candidate.get('title', '')} {candidate.get('summary', '')} {candidate.get('source', '')} "
+            f"{' '.join(candidate.get('tags', []))}"
+        ).lower(),
+    }
+    defaults = {"useful": 6, "neutral": 0, "avoid": -25}
+    for rule in config.get("rules", []):
+        if not isinstance(rule, dict) or not rule.get("match"):
+            continue
+        field = rule.get("field", "all")
+        haystack = searchable.get(field, searchable["all"])
+        if str(rule["match"]).lower() not in haystack:
+            continue
+        rating = str(rule.get("rating", "neutral")).lower()
+        adjustment += int(rule.get("adjustment", defaults.get(rating, 0)))
+        if rule.get("note"):
+            notes.append(normalize_text(rule["note"]))
+        if rating == "avoid":
+            rejected = True
+    return max(-30, min(15, adjustment)), notes, rejected
 
 
 def bounded_log_score(value: int | float | None, base: int, cap: int = 100) -> float:
@@ -287,6 +323,8 @@ def score_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     score = sq * 0.35 + pop * 0.25 + nov * 0.20 + prod * 0.20
     if candidate.get("source_type") == "github":
         score = apply_github_caps(candidate, score)
+    feedback_adjustment, feedback_notes, feedback_rejected = feedback_result(candidate)
+    score = max(0, min(100, score + feedback_adjustment))
     candidate["score"] = round(score, 2)
     candidate["readable_value"] = round(readable, 2)
     candidate["score_breakdown"] = {
@@ -295,6 +333,12 @@ def score_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
         "novelty": round(nov, 2),
         "product_inspiration": round(prod, 2),
         "readable_value": round(readable, 2),
+        "feedback_adjustment": feedback_adjustment,
+    }
+    candidate["feedback"] = {
+        "adjustment": feedback_adjustment,
+        "notes": feedback_notes,
+        "rejected": feedback_rejected,
     }
     enrich_reasoning(candidate)
     return candidate
@@ -326,32 +370,90 @@ def apply_github_caps(candidate: dict[str, Any], score: float) -> float:
     return score
 
 
+def story_urls(candidate: dict[str, Any]) -> set[str]:
+    raw = candidate.get("raw", {})
+    return {
+        url for url in (
+            canonical_url(candidate.get("url")),
+            canonical_url(raw.get("story_url")),
+        ) if url
+    }
+
+
+def title_tokens(candidate: dict[str, Any]) -> set[str]:
+    title = canonical_title(candidate.get("title", ""))
+    generic = {
+        "ai", "llm", "new", "launch", "launches", "released", "releases", "introducing",
+        "open", "source", "show", "hn", "the", "with", "for", "and", "发布", "推出", "开源",
+    }
+    return {token for token in title.split() if len(token) > 1 and token not in generic}
+
+
+def same_story(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    if story_urls(left).intersection(story_urls(right)):
+        return True
+    left_tokens = title_tokens(left)
+    right_tokens = title_tokens(right)
+    shared = left_tokens.intersection(right_tokens)
+    union = left_tokens.union(right_tokens)
+    if len(shared) >= 3 and bool(union) and len(shared) / len(union) >= 0.5:
+        return True
+    left_title = canonical_title(left.get("title", ""))
+    right_title = canonical_title(right.get("title", ""))
+    return bool(left_title and right_title) and SequenceMatcher(None, left_title, right_title).ratio() >= 0.78
+
+
+def discussion_payload(candidate: dict[str, Any]) -> dict[str, Any] | None:
+    comments = candidate.get("raw", {}).get("top_comments") or []
+    if candidate.get("source_type") not in {"hn", "reddit"} and not comments:
+        return None
+    return {
+        "source": candidate.get("source"),
+        "source_type": candidate.get("source_type"),
+        "url": candidate.get("raw", {}).get("discussion_url") or candidate.get("url"),
+        "metrics": candidate.get("metrics", {}),
+        "comments": comments,
+    }
+
+
+def merge_story(primary: dict[str, Any], other: dict[str, Any]) -> dict[str, Any]:
+    related = primary.setdefault("related_sources", [])
+    existing_ids = {item.get("id") for item in related}
+    if other.get("id") not in existing_ids:
+        related.append({
+            "id": other.get("id"),
+            "title": other.get("title"),
+            "source": other.get("source"),
+            "source_type": other.get("source_type"),
+            "url": other.get("url"),
+            "score": other.get("score"),
+        })
+    discussions = primary.setdefault("community_discussions", [])
+    payload = discussion_payload(other)
+    if payload and payload.get("url") not in {item.get("url") for item in discussions}:
+        discussions.append(payload)
+    own_payload = discussion_payload(primary)
+    if own_payload and own_payload.get("url") not in {item.get("url") for item in discussions}:
+        discussions.append(own_payload)
+    primary["score"] = max(primary.get("score", 0), other.get("score", 0))
+    primary["readable_value"] = max(primary.get("readable_value", 0), other.get("readable_value", 0))
+    return primary
+
+
 def deduplicate(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    by_key: dict[str, dict[str, Any]] = {}
-    for candidate in candidates:
-        key = canonical_url(candidate.get("url")) or canonical_title(candidate.get("title", ""))
-        title_key = canonical_title(candidate.get("title", ""))
-        dedupe_key = key.lower().strip() or title_key
-        existing = by_key.get(dedupe_key) or by_key.get(title_key)
-        if not existing:
-            by_key[dedupe_key] = candidate
-            if title_key:
-                by_key[title_key] = candidate
-            continue
-        existing_quality = source_quality(existing)
-        candidate_quality = source_quality(candidate)
-        if candidate_quality > existing_quality or candidate.get("score", 0) > existing.get("score", 0):
-            by_key[dedupe_key] = candidate
-            if title_key:
-                by_key[title_key] = candidate
-    seen_ids = set()
-    unique = []
-    for candidate in by_key.values():
-        candidate_id = candidate.get("id")
-        if candidate_id not in seen_ids:
-            seen_ids.add(candidate_id)
-            unique.append(candidate)
-    return unique
+    clusters: list[dict[str, Any]] = []
+    for candidate in sorted(candidates, key=lambda item: (source_quality(item), item.get("score", 0)), reverse=True):
+        match = next((item for item in clusters if same_story(item, candidate)), None)
+        if match is None:
+            candidate.setdefault("related_sources", [])
+            candidate.setdefault("community_discussions", [])
+            own_payload = discussion_payload(candidate)
+            if own_payload:
+                candidate["community_discussions"].append(own_payload)
+            clusters.append(candidate)
+        else:
+            merge_story(match, candidate)
+    return clusters
 
 
 def selected_history_lookback_days() -> int:
@@ -433,6 +535,9 @@ def filter_and_score(
             blocked.append({"title": candidate.get("title"), "reason": reason})
             continue
         scored = score_candidate(candidate)
+        if scored.get("feedback", {}).get("rejected"):
+            blocked.append({"title": scored.get("title"), "reason": "人工反馈标记为不再推荐"})
+            continue
         if scored.get("source_type") == "github" and scored.get("metrics", {}).get("signal_type") == "maintenance_update":
             blocked.append({"title": scored.get("title"), "reason": "老项目普通维护更新"})
             continue
@@ -488,6 +593,7 @@ def filter_and_score(
         "main_filter_reasons": [
             "score < MIN_SCORE",
             "重复报道合并",
+            "人工反馈标记为不再推荐",
             "营销、课程、广告或标题党内容过滤",
             "不在日报日期窗口内",
             "readable_value < 70",

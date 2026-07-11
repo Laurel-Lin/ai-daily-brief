@@ -23,6 +23,7 @@ DATA_DIR = PROJECT_ROOT / "data"
 LOGS_DIR = PROJECT_ROOT / "logs"
 LOG_FILE = LOGS_DIR / "app.log"
 SELECTED_HISTORY_FILE = DATA_DIR / "selected_history.json"
+FEEDBACK_FILE = SOURCES_DIR / "feedback.yml"
 
 
 def load_environment() -> None:
@@ -176,6 +177,16 @@ def candidate_history_keys(candidate: dict[str, Any]) -> list[str]:
             match = re.search(r"github\.com/([^/\s]+/[^/\s#?]+)", url)
             if match:
                 keys.append(f"github:{match.group(1).lower()}")
+    story_url = canonical_url(candidate.get("raw", {}).get("story_url"))
+    if story_url:
+        keys.append(f"url:{story_url}")
+    for related in candidate.get("related_sources", []):
+        related_url = canonical_url(related.get("url"))
+        related_title = canonical_title(related.get("title", ""))
+        if related_url:
+            keys.append(f"url:{related_url}")
+        if related_title:
+            keys.append(f"title:{related_title}")
     if title:
         keys.append(f"title:{title}")
         keys.append(f"{source_type}:title:{title}")

@@ -385,13 +385,59 @@ def fetch_hacker_news(keywords: dict[str, list[str]], report_date: str | None = 
                         published_at=hit.get("created_at"),
                         summary=normalize_text(hit.get("story_text") or ""),
                         metrics={"points": hit.get("points"), "comments": hit.get("num_comments")},
-                        raw={"hn_id": hit.get("objectID")},
+                        raw={
+                            "hn_id": hit.get("objectID"),
+                            "story_url": hit.get("url"),
+                            "discussion_url": f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
+                        },
                     )
                 )
             LOGGER.info("Hacker News fetched %s candidates", len(candidates))
         except Exception as exc:
             LOGGER.warning("Hacker News source failed: %s", exc)
+    enrich_hn_comments(candidates)
     return candidates
+
+
+def useful_comment(text: str) -> bool:
+    text = normalize_text(text)
+    if len(text) < 40:
+        return False
+    low_value = ["thanks for sharing", "great post", "this is awesome", "lol", "same here"]
+    return not any(text.lower() == term for term in low_value)
+
+
+def flatten_hn_comments(children: list[dict[str, Any]]) -> list[dict[str, str]]:
+    comments: list[dict[str, str]] = []
+    queue = list(children)
+    while queue and len(comments) < 12:
+        item = queue.pop(0)
+        text = normalize_text(item.get("text") or "")
+        if useful_comment(text):
+            comments.append({"author": item.get("author") or "unknown", "text": text[:800]})
+        queue.extend(item.get("children") or [])
+    return comments
+
+
+def enrich_hn_comments(candidates: list[dict[str, Any]]) -> None:
+    minimum_points = int(os.getenv("HN_COMMENT_MIN_POINTS", "30"))
+    minimum_comments = int(os.getenv("HN_COMMENT_MIN_COMMENTS", "10"))
+    limit = int(os.getenv("SOCIAL_COMMENT_FETCH_LIMIT", "6"))
+    qualified = [
+        item for item in candidates
+        if int(item.get("metrics", {}).get("points") or 0) >= minimum_points
+        and int(item.get("metrics", {}).get("comments") or 0) >= minimum_comments
+    ]
+    qualified.sort(key=lambda item: int(item.get("metrics", {}).get("comments") or 0), reverse=True)
+    for candidate in qualified[:limit]:
+        hn_id = candidate.get("raw", {}).get("hn_id")
+        try:
+            payload = request_json(f"https://hn.algolia.com/api/v1/items/{hn_id}", timeout=15, headers={"User-Agent": USER_AGENT})
+            comments = flatten_hn_comments(payload.get("children") or [])[:6]
+            candidate["raw"]["top_comments"] = comments
+            candidate["metrics"]["sampled_comments"] = len(comments)
+        except Exception as exc:
+            LOGGER.warning("HN comments unavailable for %s: %s", hn_id, exc.__class__.__name__)
 
 
 def fetch_reddit(keywords: dict[str, list[str]], report_date: str | None = None) -> list[dict[str, Any]]:
@@ -418,13 +464,49 @@ def fetch_reddit(keywords: dict[str, list[str]], report_date: str | None = None)
                         published_at=published,
                         summary=post.get("selftext", ""),
                         metrics={"upvotes": post.get("ups"), "comments": post.get("num_comments")},
-                        raw={"over_18": post.get("over_18"), "is_self": post.get("is_self")},
+                        raw={
+                            "reddit_id": post.get("id"),
+                            "over_18": post.get("over_18"),
+                            "is_self": post.get("is_self"),
+                            "story_url": post.get("url_overridden_by_dest") or post.get("url"),
+                            "discussion_url": f"https://www.reddit.com{post.get('permalink', '')}",
+                        },
                     )
                 )
             LOGGER.info("Reddit %s fetched candidates, total %s", subreddit, len(candidates))
         except Exception as exc:
             LOGGER.warning("Reddit source failed for r/%s: %s", subreddit, exc)
+    enrich_reddit_comments(candidates)
     return candidates
+
+
+def enrich_reddit_comments(candidates: list[dict[str, Any]]) -> None:
+    minimum_upvotes = int(os.getenv("REDDIT_COMMENT_MIN_UPVOTES", "50"))
+    minimum_comments = int(os.getenv("REDDIT_COMMENT_MIN_COMMENTS", "10"))
+    limit = int(os.getenv("SOCIAL_COMMENT_FETCH_LIMIT", "6"))
+    qualified = [
+        item for item in candidates
+        if int(item.get("metrics", {}).get("upvotes") or 0) >= minimum_upvotes
+        and int(item.get("metrics", {}).get("comments") or 0) >= minimum_comments
+    ]
+    qualified.sort(key=lambda item: int(item.get("metrics", {}).get("comments") or 0), reverse=True)
+    for candidate in qualified[:limit]:
+        discussion_url = candidate.get("raw", {}).get("discussion_url", "").rstrip("/")
+        try:
+            payload = request_json(f"{discussion_url}.json?limit=12&sort=top&raw_json=1", timeout=15, headers={"User-Agent": USER_AGENT})
+            children = payload[1].get("data", {}).get("children", []) if isinstance(payload, list) and len(payload) > 1 else []
+            comments = []
+            for child in children:
+                data = child.get("data", {})
+                text = normalize_text(data.get("body") or "")
+                if useful_comment(text):
+                    comments.append({"author": data.get("author") or "unknown", "score": data.get("score"), "text": text[:800]})
+                if len(comments) >= 6:
+                    break
+            candidate["raw"]["top_comments"] = comments
+            candidate["metrics"]["sampled_comments"] = len(comments)
+        except Exception as exc:
+            LOGGER.warning("Reddit comments unavailable for %s: %s", candidate.get("title"), exc.__class__.__name__)
 
 
 def fetch_hugging_face(keywords: dict[str, list[str]], report_date: str | None = None) -> list[dict[str, Any]]:
@@ -512,7 +594,10 @@ def fetch_x_posts(keywords: dict[str, list[str]], report_date: str | None = None
     for group_name, accounts in config.items():
         if not isinstance(accounts, list) or not accounts:
             continue
-        handles = [item.get("handle") for item in accounts if isinstance(item, dict) and item.get("handle")]
+        handles = [
+            item.get("handle") for item in accounts
+            if isinstance(item, dict) and item.get("platform", "x") == "x" and item.get("handle")
+        ]
         for chunk_start in range(0, len(handles), 8):
             chunk = handles[chunk_start : chunk_start + 8]
             from_query = " OR ".join(f"from:{handle}" for handle in chunk)
@@ -610,6 +695,28 @@ def fetch_chinese_sources(keywords: dict[str, list[str]], report_date: str | Non
                 metrics=metrics,
                 tags=["xiaohongshu", item.get("platform", "xiaohongshu")],
                 raw=item,
+            )
+        )
+    manual = read_yaml(SOURCES_DIR / "chinese_manual.yml", {"items": []})
+    for item in manual.get("items", []):
+        if not item.get("note") or not item.get("url"):
+            continue
+        candidates.append(
+            make_candidate(
+                title=item.get("title") or "中文观察者手动信号",
+                url=item["url"],
+                source=item.get("source") or "中文观察者手动补充",
+                source_type="chinese_community",
+                published_at=item.get("published_at") or item.get("added_at"),
+                summary=item["note"],
+                metrics={
+                    "likes": item.get("likes"),
+                    "collects": item.get("collects"),
+                    "comments": item.get("comments"),
+                    "signal_type": "中文社区信号",
+                },
+                tags=[item.get("platform", "manual"), item.get("account", "")],
+                raw={**item, "fetch_type": "manual_fallback"},
             )
         )
     return candidates

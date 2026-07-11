@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
       - name: Generate daily brief
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -33,6 +36,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           MIN_SCORE: ${{ vars.MIN_SCORE || '75' }}
           MAX_ITEMS: ${{ vars.MAX_ITEMS || '8' }}
+          SOCIAL_COMMENT_FETCH_LIMIT: ${{ vars.SOCIAL_COMMENT_FETCH_LIMIT || '6' }}
           TIMEZONE: Asia/Shanghai
         run: python scripts/main.py
 

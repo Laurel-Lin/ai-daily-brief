@@ -1,0 +1,15 @@
+# 人工反馈会在基础 score 上做透明修正。rating 可用 useful / neutral / avoid。
+# field 可用 title / url / source / source_type / tags / all。
+rules: []
+
+# 示例：
+# rules:
+#   - field: source
+#     match: 数字生命卡兹克
+#     rating: useful
+#     adjustment: 8
+#     note: 长期关注，优先观察真实产品测试和中文用户需求
+#   - field: all
+#     match: 课程推广
+#     rating: avoid
+#     note: 不进入精选

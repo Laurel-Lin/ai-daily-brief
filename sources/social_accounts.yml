@@ -49,3 +49,15 @@ chinese_ai_product_observers:
   - platform: x
     handle: orange_ai
     note: 中文 AI 工具和产品观察
+  - platform: weibo
+    handle: 数字生命卡兹克
+    profile_url: https://www.weibo.com/u/5700099573
+    note: AI 产品实测、创作者工作流与中文用户反馈；微博无稳定免鉴权接口，使用 chinese_manual.yml 降级补充
+  - platform: wechat
+    handle: 数字生命卡兹克
+    profile_url: https://khazix.com.cn/
+    note: 常用关注公众号；官网是个人入口而非 RSS，文章使用 chinese_manual.yml 手动补充
+  - platform: website
+    handle: AIHOT
+    profile_url: https://aihot.virxact.com/
+    note: 数字生命卡兹克的 AI 热点监控产品；当前没有已验证公开 API，不直接抓取

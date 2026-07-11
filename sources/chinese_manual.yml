@@ -1,0 +1,15 @@
+# 用于公众号、微博等没有稳定公开 API / RSS 的中文信源。
+# 只处理同时提供 url 和具体 note 的条目；空列表不会影响主流程。
+items: []
+
+# 示例：
+# items:
+#   - title: 一篇值得追踪的 AI 产品实测
+#     url: https://example.com/article
+#     source: 数字生命卡兹克
+#     account: 数字生命卡兹克
+#     platform: wechat
+#     published_at: 2026-07-12T10:00:00+08:00
+#     likes: null
+#     comments: null
+#     note: 文章具体测试了某个 Agent 工作流，并暴露权限确认步骤过多的用户痛点。

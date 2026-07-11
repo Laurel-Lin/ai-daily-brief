@@ -10,6 +10,9 @@
 - 微信只推送摘要版，不推送完整长文。
 - API Key、SendKey、Token 全部来自 GitHub Secrets 或环境变量。
 - 任一信息源抓取失败都不会让主流程崩溃。
+- 同一事件的官方发布、HN 和 Reddit 讨论会合并成一个 story，避免重复占位。
+- 对达到热度门槛的 HN / Reddit 条目抽样高质量评论，提炼支持点、吐槽点和争议。
+- 支持人工反馈修正后续评分，并输出一个可验证的“今日产品机会”。
 
 ## 本地运行
 
@@ -120,6 +123,25 @@ enabled: false
 
 系统会按分组批量查询白名单账号的近 24-48 小时内容。未配置 `X_BEARER_TOKEN` 时会跳过 X，并记录 `X_BEARER_TOKEN not configured, skip X fetch`。
 
+白名单也可以保存 `weibo`、`wechat` 和 `website` 账号作为维护清单。程序只会把 `platform: x` 的账号发送给 X API，其他平台不会被误当成 X 账号抓取。
+
+“数字生命卡兹克”已列入中文 AI 产品观察者，包括微博、公众号官网入口和 AIHOT。由于公众号与微博没有稳定、合规的免鉴权内容接口，自动抓取不可用时使用 `sources/chinese_manual.yml` 补充具体文章：
+
+```yaml
+items:
+  - title: 文章标题
+    url: https://文章原始链接
+    source: 数字生命卡兹克
+    account: 数字生命卡兹克
+    platform: wechat
+    published_at: 2026-07-12T10:00:00+08:00
+    likes: null
+    comments: null
+    note: 写清楚文章测试了什么、暴露了什么用户问题，以及为什么值得看。
+```
+
+没有 `url` 或具体 `note` 的手动条目不会进入候选。公开热度没有拿到时保留为未知，不会编造。
+
 ## 如何维护中文源
 
 编辑 `sources/chinese_sources.yml` 增加中文 RSS 源。第一版包含机器之心、量子位、InfoQ AI、AIbase、36氪 AI、少数派 AI。抓取失败不会影响主流程。
@@ -150,6 +172,41 @@ items:
 - `blocked`：直接过滤关键词。
 
 程序会用关键词初筛 RSS、HN、Reddit、GitHub 和 Hugging Face 候选。
+
+## 同事件合并与社区评论
+
+候选在评分后按原始文章 URL 和标题关键词聚类。同一事件优先保留来源质量更高的主条目，其他来源写入 `related_sources`；HN / Reddit 的讨论指标和评论样本写入 `community_discussions`。因此官方发布负责事实，社区来源负责支持点、吐槽点和争议，同一事件不会重复占用多条精选。
+
+评论正文只针对达到门槛的高热条目抓取，并限制每日请求数量。默认配置：
+
+- `SOCIAL_COMMENT_FETCH_LIMIT=6`
+- `HN_COMMENT_MIN_POINTS=30`
+- `HN_COMMENT_MIN_COMMENTS=10`
+- `REDDIT_COMMENT_MIN_UPVOTES=50`
+- `REDDIT_COMMENT_MIN_COMMENTS=10`
+
+评论接口失败时只记录日志，候选仍按已有热度指标继续处理。规则模板会明确标注评论抓取不足；启用模型总结时，模型只能基于实际抓到的评论提炼观点。
+
+## 人工反馈闭环
+
+编辑 `sources/feedback.yml` 可以让你的判断影响后续评分：
+
+```yaml
+rules:
+  - field: source
+    match: 数字生命卡兹克
+    rating: useful
+    adjustment: 8
+    note: 优先观察真实产品测试和中文用户需求
+  - field: all
+    match: 课程推广
+    rating: avoid
+    note: 不进入精选
+```
+
+`field` 支持 `title`、`url`、`source`、`source_type`、`tags` 和 `all`。`useful` 默认加 6 分，`neutral` 不调整，`avoid` 默认减 25 分并直接过滤；所有修正会保存在候选的 `feedback` 和 `score_breakdown.feedback_adjustment` 中，便于追溯。总修正限制在 -30 到 +15，避免人工规则完全掩盖内容质量。
+
+日报会根据当天最强信号输出一个“今日产品机会”，明确观察到的问题、目标用户、最小验证和为什么现在。它是待验证假设，不会把一条新闻直接包装成产品结论。
 
 ## GitHub 新信号机制
 
@@ -223,6 +280,8 @@ score = 来源质量分 * 0.35
 - `data/raw_candidates.json`：原始候选内容。
 - `data/repo_history.json`：GitHub 仓库历史指标，用于计算增量热度。
 - `data/selected_history.json`：已入选内容历史，用于跨天去重，避免连续推送同一内容。
+- `sources/feedback.yml`：人工偏好规则，持久化影响后续评分与过滤。
+- `sources/chinese_manual.yml`：公众号、微博等不稳定平台的手动降级入口。
 - `logs/app.log`：运行日志。
 
 ## 当前 MVP 边界
