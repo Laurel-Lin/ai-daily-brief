@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T00:00:00+08:00",
+  "updated_at": "2026-07-11T23:09:56.426598+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -142,6 +142,34 @@
         "github:learningcircuit/local-deep-research",
         "title:learningcircuit local deep research",
         "github:title:learningcircuit local deep research"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "id": "274a0dc5582eca27",
+      "title": "marcusquinn/aidevops",
+      "url": "https://github.com/marcusquinn/aidevops",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/marcusquinn/aidevops",
+        "github:marcusquinn/aidevops",
+        "title:marcusquinn aidevops",
+        "github:title:marcusquinn aidevops",
+        "id:274a0dc5582eca27"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "id": "040ab4ea27d39f1a",
+      "title": "pinkpixel-dev/web-scout-mcp",
+      "url": "https://github.com/pinkpixel-dev/web-scout-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/pinkpixel-dev/web-scout-mcp",
+        "github:pinkpixel-dev/web-scout-mcp",
+        "title:pinkpixel dev web scout mcp",
+        "github:title:pinkpixel dev web scout mcp",
+        "id:040ab4ea27d39f1a"
       ]
     }
   ]
