@@ -33,6 +33,7 @@ BRIEF_DATE=2026-07-03 python scripts/main.py
 - `data/latest.json`
 - `data/raw_candidates.json`
 - `data/repo_history.json`
+- `data/selected_history.json`
 - `logs/app.log`
 
 没有 `OPENAI_API_KEY` 时会使用规则模板生成日报。没有 `SERVERCHAN_SENDKEY` 时只生成日报，不推送微信，并在日志中提示。
@@ -180,6 +181,15 @@ GitHub 信号类型包括：
 
 老项目如果没有新增增长、近期 release 或外部讨论，分数会被限制到 70 以下，不能进入精选。
 
+为避免连续几天推送同一个仓库或同一条内容，系统还会维护 `data/selected_history.json`。默认最近 14 天内已经进入精选的内容不会再次入选；同一天手动重跑不会被这条历史挡住，方便测试。可通过环境变量调整：
+
+- `SELECTED_HISTORY_DAYS=14`：最近多少天内不重复推送。
+- `SELECTED_HISTORY_KEEP_DAYS=90`：历史记录保留多久。
+- `GITHUB_MAX_SELECTED=3`：每天最多进入精选的 GitHub 项目数。
+- `GITHUB_MATURE_MAX_SELECTED=1`：每天最多进入精选的成熟 GitHub 项目数。
+
+GitHub 搜索也不再按总 stars 排序抓取高 star 老仓库，而是优先看近期创建、近期更新和 release/增长信号。总 stars 只作为辅助证据，不能单独把老项目推入日报。
+
 ## 评分规则
 
 每条候选内容满分 100：
@@ -212,6 +222,7 @@ score = 来源质量分 * 0.35
 - `data/latest.json`：当天精选结果和统计。
 - `data/raw_candidates.json`：原始候选内容。
 - `data/repo_history.json`：GitHub 仓库历史指标，用于计算增量热度。
+- `data/selected_history.json`：已入选内容历史，用于跨天去重，避免连续推送同一内容。
 - `logs/app.log`：运行日志。
 
 ## 当前 MVP 边界

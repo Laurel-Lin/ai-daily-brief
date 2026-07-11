@@ -22,6 +22,7 @@ DIGESTS_DIR = PROJECT_ROOT / "digests"
 DATA_DIR = PROJECT_ROOT / "data"
 LOGS_DIR = PROJECT_ROOT / "logs"
 LOG_FILE = LOGS_DIR / "app.log"
+SELECTED_HISTORY_FILE = DATA_DIR / "selected_history.json"
 
 
 def load_environment() -> None:
@@ -142,6 +143,52 @@ def canonical_title(title: str) -> str:
     stopwords = {"the", "a", "an", "and", "or", "to", "for", "with", "by", "on", "of"}
     words = [word for word in title.split() if word not in stopwords]
     return " ".join(words[:16])
+
+
+def canonical_url(url: str | None) -> str:
+    if not url:
+        return ""
+    try:
+        from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+
+        parsed = urlparse(url.strip())
+        host = parsed.netloc.lower().removeprefix("www.")
+        path = re.sub(r"/+$", "", parsed.path)
+        kept_query = [
+            (key, value)
+            for key, value in parse_qsl(parsed.query, keep_blank_values=False)
+            if key.lower() not in {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "ref"}
+        ]
+        return urlunparse((parsed.scheme.lower() or "https", host, path, "", urlencode(kept_query), ""))
+    except Exception:
+        return normalize_text(url).lower()
+
+
+def candidate_history_keys(candidate: dict[str, Any]) -> list[str]:
+    keys: list[str] = []
+    source_type = candidate.get("source_type", "")
+    url = canonical_url(candidate.get("url"))
+    title = canonical_title(candidate.get("title", ""))
+
+    if url:
+        keys.append(f"url:{url}")
+        if "github.com/" in url:
+            match = re.search(r"github\.com/([^/\s]+/[^/\s#?]+)", url)
+            if match:
+                keys.append(f"github:{match.group(1).lower()}")
+    if title:
+        keys.append(f"title:{title}")
+        keys.append(f"{source_type}:title:{title}")
+    if candidate.get("id"):
+        keys.append(f"id:{candidate['id']}")
+
+    deduped: list[str] = []
+    seen: set[str] = set()
+    for key in keys:
+        if key and key not in seen:
+            seen.add(key)
+            deduped.append(key)
+    return deduped
 
 
 def stable_id(*parts: str) -> str:

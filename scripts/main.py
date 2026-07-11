@@ -1,13 +1,54 @@
 from __future__ import annotations
 
-import logging
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from fetch_sources import fetch_all_sources
 from filter_score import filter_and_score
 from push_serverchan import push_serverchan
 from summarize import render_markdown, render_wechat_summary
-from utils import DATA_DIR, DIGESTS_DIR, env_int, load_environment, now_iso, setup_logging, today_string, write_json
+from utils import (
+    DATA_DIR,
+    DIGESTS_DIR,
+    SELECTED_HISTORY_FILE,
+    candidate_history_keys,
+    env_int,
+    load_environment,
+    now_iso,
+    read_json,
+    setup_logging,
+    today_string,
+    write_json,
+)
+
+
+def update_selected_history(date_str: str, selected: list[dict]) -> None:
+    history = read_json(SELECTED_HISTORY_FILE, {"items": []})
+    items = [item for item in history.get("items", []) if item.get("date") != date_str]
+    for candidate in selected:
+        items.append(
+            {
+                "date": date_str,
+                "id": candidate.get("id"),
+                "title": candidate.get("title"),
+                "url": candidate.get("url"),
+                "source_type": candidate.get("source_type"),
+                "keys": candidate_history_keys(candidate),
+            }
+        )
+
+    keep_days = env_int("SELECTED_HISTORY_KEEP_DAYS", 90)
+    try:
+        cutoff = datetime.strptime(date_str, "%Y-%m-%d").date() - timedelta(days=keep_days)
+        items = [
+            item
+            for item in items
+            if datetime.strptime(item.get("date", "1970-01-01"), "%Y-%m-%d").date() >= cutoff
+        ]
+    except ValueError:
+        pass
+
+    write_json(SELECTED_HISTORY_FILE, {"updated_at": now_iso(), "items": items})
 
 
 def main() -> int:
@@ -24,6 +65,7 @@ def main() -> int:
     write_json(DATA_DIR / "raw_candidates.json", {"generated_at": now_iso(), "items": candidates})
 
     selected, stats = filter_and_score(candidates, min_score=min_score, max_items=max_items, report_date=date_str)
+    update_selected_history(date_str, selected)
     markdown = render_markdown(date_str, selected, stats)
 
     digest_path = DIGESTS_DIR / f"{date_str}.md"

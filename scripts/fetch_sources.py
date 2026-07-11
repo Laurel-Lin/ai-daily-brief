@@ -239,7 +239,7 @@ def classify_github_signal(repo: dict[str, Any], latest_release: dict[str, Any],
     return "new_project"
 
 
-def github_search_queries(report_date: str | None) -> list[tuple[str, str, int]]:
+def github_search_queries(report_date: str | None) -> list[tuple[str, str, int, str]]:
     terms = [
         "llm agent",
         "ai coding",
@@ -254,12 +254,12 @@ def github_search_queries(report_date: str | None) -> list[tuple[str, str, int]]
     today = datetime.strptime(report_date, "%Y-%m-%d") if report_date else datetime.now(timezone.utc)
     date_30 = (today - timedelta(days=30)).strftime("%Y-%m-%d")
     date_7 = (today - timedelta(days=7)).strftime("%Y-%m-%d")
-    queries: list[tuple[str, str, int]] = []
+    queries: list[tuple[str, str, int, str]] = []
     for term in terms:
-        queries.append((term, f"{term} created:>{date_30} stars:>20 archived:false fork:false", 8))
-        queries.append((term, f"{term} pushed:>{date_7} stars:50..5000 archived:false fork:false", 6))
+        queries.append((term, f"{term} created:>{date_30} stars:>20 archived:false fork:false", 8, "updated"))
+        queries.append((term, f"{term} pushed:>{date_7} stars:50..5000 archived:false fork:false", 6, "updated"))
     for term in terms[:5]:
-        queries.append((term, f"{term} stars:>5000 pushed:>{date_7} archived:false fork:false", 4))
+        queries.append((term, f"{term} stars:>5000 pushed:>{date_7} archived:false fork:false", 2, "updated"))
     return queries
 
 
@@ -272,9 +272,9 @@ def fetch_github_repos(keywords: dict[str, list[str]], report_date: str | None =
     seen: set[str] = set()
     mature_reference_count = 0
 
-    for term, raw_query, per_page in github_search_queries(report_date):
+    for term, raw_query, per_page, sort_field in github_search_queries(report_date):
         query = quote_plus(raw_query)
-        url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc&per_page={per_page}"
+        url = f"https://api.github.com/search/repositories?q={query}&sort={sort_field}&order=desc&per_page={per_page}"
         try:
             data = request_json(url, timeout=20, headers=headers)
             for repo in data.get("items", []):

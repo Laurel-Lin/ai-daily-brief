@@ -2,11 +2,23 @@ from __future__ import annotations
 
 import logging
 import math
+import os
 import re
+from datetime import datetime, timedelta
 from typing import Any
 
 from fetch_sources import load_keywords
-from utils import canonical_title, is_in_report_window, normalize_text, utc_age_hours
+from utils import (
+    DIGESTS_DIR,
+    SELECTED_HISTORY_FILE,
+    candidate_history_keys,
+    canonical_title,
+    canonical_url,
+    is_in_report_window,
+    normalize_text,
+    read_json,
+    utc_age_hours,
+)
 
 LOGGER = logging.getLogger("ai_daily_brief")
 
@@ -317,7 +329,7 @@ def apply_github_caps(candidate: dict[str, Any], score: float) -> float:
 def deduplicate(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
     by_key: dict[str, dict[str, Any]] = {}
     for candidate in candidates:
-        key = candidate.get("url") or canonical_title(candidate.get("title", ""))
+        key = canonical_url(candidate.get("url")) or canonical_title(candidate.get("title", ""))
         title_key = canonical_title(candidate.get("title", ""))
         dedupe_key = key.lower().strip() or title_key
         existing = by_key.get(dedupe_key) or by_key.get(title_key)
@@ -342,13 +354,76 @@ def deduplicate(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique
 
 
+def selected_history_lookback_days() -> int:
+    try:
+        return max(0, int(os.getenv("SELECTED_HISTORY_DAYS", "14")))
+    except ValueError:
+        return 14
+
+
+def env_nonnegative_int(name: str, default: int) -> int:
+    try:
+        return max(0, int(os.getenv(name, str(default))))
+    except ValueError:
+        return default
+
+
+def recent_selected_keys(report_date: str | None, lookback_days: int | None = None) -> set[str]:
+    if not report_date:
+        return set()
+    days = selected_history_lookback_days() if lookback_days is None else lookback_days
+    if days <= 0:
+        return set()
+    try:
+        current_date = datetime.strptime(report_date, "%Y-%m-%d").date()
+    except ValueError:
+        return set()
+
+    history = read_json(SELECTED_HISTORY_FILE, {"items": []})
+    seen: set[str] = set()
+    for item in history.get("items", []):
+        try:
+            item_date = datetime.strptime(item.get("date", ""), "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if not (current_date - timedelta(days=days) <= item_date < current_date):
+            continue
+        for key in item.get("keys", []):
+            if key:
+                seen.add(key)
+    for digest_path in DIGESTS_DIR.glob("*.md"):
+        try:
+            item_date = datetime.strptime(digest_path.stem, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if not (current_date - timedelta(days=days) <= item_date < current_date):
+            continue
+        try:
+            text = digest_path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for match in re.finditer(r"^### P\d+\｜(.+)$", text, flags=re.MULTILINE):
+            title = normalize_text(match.group(1))
+            title_key = canonical_title(title)
+            if title_key:
+                seen.add(f"title:{title_key}")
+                seen.add(f"github:title:{title_key}")
+            if re.match(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$", title):
+                seen.add(f"github:{title.lower()}")
+    return seen
+
+
+def repeated_from_history(candidate: dict[str, Any], seen_keys: set[str]) -> bool:
+    return bool(seen_keys.intersection(candidate_history_keys(candidate)))
+
+
 def filter_and_score(
     candidates: list[dict[str, Any]], *, min_score: int, max_items: int, report_date: str | None = None
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     keywords = load_keywords()
+    seen_history_keys = recent_selected_keys(report_date)
     blocked = []
     scorable = []
-    mature_selected = 0
     for candidate in candidates:
         if report_date and not is_in_report_window(candidate.get("published_at"), report_date):
             blocked.append({"title": candidate.get("title"), "reason": "不在日报日期窗口内"})
@@ -364,7 +439,7 @@ def filter_and_score(
         scorable.append(scored)
 
     unique = deduplicate(scorable)
-    selected = []
+    eligible = []
     for candidate in unique:
         if candidate.get("score", 0) < min_score:
             continue
@@ -376,12 +451,31 @@ def filter_and_score(
             signal_type = candidate.get("metrics", {}).get("signal_type")
             if signal_type == "maintenance_update":
                 continue
-            if signal_type == "mature_reference":
-                if mature_selected >= 1:
+        if repeated_from_history(candidate, seen_history_keys):
+            blocked.append({"title": candidate.get("title"), "reason": "最近已推送过"})
+            continue
+        eligible.append(candidate)
+
+    eligible.sort(key=lambda item: item.get("score", 0), reverse=True)
+    github_limit = env_nonnegative_int("GITHUB_MAX_SELECTED", 3)
+    mature_limit = env_nonnegative_int("GITHUB_MATURE_MAX_SELECTED", 1)
+    github_selected = 0
+    mature_selected = 0
+    selected = []
+    for candidate in eligible:
+        if candidate.get("source_type") == "github":
+            if github_selected >= github_limit:
+                blocked.append({"title": candidate.get("title"), "reason": "GitHub 当日精选上限"})
+                continue
+            if candidate.get("metrics", {}).get("signal_type") == "mature_reference":
+                if mature_selected >= mature_limit:
+                    blocked.append({"title": candidate.get("title"), "reason": "成熟 GitHub 项目当日上限"})
                     continue
                 mature_selected += 1
+            github_selected += 1
         selected.append(candidate)
-    selected.sort(key=lambda item: item.get("score", 0), reverse=True)
+        if len(selected) >= max_items:
+            break
     selected = selected[:max_items]
 
     stats = {
@@ -398,6 +492,8 @@ def filter_and_score(
             "不在日报日期窗口内",
             "readable_value < 70",
             "产品启发分不足",
+            "最近已推送过",
+            "GitHub 当日精选上限",
             "老项目普通维护更新",
             "无法解释明确产品或技术启发",
         ],

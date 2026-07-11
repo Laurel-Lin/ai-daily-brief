@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-07-11T00:00:00+08:00",
+  "items": [
+    {
+      "date": "2026-07-03",
+      "id": null,
+      "title": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/deepset-ai/haystack",
+        "github:deepset-ai/haystack",
+        "title:deepset ai haystack",
+        "github:title:deepset ai haystack"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "id": null,
+      "title": "morphik-org/morphik-core",
+      "url": "https://github.com/morphik-org/morphik-core",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/morphik-org/morphik-core",
+        "github:morphik-org/morphik-core",
+        "title:morphik org morphik core",
+        "github:title:morphik org morphik core"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "id": null,
+      "title": "modelstudioai/cli",
+      "url": "https://github.com/modelstudioai/cli",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/modelstudioai/cli",
+        "github:modelstudioai/cli",
+        "title:modelstudioai cli",
+        "github:title:modelstudioai cli"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/qwenlm/qwen-code",
+        "github:qwenlm/qwen-code",
+        "title:qwenlm qwen code",
+        "github:title:qwenlm qwen code"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/langgenius/dify",
+        "github:langgenius/dify",
+        "title:langgenius dify",
+        "github:title:langgenius dify"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/diegosouzapw/OmniRoute",
+        "github:diegosouzapw/omniroute",
+        "title:diegosouzapw omniroute",
+        "github:title:diegosouzapw omniroute"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "genkit-ai/genkit",
+      "url": "https://github.com/genkit-ai/genkit",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/genkit-ai/genkit",
+        "github:genkit-ai/genkit",
+        "title:genkit ai genkit",
+        "github:title:genkit ai genkit"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "the-open-agent/openagent",
+      "url": "https://github.com/the-open-agent/openagent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/the-open-agent/openagent",
+        "github:the-open-agent/openagent",
+        "title:open agent openagent",
+        "github:title:open agent openagent"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/DeusData/codebase-memory-mcp",
+        "github:deusdata/codebase-memory-mcp",
+        "title:deusdata codebase memory mcp",
+        "github:title:deusdata codebase memory mcp"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "neomjs/neo",
+      "url": "https://github.com/neomjs/neo",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/neomjs/neo",
+        "github:neomjs/neo",
+        "title:neomjs neo",
+        "github:title:neomjs neo"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": null,
+      "title": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/LearningCircuit/local-deep-research",
+        "github:learningcircuit/local-deep-research",
+        "title:learningcircuit local deep research",
+        "github:title:learningcircuit local deep research"
+      ]
+    }
+  ]
+}
