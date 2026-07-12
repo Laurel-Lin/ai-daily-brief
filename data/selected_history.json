@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T23:09:56.426598+00:00",
+  "updated_at": "2026-07-12T23:09:12.766692+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -170,6 +170,20 @@
         "title:pinkpixel dev web scout mcp",
         "github:title:pinkpixel dev web scout mcp",
         "id:040ab4ea27d39f1a"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "id": "1c2ab0a11df720a5",
+      "title": "diillson/chatcli",
+      "url": "https://github.com/diillson/chatcli",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/diillson/chatcli",
+        "github:diillson/chatcli",
+        "title:diillson chatcli",
+        "github:title:diillson chatcli",
+        "id:1c2ab0a11df720a5"
       ]
     }
   ]
