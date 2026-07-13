@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T23:09:12.766692+00:00",
+  "updated_at": "2026-07-13T23:12:36.433261+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -184,6 +184,48 @@
         "title:diillson chatcli",
         "github:title:diillson chatcli",
         "id:1c2ab0a11df720a5"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "id": "c3ec533b8d86fbf5",
+      "title": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/omnigent-ai/omnigent",
+        "github:omnigent-ai/omnigent",
+        "title:omnigent ai omnigent",
+        "github:title:omnigent ai omnigent",
+        "id:c3ec533b8d86fbf5"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "id": "4bc8756aac56886e",
+      "title": "marcoaapfortes/Mantic.sh",
+      "url": "https://github.com/marcoaapfortes/Mantic.sh",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/marcoaapfortes/Mantic.sh",
+        "github:marcoaapfortes/mantic.sh",
+        "title:marcoaapfortes mantic sh",
+        "github:title:marcoaapfortes mantic sh",
+        "id:4bc8756aac56886e"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "id": "1e202a1c001660ca",
+      "title": "mloda-ai/mloda",
+      "url": "https://github.com/mloda-ai/mloda",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mloda-ai/mloda",
+        "github:mloda-ai/mloda",
+        "title:mloda ai mloda",
+        "github:title:mloda ai mloda",
+        "id:1e202a1c001660ca"
       ]
     }
   ]
