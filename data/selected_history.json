@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T23:12:36.433261+00:00",
+  "updated_at": "2026-07-14T23:10:49.860287+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -226,6 +226,20 @@
         "title:mloda ai mloda",
         "github:title:mloda ai mloda",
         "id:1e202a1c001660ca"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "id": "35e8d26fe381f447",
+      "title": "JSONbored/awesome-claude",
+      "url": "https://github.com/JSONbored/awesome-claude",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/JSONbored/awesome-claude",
+        "github:jsonbored/awesome-claude",
+        "title:jsonbored awesome claude",
+        "github:title:jsonbored awesome claude",
+        "id:35e8d26fe381f447"
       ]
     }
   ]
