@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T23:10:49.860287+00:00",
+  "updated_at": "2026-07-15T23:12:12.722993+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -240,6 +240,20 @@
         "title:jsonbored awesome claude",
         "github:title:jsonbored awesome claude",
         "id:35e8d26fe381f447"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "id": "78b0a9ef17a2ed6e",
+      "title": "cyberlife-coder/VelesDB",
+      "url": "https://github.com/cyberlife-coder/VelesDB",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/cyberlife-coder/VelesDB",
+        "github:cyberlife-coder/velesdb",
+        "title:cyberlife coder velesdb",
+        "github:title:cyberlife coder velesdb",
+        "id:78b0a9ef17a2ed6e"
       ]
     }
   ]
