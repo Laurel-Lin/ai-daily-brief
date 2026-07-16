@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-07-15T23:12:12.724088+00:00",
-  "date": "2026-07-16",
-  "digest_path": "digests/2026-07-16.md",
-  "artifact_name": "ai-daily-brief-2026-07-16",
+  "generated_at": "2026-07-16T23:10:19.817201+00:00",
+  "date": "2026-07-17",
+  "digest_path": "digests/2026-07-17.md",
+  "artifact_name": "ai-daily-brief-2026-07-17",
   "stats": {
-    "raw_candidates": 242,
-    "scored_candidates": 23,
+    "raw_candidates": 158,
+    "scored_candidates": 24,
     "deduplicated_candidates": 23,
-    "selected_candidates": 1,
-    "filtered_candidates": 245,
+    "selected_candidates": 0,
+    "filtered_candidates": 157,
     "blocked_examples": [
+      {
+        "title": "How Cars24 scales conversations and builds faster with OpenAI",
+        "reason": "不在日报日期窗口内"
+      },
       {
         "title": "The US is advancing AI safety through state and federal action",
         "reason": "不在日报日期窗口内"
@@ -43,11 +47,7 @@
         "reason": "不在日报日期窗口内"
       },
       {
-        "title": "ChatGPT is now a partner for your most ambitious work",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "title": "GPT-5.5 Bio Bug Bounty",
         "reason": "不在日报日期窗口内"
       }
     ],
@@ -65,111 +65,5 @@
       "无法解释明确产品或技术启发"
     ]
   },
-  "selected": [
-    {
-      "id": "78b0a9ef17a2ed6e",
-      "title": "cyberlife-coder/VelesDB",
-      "url": "https://github.com/cyberlife-coder/VelesDB",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-07-15T21:29:06Z",
-      "summary": "The local-first memory engine for AI agents. One offline Rust binary fuses vector + graph + columnar under SQL — remember / recall / why over the Model Context Protocol. why() reconnects a decision to its context across sessions, where pure vector recall (Mem0/Zep) goes blind. Runs on server, laptop, browser, edge. Zero cloud.",
-      "metrics": {
-        "stars": 75,
-        "forks": 8,
-        "open_issues": 1,
-        "created_at": "2025-12-17T18:01:02Z",
-        "pushed_at": "2026-07-15T23:08:59Z",
-        "updated_at": "2026-07-15T23:09:02Z",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "latest_release_at": "2026-07-15T21:29:06Z",
-        "repo_age_days": 209,
-        "signal_type": "major_release",
-        "recent_update": "2026-07-15T23:08:59Z"
-      },
-      "tags": [
-        "ai",
-        "ai-memory",
-        "all-in-one-databse",
-        "avx512",
-        "columnstore-database",
-        "embeddings",
-        "graph-database",
-        "hnsw",
-        "local-first",
-        "machine-learning",
-        "mem0",
-        "mem0-alternative",
-        "rag",
-        "rust",
-        "search-engine",
-        "simd",
-        "vector-database",
-        "zep"
-      ],
-      "raw": {
-        "query": "rag",
-        "search_query": "rag pushed:>2026-07-09 stars:50..5000 archived:false fork:false",
-        "created_at": "2025-12-17T18:01:02Z",
-        "pushed_at": "2026-07-15T23:08:59Z",
-        "updated_at": "2026-07-15T23:09:02Z",
-        "stars": 75,
-        "forks": 8,
-        "open_issues": 1,
-        "topics": [
-          "ai",
-          "ai-memory",
-          "all-in-one-databse",
-          "avx512",
-          "columnstore-database",
-          "embeddings",
-          "graph-database",
-          "hnsw",
-          "local-first",
-          "machine-learning",
-          "mem0",
-          "mem0-alternative",
-          "rag",
-          "rust",
-          "search-engine",
-          "simd",
-          "vector-database",
-          "zep"
-        ],
-        "language": "Rust",
-        "archived": false,
-        "fork": false,
-        "default_branch": "develop",
-        "description": "The local-first memory engine for AI agents. One offline Rust binary fuses vector + graph + columnar under SQL — remember / recall / why over the Model Context Protocol. why() reconnects a decision to its context across sessions, where pure vector recall (Mem0/Zep) goes blind. Runs on server, laptop, browser, edge. Zero cloud.",
-        "latest_release_at": "2026-07-15T21:29:06Z",
-        "latest_release_name": "VelesDB v3.12.0",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "signal_type": "major_release",
-        "repo_age_days": 209
-      },
-      "score": 77.22,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 62.06,
-        "novelty": 95,
-        "product_inspiration": 77,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "cyberlife-coder/VelesDB 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    }
-  ]
+  "selected": []
 }
