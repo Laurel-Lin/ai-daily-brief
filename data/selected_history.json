@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T23:10:19.816389+00:00",
+  "updated_at": "2026-07-17T23:07:33.560883+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -254,6 +254,34 @@
         "title:cyberlife coder velesdb",
         "github:title:cyberlife coder velesdb",
         "id:78b0a9ef17a2ed6e"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "id": "332d9d8a103f22ec",
+      "title": "SylphxAI/pdf-reader-mcp",
+      "url": "https://github.com/SylphxAI/pdf-reader-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/SylphxAI/pdf-reader-mcp",
+        "github:sylphxai/pdf-reader-mcp",
+        "title:sylphxai pdf reader mcp",
+        "github:title:sylphxai pdf reader mcp",
+        "id:332d9d8a103f22ec"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "id": "9429f158f9fd3d2d",
+      "title": "openai/openai-agents-js",
+      "url": "https://github.com/openai/openai-agents-js",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/openai/openai-agents-js",
+        "github:openai/openai-agents-js",
+        "title:openai openai agents js",
+        "github:title:openai openai agents js",
+        "id:9429f158f9fd3d2d"
       ]
     }
   ]

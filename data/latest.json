@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-07-16T23:10:19.817201+00:00",
-  "date": "2026-07-17",
-  "digest_path": "digests/2026-07-17.md",
-  "artifact_name": "ai-daily-brief-2026-07-17",
+  "generated_at": "2026-07-17T23:07:33.561850+00:00",
+  "date": "2026-07-18",
+  "digest_path": "digests/2026-07-18.md",
+  "artifact_name": "ai-daily-brief-2026-07-18",
   "stats": {
-    "raw_candidates": 158,
-    "scored_candidates": 24,
-    "deduplicated_candidates": 23,
-    "selected_candidates": 0,
-    "filtered_candidates": 157,
+    "raw_candidates": 243,
+    "scored_candidates": 28,
+    "deduplicated_candidates": 28,
+    "selected_candidates": 2,
+    "filtered_candidates": 243,
     "blocked_examples": [
+      {
+        "title": "A scorecard for the AI age",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Why teens deserve access to safe AI",
+        "reason": "不在日报日期窗口内"
+      },
       {
         "title": "How Cars24 scales conversations and builds faster with OpenAI",
         "reason": "不在日报日期窗口内"
@@ -41,14 +49,6 @@
       {
         "title": "Getting started with ChatGPT",
         "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "GPT-5.5 Bio Bug Bounty",
-        "reason": "不在日报日期窗口内"
       }
     ],
     "main_filter_reasons": [
@@ -65,5 +65,194 @@
       "无法解释明确产品或技术启发"
     ]
   },
-  "selected": []
+  "selected": [
+    {
+      "id": "332d9d8a103f22ec",
+      "title": "SylphxAI/pdf-reader-mcp",
+      "url": "https://github.com/SylphxAI/pdf-reader-mcp",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-17T23:06:36Z",
+      "summary": "📄 The PDF intelligence layer for AI agents — Agent Document Twin, evidence-first extraction, visual crops, OCR provenance, trust reports, and benchmark-gated releases. MCP server for Claude, Cursor, VS Code, and any MCP client.",
+      "metrics": {
+        "stars": 829,
+        "forks": 71,
+        "open_issues": 1,
+        "created_at": "2025-04-04T16:17:42Z",
+        "pushed_at": "2026-07-17T23:06:36Z",
+        "updated_at": "2026-07-17T23:04:06Z",
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "latest_release_at": "2026-07-17T23:06:36Z",
+        "repo_age_days": 468,
+        "signal_type": "major_release",
+        "recent_update": "2026-07-17T23:06:36Z"
+      },
+      "tags": [
+        "agent-document-twin",
+        "ai-agent",
+        "ai-tools",
+        "citations",
+        "document-intelligence",
+        "document-processing",
+        "evidence-first",
+        "llm-tool",
+        "mcp",
+        "model-context-protocol",
+        "nodejs",
+        "ocr",
+        "pdf",
+        "pdf-intelligence",
+        "pdf-reader",
+        "pdf-to-markdown",
+        "rag",
+        "trust-report",
+        "typescript",
+        "visual-evidence"
+      ],
+      "raw": {
+        "query": "ai coding",
+        "search_query": "ai coding pushed:>2026-07-11 stars:50..5000 archived:false fork:false",
+        "created_at": "2025-04-04T16:17:42Z",
+        "pushed_at": "2026-07-17T23:06:36Z",
+        "updated_at": "2026-07-17T23:04:06Z",
+        "stars": 829,
+        "forks": 71,
+        "open_issues": 1,
+        "topics": [
+          "agent-document-twin",
+          "ai-agent",
+          "ai-tools",
+          "citations",
+          "document-intelligence",
+          "document-processing",
+          "evidence-first",
+          "llm-tool",
+          "mcp",
+          "model-context-protocol",
+          "nodejs",
+          "ocr",
+          "pdf",
+          "pdf-intelligence",
+          "pdf-reader",
+          "pdf-to-markdown",
+          "rag",
+          "trust-report",
+          "typescript",
+          "visual-evidence"
+        ],
+        "language": "TypeScript",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "description": "📄 The PDF intelligence layer for AI agents — Agent Document Twin, evidence-first extraction, visual crops, OCR provenance, trust reports, and benchmark-gated releases. MCP server for Claude, Cursor, VS Code, and any MCP client.",
+        "latest_release_at": "2026-07-17T23:06:36Z",
+        "latest_release_name": "v3.1.0 — pure-Rust MCP",
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "signal_type": "major_release",
+        "repo_age_days": 468
+      },
+      "score": 82.15,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 65,
+        "novelty": 95,
+        "product_inspiration": 98,
+        "readable_value": 100,
+        "feedback_adjustment": 0
+      },
+      "why_important": "SylphxAI/pdf-reader-mcp 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100,
+      "feedback": {
+        "adjustment": 0,
+        "notes": [],
+        "rejected": false
+      },
+      "related_sources": [],
+      "community_discussions": []
+    },
+    {
+      "id": "9429f158f9fd3d2d",
+      "title": "openai/openai-agents-js",
+      "url": "https://github.com/openai/openai-agents-js",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-07-17T22:52:41Z",
+      "summary": "A lightweight, powerful framework for multi-agent workflows and voice agents",
+      "metrics": {
+        "stars": 3417,
+        "forks": 858,
+        "open_issues": 43,
+        "created_at": "2025-05-31T00:08:49Z",
+        "pushed_at": "2026-07-17T22:52:08Z",
+        "updated_at": "2026-07-17T22:52:04Z",
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "latest_release_at": "2026-07-17T22:52:41Z",
+        "repo_age_days": 412,
+        "signal_type": "major_release",
+        "recent_update": "2026-07-17T22:52:08Z"
+      },
+      "tags": [
+        "agents",
+        "openai",
+        "openai-api",
+        "realtime-api",
+        "typescript"
+      ],
+      "raw": {
+        "query": "workflow agent",
+        "search_query": "workflow agent pushed:>2026-07-11 stars:50..5000 archived:false fork:false",
+        "created_at": "2025-05-31T00:08:49Z",
+        "pushed_at": "2026-07-17T22:52:08Z",
+        "updated_at": "2026-07-17T22:52:04Z",
+        "stars": 3417,
+        "forks": 858,
+        "open_issues": 43,
+        "topics": [
+          "agents",
+          "openai",
+          "openai-api",
+          "realtime-api",
+          "typescript"
+        ],
+        "language": "TypeScript",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "description": "A lightweight, powerful framework for multi-agent workflows and voice agents",
+        "latest_release_at": "2026-07-17T22:52:41Z",
+        "latest_release_name": "v0.13.5",
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "signal_type": "major_release",
+        "repo_age_days": 412
+      },
+      "score": 77.95,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 65,
+        "novelty": 95,
+        "product_inspiration": 77,
+        "readable_value": 100,
+        "feedback_adjustment": 0
+      },
+      "why_important": "openai/openai-agents-js 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100,
+      "feedback": {
+        "adjustment": 0,
+        "notes": [],
+        "rejected": false
+      },
+      "related_sources": [],
+      "community_discussions": []
+    }
+  ]
 }
