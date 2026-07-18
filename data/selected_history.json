@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:07:33.560883+00:00",
+  "updated_at": "2026-07-18T23:10:07.915732+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -282,6 +282,48 @@
         "title:openai openai agents js",
         "github:title:openai openai agents js",
         "id:9429f158f9fd3d2d"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "id": "625101aa899291d5",
+      "title": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Osmantic/ODS",
+        "github:osmantic/ods",
+        "title:osmantic ods",
+        "github:title:osmantic ods",
+        "id:625101aa899291d5"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "id": "dcb413427cc7a79b",
+      "title": "fujibee/agmsg",
+      "url": "https://github.com/fujibee/agmsg",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/fujibee/agmsg",
+        "github:fujibee/agmsg",
+        "title:fujibee agmsg",
+        "github:title:fujibee agmsg",
+        "id:dcb413427cc7a79b"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "id": "77bc374397fcc1cd",
+      "title": "schmitech/orbit",
+      "url": "https://github.com/schmitech/orbit",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/schmitech/orbit",
+        "github:schmitech/orbit",
+        "title:schmitech orbit",
+        "github:title:schmitech orbit",
+        "id:77bc374397fcc1cd"
       ]
     }
   ]
