@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T23:10:07.915732+00:00",
+  "updated_at": "2026-07-20T23:14:36.947042+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -324,6 +324,48 @@
         "title:schmitech orbit",
         "github:title:schmitech orbit",
         "id:77bc374397fcc1cd"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "id": "434c5232c31886ea",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/QwenLM/qwen-code",
+        "github:qwenlm/qwen-code",
+        "title:qwenlm qwen code",
+        "github:title:qwenlm qwen code",
+        "id:434c5232c31886ea"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "id": "8592b5676ae446d6",
+      "title": "superset-sh/superset",
+      "url": "https://github.com/superset-sh/superset",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/superset-sh/superset",
+        "github:superset-sh/superset",
+        "title:superset sh superset",
+        "github:title:superset sh superset",
+        "id:8592b5676ae446d6"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "id": "9242d58d48df73a2",
+      "title": "Azure/gpt-rag-ingestion",
+      "url": "https://github.com/Azure/gpt-rag-ingestion",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Azure/gpt-rag-ingestion",
+        "github:azure/gpt-rag-ingestion",
+        "title:azure gpt rag ingestion",
+        "github:title:azure gpt rag ingestion",
+        "id:9242d58d48df73a2"
       ]
     }
   ]
