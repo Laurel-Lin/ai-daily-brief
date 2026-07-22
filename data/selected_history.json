@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T23:11:05.469546+00:00",
+  "updated_at": "2026-07-22T23:15:34.240751+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -394,6 +394,48 @@
         "title:gmickel flow next",
         "github:title:gmickel flow next",
         "id:1134b48fc4fd13a9"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "id": "814196879161a6b4",
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/DeusData/codebase-memory-mcp",
+        "github:deusdata/codebase-memory-mcp",
+        "title:deusdata codebase memory mcp",
+        "github:title:deusdata codebase memory mcp",
+        "id:814196879161a6b4"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "id": "f9edbc1851330b5c",
+      "title": "yonatangross/orchestkit",
+      "url": "https://github.com/yonatangross/orchestkit",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/yonatangross/orchestkit",
+        "github:yonatangross/orchestkit",
+        "title:yonatangross orchestkit",
+        "github:title:yonatangross orchestkit",
+        "id:f9edbc1851330b5c"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "id": "3c01bba6b8b7988e",
+      "title": "video-db/videodb-python",
+      "url": "https://github.com/video-db/videodb-python",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/video-db/videodb-python",
+        "github:video-db/videodb-python",
+        "title:video db videodb python",
+        "github:title:video db videodb python",
+        "id:3c01bba6b8b7988e"
       ]
     }
   ]
