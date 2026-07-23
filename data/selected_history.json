@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T23:15:34.240751+00:00",
+  "updated_at": "2026-07-23T23:11:17.009357+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -436,6 +436,34 @@
         "title:video db videodb python",
         "github:title:video db videodb python",
         "id:3c01bba6b8b7988e"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "id": "292482e29dbd3abe",
+      "title": "ratel-ai/ratel",
+      "url": "https://github.com/ratel-ai/ratel",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ratel-ai/ratel",
+        "github:ratel-ai/ratel",
+        "title:ratel ai ratel",
+        "github:title:ratel ai ratel",
+        "id:292482e29dbd3abe"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "id": "30ae68c0211b0139",
+      "title": "browseros-ai/BrowserOS",
+      "url": "https://github.com/browseros-ai/BrowserOS",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/browseros-ai/BrowserOS",
+        "github:browseros-ai/browseros",
+        "title:browseros ai browseros",
+        "github:title:browseros ai browseros",
+        "id:30ae68c0211b0139"
       ]
     }
   ]
