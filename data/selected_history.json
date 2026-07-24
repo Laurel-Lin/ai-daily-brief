@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T23:11:17.009357+00:00",
+  "updated_at": "2026-07-24T23:15:52.305418+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -464,6 +464,34 @@
         "title:browseros ai browseros",
         "github:title:browseros ai browseros",
         "id:30ae68c0211b0139"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "id": "c993cb6ede9a30eb",
+      "title": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/can1357/oh-my-pi",
+        "github:can1357/oh-my-pi",
+        "title:can1357 oh my pi",
+        "github:title:can1357 oh my pi",
+        "id:c993cb6ede9a30eb"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "id": "ec4799333b1ed74f",
+      "title": "vercel/workflow",
+      "url": "https://github.com/vercel/workflow",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/vercel/workflow",
+        "github:vercel/workflow",
+        "title:vercel workflow",
+        "github:title:vercel workflow",
+        "id:ec4799333b1ed74f"
       ]
     }
   ]
