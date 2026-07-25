@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T23:15:52.305418+00:00",
+  "updated_at": "2026-07-25T23:11:38.032848+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -492,6 +492,48 @@
         "title:vercel workflow",
         "github:title:vercel workflow",
         "id:ec4799333b1ed74f"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "id": "a82f52bd1c8c3822",
+      "title": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/screenpipe/screenpipe",
+        "github:screenpipe/screenpipe",
+        "title:screenpipe screenpipe",
+        "github:title:screenpipe screenpipe",
+        "id:a82f52bd1c8c3822"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "id": "571750d5fe35189d",
+      "title": "NPC-Worldwide/npcpy",
+      "url": "https://github.com/NPC-Worldwide/npcpy",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/NPC-Worldwide/npcpy",
+        "github:npc-worldwide/npcpy",
+        "title:npc worldwide npcpy",
+        "github:title:npc worldwide npcpy",
+        "id:571750d5fe35189d"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "id": "26f4826265fdc84e",
+      "title": "huangjunsen0406/py-xiaozhi",
+      "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/huangjunsen0406/py-xiaozhi",
+        "github:huangjunsen0406/py-xiaozhi",
+        "title:huangjunsen0406 py xiaozhi",
+        "github:title:huangjunsen0406 py xiaozhi",
+        "id:26f4826265fdc84e"
       ]
     }
   ]
