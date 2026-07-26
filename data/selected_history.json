@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T23:11:38.032848+00:00",
+  "updated_at": "2026-07-26T23:11:23.448588+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -534,6 +534,48 @@
         "title:huangjunsen0406 py xiaozhi",
         "github:title:huangjunsen0406 py xiaozhi",
         "id:26f4826265fdc84e"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "id": "afb40dce7775b547",
+      "title": "777genius/agent-teams-ai",
+      "url": "https://github.com/777genius/agent-teams-ai",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/777genius/agent-teams-ai",
+        "github:777genius/agent-teams-ai",
+        "title:777genius agent teams ai",
+        "github:title:777genius agent teams ai",
+        "id:afb40dce7775b547"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "id": "4189f71d1e18f353",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/K-Dense-AI/scientific-agent-skills",
+        "github:k-dense-ai/scientific-agent-skills",
+        "title:k dense ai scientific agent skills",
+        "github:title:k dense ai scientific agent skills",
+        "id:4189f71d1e18f353"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "id": "a1b4942b599b9697",
+      "title": "mldsveda/PyScrappy",
+      "url": "https://github.com/mldsveda/PyScrappy",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mldsveda/PyScrappy",
+        "github:mldsveda/pyscrappy",
+        "title:mldsveda pyscrappy",
+        "github:title:mldsveda pyscrappy",
+        "id:a1b4942b599b9697"
       ]
     }
   ]
