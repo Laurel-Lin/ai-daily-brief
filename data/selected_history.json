@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T23:11:23.448588+00:00",
+  "updated_at": "2026-07-27T23:19:51.210499+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -576,6 +576,34 @@
         "title:mldsveda pyscrappy",
         "github:title:mldsveda pyscrappy",
         "id:a1b4942b599b9697"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "id": "b4c0e7d4b6a5d4e8",
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/langgenius/dify",
+        "github:langgenius/dify",
+        "title:langgenius dify",
+        "github:title:langgenius dify",
+        "id:b4c0e7d4b6a5d4e8"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "id": "05568dfb99646453",
+      "title": "airbytehq/airbyte-agent-sdk",
+      "url": "https://github.com/airbytehq/airbyte-agent-sdk",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/airbytehq/airbyte-agent-sdk",
+        "github:airbytehq/airbyte-agent-sdk",
+        "title:airbytehq airbyte agent sdk",
+        "github:title:airbytehq airbyte agent sdk",
+        "id:05568dfb99646453"
       ]
     }
   ]
