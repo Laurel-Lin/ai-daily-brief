@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T23:19:51.210499+00:00",
+  "updated_at": "2026-07-28T23:14:56.498831+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -604,6 +604,47 @@
         "title:airbytehq airbyte agent sdk",
         "github:title:airbytehq airbyte agent sdk",
         "id:05568dfb99646453"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "id": "165dac423e84cd82",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "source_type": "official",
+      "keys": [
+        "url:https://openai.com/index/scientific-computing-agentic-ai",
+        "title:scientific computing in age agentic ai",
+        "official:title:scientific computing in age agentic ai",
+        "id:165dac423e84cd82"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "id": "ce2f17c7f8cc251e",
+      "title": "ProfessionalWiki/MediaWiki-MCP-Server",
+      "url": "https://github.com/ProfessionalWiki/MediaWiki-MCP-Server",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ProfessionalWiki/MediaWiki-MCP-Server",
+        "github:professionalwiki/mediawiki-mcp-server",
+        "title:professionalwiki mediawiki mcp server",
+        "github:title:professionalwiki mediawiki mcp server",
+        "id:ce2f17c7f8cc251e"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "id": "3e31a51e1df6f929",
+      "title": "navikt/copilot",
+      "url": "https://github.com/navikt/copilot",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/navikt/copilot",
+        "github:navikt/copilot",
+        "title:navikt copilot",
+        "github:title:navikt copilot",
+        "id:3e31a51e1df6f929"
       ]
     }
   ]
