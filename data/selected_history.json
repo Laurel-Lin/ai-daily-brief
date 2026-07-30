@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T23:13:18.269378+00:00",
+  "updated_at": "2026-07-30T23:18:19.739773+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -687,6 +687,48 @@
         "title:tableau tableau mcp",
         "github:title:tableau tableau mcp",
         "id:fee40210c25d0bf7"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "id": "9bd4780fde79e755",
+      "title": "sammcj/mcp-devtools",
+      "url": "https://github.com/sammcj/mcp-devtools",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/sammcj/mcp-devtools",
+        "github:sammcj/mcp-devtools",
+        "title:sammcj mcp devtools",
+        "github:title:sammcj mcp devtools",
+        "id:9bd4780fde79e755"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "id": "f8bfcf6772c751be",
+      "title": "superagents-lab/search1api-mcp",
+      "url": "https://github.com/superagents-lab/search1api-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/superagents-lab/search1api-mcp",
+        "github:superagents-lab/search1api-mcp",
+        "title:superagents lab search1api mcp",
+        "github:title:superagents lab search1api mcp",
+        "id:f8bfcf6772c751be"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "id": "93fe68c64c0d3466",
+      "title": "ComposioHQ/composio",
+      "url": "https://github.com/ComposioHQ/composio",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ComposioHQ/composio",
+        "github:composiohq/composio",
+        "title:composiohq composio",
+        "github:title:composiohq composio",
+        "id:93fe68c64c0d3466"
       ]
     }
   ]
