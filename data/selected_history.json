@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T23:18:19.739773+00:00",
+  "updated_at": "2026-07-31T23:15:34.563532+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -729,6 +729,34 @@
         "title:composiohq composio",
         "github:title:composiohq composio",
         "id:93fe68c64c0d3466"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "id": "7f6a3308b5d77ecc",
+      "title": "junhoyeo/tokscale",
+      "url": "https://github.com/junhoyeo/tokscale",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/junhoyeo/tokscale",
+        "github:junhoyeo/tokscale",
+        "title:junhoyeo tokscale",
+        "github:title:junhoyeo tokscale",
+        "id:7f6a3308b5d77ecc"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "id": "39b8237380be76e4",
+      "title": "vstorm-co/pydantic-deepagents",
+      "url": "https://github.com/vstorm-co/pydantic-deepagents",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/vstorm-co/pydantic-deepagents",
+        "github:vstorm-co/pydantic-deepagents",
+        "title:vstorm co pydantic deepagents",
+        "github:title:vstorm co pydantic deepagents",
+        "id:39b8237380be76e4"
       ]
     }
   ]
