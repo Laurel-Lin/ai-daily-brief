@@ -4609,3 +4609,163 @@ requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://hu
 2026-07-31 23:15:36,480 INFO Artifact name: ai-daily-brief-2026-08-01
 2026-07-31 23:15:36,480 INFO Server酱 push success: True
 2026-07-31 23:15:36,480 INFO AI daily brief finished at 2026-07-31T23:15:36.480675+00:00
+2026-08-01 23:09:54,179 INFO AI daily brief started at 2026-08-01T23:09:54.179041+00:00
+2026-08-01 23:09:54,179 INFO Run date=2026-08-02 min_score=75 max_items=8
+2026-08-01 23:09:54,502 INFO OpenAI Blog fetched 30 RSS candidates
+2026-08-01 23:09:54,641 ERROR Request failed: https://www.anthropic.com/news/rss.xml
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.anthropic.com/news/rss.xml
+2026-08-01 23:09:54,643 WARNING RSS source failed: Anthropic News (404 Client Error: Not Found for url: https://www.anthropic.com/news/rss.xml)
+2026-08-01 23:09:55,088 ERROR Request failed: https://deepmind.google/discover/blog/rss.xml
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://deepmind.google/discover/blog/rss.xml/
+2026-08-01 23:09:55,088 WARNING RSS source failed: Google DeepMind Blog (404 Client Error: Not Found for url: https://deepmind.google/discover/blog/rss.xml/)
+2026-08-01 23:09:55,475 INFO Google AI Blog fetched 20 RSS candidates
+2026-08-01 23:09:56,488 ERROR Request failed: https://ai.meta.com/blog/rss/
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://ai.meta.com/blog/rss/
+2026-08-01 23:09:56,489 WARNING RSS source failed: Meta AI Blog (404 Client Error: Not Found for url: https://ai.meta.com/blog/rss/)
+2026-08-01 23:09:56,666 ERROR Request failed: https://blogs.microsoft.com/ai/feed/
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 410 Client Error: Gone for url: https://blogs.microsoft.com/ai/feed/
+2026-08-01 23:09:56,667 WARNING RSS source failed: Microsoft AI Blog (410 Client Error: Gone for url: https://blogs.microsoft.com/ai/feed/)
+2026-08-01 23:09:56,888 INFO Hugging Face Blog fetched 30 RSS candidates
+2026-08-01 23:09:57,100 INFO GitHub Blog fetched 10 RSS candidates
+2026-08-01 23:09:57,988 INFO Vercel Blog fetched 30 RSS candidates
+2026-08-01 23:09:58,422 WARNING RSS source failed: LangChain Blog (not well-formed (invalid token): line 1, column 2326)
+2026-08-01 23:09:58,569 ERROR Request failed: https://www.llamaindex.ai/blog/rss.xml
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/rss.xml
+2026-08-01 23:09:58,569 WARNING RSS source failed: LlamaIndex Blog (404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/rss.xml)
+2026-08-01 23:09:58,570 INFO RSS source disabled: Cursor Blog
+2026-08-01 23:09:58,570 INFO RSS source disabled: Replit Blog
+2026-08-01 23:09:58,570 INFO Source rss added 120 candidates
+2026-08-01 23:09:59,252 WARNING Chinese source failed: 机器之心 (mismatched tag: line 11, column 242)
+2026-08-01 23:10:00,468 INFO 量子位 fetched 6 Chinese candidates
+2026-08-01 23:10:01,510 INFO InfoQ AI fetched 15 Chinese candidates
+2026-08-01 23:10:02,889 ERROR Request failed: https://www.aibase.com/zh/news/rss
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 267, in request_text
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.aibase.com/zh/news/rss
+2026-08-01 23:10:02,890 WARNING Chinese source failed: AIbase (404 Client Error: Not Found for url: https://www.aibase.com/zh/news/rss)
+2026-08-01 23:10:03,917 INFO 36氪 AI fetched 15 Chinese candidates
+2026-08-01 23:10:05,040 INFO 少数派 AI fetched 3 Chinese candidates
+2026-08-01 23:10:05,041 INFO Source chinese_sources added 39 candidates
+2026-08-01 23:10:05,513 INFO GitHub query 'llm agent' fetched 8 candidates total so far
+2026-08-01 23:10:06,494 INFO GitHub query 'llm agent' fetched 10 candidates total so far
+2026-08-01 23:10:06,961 INFO GitHub query 'ai coding' fetched 18 candidates total so far
+2026-08-01 23:10:07,997 INFO GitHub query 'ai coding' fetched 24 candidates total so far
+2026-08-01 23:10:08,515 INFO GitHub query 'mcp server' fetched 32 candidates total so far
+2026-08-01 23:10:09,526 INFO GitHub query 'mcp server' fetched 35 candidates total so far
+2026-08-01 23:10:10,098 INFO GitHub query 'rag' fetched 42 candidates total so far
+2026-08-01 23:10:11,478 INFO GitHub query 'rag' fetched 45 candidates total so far
+2026-08-01 23:10:11,927 INFO GitHub query 'multimodal ai' fetched 51 candidates total so far
+2026-08-01 23:10:13,113 INFO GitHub query 'multimodal ai' fetched 54 candidates total so far
+2026-08-01 23:10:13,570 INFO GitHub query 'local llm' fetched 58 candidates total so far
+2026-08-01 23:10:13,965 INFO GitHub query 'local llm' fetched 63 candidates total so far
+2026-08-01 23:10:14,462 INFO GitHub query 'workflow agent' fetched 71 candidates total so far
+2026-08-01 23:10:15,303 INFO GitHub query 'workflow agent' fetched 77 candidates total so far
+2026-08-01 23:10:15,801 INFO GitHub query 'claude code' fetched 82 candidates total so far
+2026-08-01 23:10:16,257 INFO GitHub query 'claude code' fetched 85 candidates total so far
+2026-08-01 23:10:16,713 INFO GitHub query 'cursor ai' fetched 90 candidates total so far
+2026-08-01 23:10:17,092 INFO GitHub query 'cursor ai' fetched 94 candidates total so far
+2026-08-01 23:10:17,874 INFO GitHub query 'llm agent' fetched 96 candidates total so far
+2026-08-01 23:10:18,432 INFO GitHub query 'ai coding' fetched 97 candidates total so far
+2026-08-01 23:10:19,247 INFO GitHub query 'mcp server' fetched 99 candidates total so far
+2026-08-01 23:10:19,769 INFO GitHub query 'rag' fetched 100 candidates total so far
+2026-08-01 23:10:20,395 INFO GitHub query 'multimodal ai' fetched 102 candidates total so far
+2026-08-01 23:10:20,411 INFO Source github added 102 candidates
+2026-08-01 23:10:20,732 INFO Hacker News fetched 0 candidates
+2026-08-01 23:10:20,732 INFO Source hacker_news added 0 candidates
+2026-08-01 23:10:20,823 ERROR Request failed: https://www.reddit.com/r/LocalLLaMA/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/hot.json?limit=20
+2026-08-01 23:10:20,823 WARNING Reddit source failed for r/LocalLLaMA: 403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/hot.json?limit=20
+2026-08-01 23:10:20,888 ERROR Request failed: https://www.reddit.com/r/MachineLearning/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/MachineLearning/hot.json?limit=20
+2026-08-01 23:10:20,888 WARNING Reddit source failed for r/MachineLearning: 403 Client Error: Blocked for url: https://www.reddit.com/r/MachineLearning/hot.json?limit=20
+2026-08-01 23:10:20,954 ERROR Request failed: https://www.reddit.com/r/OpenAI/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/OpenAI/hot.json?limit=20
+2026-08-01 23:10:20,954 WARNING Reddit source failed for r/OpenAI: 403 Client Error: Blocked for url: https://www.reddit.com/r/OpenAI/hot.json?limit=20
+2026-08-01 23:10:21,020 ERROR Request failed: https://www.reddit.com/r/ClaudeAI/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/ClaudeAI/hot.json?limit=20
+2026-08-01 23:10:21,020 WARNING Reddit source failed for r/ClaudeAI: 403 Client Error: Blocked for url: https://www.reddit.com/r/ClaudeAI/hot.json?limit=20
+2026-08-01 23:10:21,082 ERROR Request failed: https://www.reddit.com/r/ChatGPTCoding/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/ChatGPTCoding/hot.json?limit=20
+2026-08-01 23:10:21,082 WARNING Reddit source failed for r/ChatGPTCoding: 403 Client Error: Blocked for url: https://www.reddit.com/r/ChatGPTCoding/hot.json?limit=20
+2026-08-01 23:10:21,147 ERROR Request failed: https://www.reddit.com/r/ArtificialInteligence/hot.json?limit=20
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/ArtificialInteligence/hot.json?limit=20
+2026-08-01 23:10:21,148 WARNING Reddit source failed for r/ArtificialInteligence: 403 Client Error: Blocked for url: https://www.reddit.com/r/ArtificialInteligence/hot.json?limit=20
+2026-08-01 23:10:21,148 INFO Source reddit added 0 candidates
+2026-08-01 23:10:21,268 ERROR Request failed: https://huggingface.co/api/models?sort=trending&direction=-1&limit=30&full=true
+Traceback (most recent call last):
+  File "/home/runner/work/ai-daily-brief/ai-daily-brief/scripts/utils.py", line 255, in request_json
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://huggingface.co/api/models?sort=trending&direction=-1&limit=30&full=true
+2026-08-01 23:10:21,269 WARNING Hugging Face source failed: 400 Client Error: Bad Request for url: https://huggingface.co/api/models?sort=trending&direction=-1&limit=30&full=true
+2026-08-01 23:10:21,269 INFO Source hugging_face added 0 candidates
+2026-08-01 23:10:21,270 INFO X_BEARER_TOKEN not configured, skip X fetch
+2026-08-01 23:10:21,270 INFO Source x added 0 candidates
+2026-08-01 23:10:21,270 INFO ModelScope fetch is a placeholder in MVP because stable unauthenticated API is not configured
+2026-08-01 23:10:21,270 INFO Source modelscope added 0 candidates
+2026-08-01 23:10:21,321 INFO Filter stats: raw=261 scored=22 unique=22 selected=2
+2026-08-01 23:10:21,322 INFO OPENAI_API_KEY not set; use rule-based brief rendering
+2026-08-01 23:10:21,323 INFO Markdown saved: /home/runner/work/ai-daily-brief/ai-daily-brief/digests/2026-08-02.md
+2026-08-01 23:10:23,179 INFO Server酱 push succeeded
+2026-08-01 23:10:23,180 INFO Artifact name: ai-daily-brief-2026-08-02
+2026-08-01 23:10:23,180 INFO Server酱 push success: True
+2026-08-01 23:10:23,180 INFO AI daily brief finished at 2026-08-01T23:10:23.180914+00:00

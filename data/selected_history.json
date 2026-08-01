@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T23:15:34.563532+00:00",
+  "updated_at": "2026-08-01T23:10:21.322254+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -757,6 +757,34 @@
         "title:vstorm co pydantic deepagents",
         "github:title:vstorm co pydantic deepagents",
         "id:39b8237380be76e4"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "id": "6fc99bbe0eb660e9",
+      "title": "juspay/neurolink",
+      "url": "https://github.com/juspay/neurolink",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/juspay/neurolink",
+        "github:juspay/neurolink",
+        "title:juspay neurolink",
+        "github:title:juspay neurolink",
+        "id:6fc99bbe0eb660e9"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "id": "6943a67d39f9ed02",
+      "title": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Agent-Field/agentfield",
+        "github:agent-field/agentfield",
+        "title:agent field agentfield",
+        "github:title:agent field agentfield",
+        "id:6943a67d39f9ed02"
       ]
     }
   ]
