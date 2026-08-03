@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T23:10:21.478772+00:00",
+  "updated_at": "2026-08-03T23:18:56.254015+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -813,6 +813,48 @@
         "title:zhongkaifu tensorsharp",
         "github:title:zhongkaifu tensorsharp",
         "id:7b7305e1932bae9a"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "id": "e5b2f84d1c53cff3",
+      "title": "helixml/helix",
+      "url": "https://github.com/helixml/helix",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/helixml/helix",
+        "github:helixml/helix",
+        "title:helixml helix",
+        "github:title:helixml helix",
+        "id:e5b2f84d1c53cff3"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "id": "54dc52a8b6ba49f8",
+      "title": "jmagly/aiwg",
+      "url": "https://github.com/jmagly/aiwg",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/jmagly/aiwg",
+        "github:jmagly/aiwg",
+        "title:jmagly aiwg",
+        "github:title:jmagly aiwg",
+        "id:54dc52a8b6ba49f8"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "id": "d9c6c1d9a5770277",
+      "title": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/aipoch/open-science",
+        "github:aipoch/open-science",
+        "title:aipoch open science",
+        "github:title:aipoch open science",
+        "id:d9c6c1d9a5770277"
       ]
     }
   ]
