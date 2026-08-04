@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T23:18:56.254015+00:00",
+  "updated_at": "2026-08-04T23:17:54.053113+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -855,6 +855,48 @@
         "title:aipoch open science",
         "github:title:aipoch open science",
         "id:d9c6c1d9a5770277"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "id": "d0887d83a1373bc1",
+      "title": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/unslothai/unsloth",
+        "github:unslothai/unsloth",
+        "title:unslothai unsloth",
+        "github:title:unslothai unsloth",
+        "id:d0887d83a1373bc1"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "id": "d0a1bc4dd8332c97",
+      "title": "MadAppGang/claudish",
+      "url": "https://github.com/MadAppGang/claudish",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/MadAppGang/claudish",
+        "github:madappgang/claudish",
+        "title:madappgang claudish",
+        "github:title:madappgang claudish",
+        "id:d0a1bc4dd8332c97"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "id": "84184e166b99ac54",
+      "title": "Ark0N/Codeman",
+      "url": "https://github.com/Ark0N/Codeman",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Ark0N/Codeman",
+        "github:ark0n/codeman",
+        "title:ark0n codeman",
+        "github:title:ark0n codeman",
+        "id:84184e166b99ac54"
       ]
     }
   ]
