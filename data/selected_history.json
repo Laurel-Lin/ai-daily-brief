@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T23:17:54.053113+00:00",
+  "updated_at": "2026-08-05T23:17:47.510489+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -897,6 +897,48 @@
         "title:ark0n codeman",
         "github:title:ark0n codeman",
         "id:84184e166b99ac54"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "id": "9ee70d5df41eea78",
+      "title": "jeff-nasseri/mikrotik-mcp",
+      "url": "https://github.com/jeff-nasseri/mikrotik-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/jeff-nasseri/mikrotik-mcp",
+        "github:jeff-nasseri/mikrotik-mcp",
+        "title:jeff nasseri mikrotik mcp",
+        "github:title:jeff nasseri mikrotik mcp",
+        "id:9ee70d5df41eea78"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "id": "7ef62435d00cb380",
+      "title": "mcp-use/mcp-use",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mcp-use/mcp-use",
+        "github:mcp-use/mcp-use",
+        "title:mcp use mcp use",
+        "github:title:mcp use mcp use",
+        "id:7ef62435d00cb380"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "id": "68a945afba569502",
+      "title": "decocms/studio",
+      "url": "https://github.com/decocms/studio",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/decocms/studio",
+        "github:decocms/studio",
+        "title:decocms studio",
+        "github:title:decocms studio",
+        "id:68a945afba569502"
       ]
     }
   ]
