@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T23:17:47.510489+00:00",
+  "updated_at": "2026-08-07T01:34:18.102649+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -939,6 +939,48 @@
         "title:decocms studio",
         "github:title:decocms studio",
         "id:68a945afba569502"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "id": "434c5232c31886ea",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/QwenLM/qwen-code",
+        "github:qwenlm/qwen-code",
+        "title:qwenlm qwen code",
+        "github:title:qwenlm qwen code",
+        "id:434c5232c31886ea"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "id": "0d1129c1339b20d6",
+      "title": "jgravelle/jcodemunch-mcp",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/jgravelle/jcodemunch-mcp",
+        "github:jgravelle/jcodemunch-mcp",
+        "title:jgravelle jcodemunch mcp",
+        "github:title:jgravelle jcodemunch mcp",
+        "id:0d1129c1339b20d6"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "id": "4adc72cb80ca5c18",
+      "title": "zeweihan/aiworkdeck",
+      "url": "https://github.com/zeweihan/aiworkdeck",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/zeweihan/aiworkdeck",
+        "github:zeweihan/aiworkdeck",
+        "title:zeweihan aiworkdeck",
+        "github:title:zeweihan aiworkdeck",
+        "id:4adc72cb80ca5c18"
       ]
     }
   ]
