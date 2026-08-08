@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T22:54:57.192920+00:00",
+  "updated_at": "2026-08-08T22:45:54.015972+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -981,6 +981,48 @@
         "title:zeweihan aiworkdeck",
         "github:title:zeweihan aiworkdeck",
         "id:4adc72cb80ca5c18"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "bcded77b65ac0f9b",
+      "title": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/elizaOS/eliza",
+        "github:elizaos/eliza",
+        "title:elizaos eliza",
+        "github:title:elizaos eliza",
+        "id:bcded77b65ac0f9b"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "2ecc30f2f887a3ea",
+      "title": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/vitali87/code-graph-rag",
+        "github:vitali87/code-graph-rag",
+        "title:vitali87 code graph rag",
+        "github:title:vitali87 code graph rag",
+        "id:2ecc30f2f887a3ea"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "1134b48fc4fd13a9",
+      "title": "gmickel/flow-next",
+      "url": "https://github.com/gmickel/flow-next",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/gmickel/flow-next",
+        "github:gmickel/flow-next",
+        "title:gmickel flow next",
+        "github:title:gmickel flow next",
+        "id:1134b48fc4fd13a9"
       ]
     }
   ]
