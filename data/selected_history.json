@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T22:45:54.015972+00:00",
+  "updated_at": "2026-08-09T22:49:08.075249+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1023,6 +1023,48 @@
         "title:gmickel flow next",
         "github:title:gmickel flow next",
         "id:1134b48fc4fd13a9"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "14c5c62d7363bd29",
+      "title": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/diegosouzapw/OmniRoute",
+        "github:diegosouzapw/omniroute",
+        "title:diegosouzapw omniroute",
+        "github:title:diegosouzapw omniroute",
+        "id:14c5c62d7363bd29"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "814196879161a6b4",
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/DeusData/codebase-memory-mcp",
+        "github:deusdata/codebase-memory-mcp",
+        "title:deusdata codebase memory mcp",
+        "github:title:deusdata codebase memory mcp",
+        "id:814196879161a6b4"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "a82f52bd1c8c3822",
+      "title": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/screenpipe/screenpipe",
+        "github:screenpipe/screenpipe",
+        "title:screenpipe screenpipe",
+        "github:title:screenpipe screenpipe",
+        "id:a82f52bd1c8c3822"
       ]
     }
   ]
