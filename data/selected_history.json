@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T22:56:08.175797+00:00",
+  "updated_at": "2026-08-11T23:02:07.179633+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1107,6 +1107,34 @@
         "title:tanstack ai",
         "github:title:tanstack ai",
         "id:d370dc2c358769da"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "c3ec533b8d86fbf5",
+      "title": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/omnigent-ai/omnigent",
+        "github:omnigent-ai/omnigent",
+        "title:omnigent ai omnigent",
+        "github:title:omnigent ai omnigent",
+        "id:c3ec533b8d86fbf5"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "39102d2ad3d9ba50",
+      "title": "askimo-ai/askimo",
+      "url": "https://github.com/askimo-ai/askimo",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/askimo-ai/askimo",
+        "github:askimo-ai/askimo",
+        "title:askimo ai askimo",
+        "github:title:askimo ai askimo",
+        "id:39102d2ad3d9ba50"
       ]
     }
   ]
