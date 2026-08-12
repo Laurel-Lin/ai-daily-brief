@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T23:02:07.179633+00:00",
+  "updated_at": "2026-08-12T23:00:29.465088+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1135,6 +1135,48 @@
         "title:askimo ai askimo",
         "github:title:askimo ai askimo",
         "id:39102d2ad3d9ba50"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "a076b120c9a8e7e3",
+      "title": "kris-hansen/comanda",
+      "url": "https://github.com/kris-hansen/comanda",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/kris-hansen/comanda",
+        "github:kris-hansen/comanda",
+        "title:kris hansen comanda",
+        "github:title:kris hansen comanda",
+        "id:a076b120c9a8e7e3"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "04a27937ce6ca686",
+      "title": "BlockRunAI/blockrun-mcp",
+      "url": "https://github.com/BlockRunAI/blockrun-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/BlockRunAI/blockrun-mcp",
+        "github:blockrunai/blockrun-mcp",
+        "title:blockrunai blockrun mcp",
+        "github:title:blockrunai blockrun mcp",
+        "id:04a27937ce6ca686"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "b2aa434c73e8ee98",
+      "title": "Azure/azure-dev",
+      "url": "https://github.com/Azure/azure-dev",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Azure/azure-dev",
+        "github:azure/azure-dev",
+        "title:azure azure dev",
+        "github:title:azure azure dev",
+        "id:b2aa434c73e8ee98"
       ]
     }
   ]
