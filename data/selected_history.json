@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T23:00:29.465088+00:00",
+  "updated_at": "2026-08-13T23:01:43.677485+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1177,6 +1177,34 @@
         "title:azure azure dev",
         "github:title:azure azure dev",
         "id:b2aa434c73e8ee98"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "98cf5cfe04848be5",
+      "title": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/headroomlabs-ai/headroom",
+        "github:headroomlabs-ai/headroom",
+        "title:headroomlabs ai headroom",
+        "github:title:headroomlabs ai headroom",
+        "id:98cf5cfe04848be5"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "05568dfb99646453",
+      "title": "airbytehq/airbyte-agent-sdk",
+      "url": "https://github.com/airbytehq/airbyte-agent-sdk",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/airbytehq/airbyte-agent-sdk",
+        "github:airbytehq/airbyte-agent-sdk",
+        "title:airbytehq airbyte agent sdk",
+        "github:title:airbytehq airbyte agent sdk",
+        "id:05568dfb99646453"
       ]
     }
   ]
