@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T23:01:43.677485+00:00",
+  "updated_at": "2026-08-14T22:39:07.017609+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1205,6 +1205,34 @@
         "title:airbytehq airbyte agent sdk",
         "github:title:airbytehq airbyte agent sdk",
         "id:05568dfb99646453"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "98ff65d187e0eb2c",
+      "title": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/pipecat-ai/pipecat",
+        "github:pipecat-ai/pipecat",
+        "title:pipecat ai pipecat",
+        "github:title:pipecat ai pipecat",
+        "id:98ff65d187e0eb2c"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "292482e29dbd3abe",
+      "title": "ratel-ai/ratel",
+      "url": "https://github.com/ratel-ai/ratel",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ratel-ai/ratel",
+        "github:ratel-ai/ratel",
+        "title:ratel ai ratel",
+        "github:title:ratel ai ratel",
+        "id:292482e29dbd3abe"
       ]
     }
   ]
