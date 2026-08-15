@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T22:39:07.017609+00:00",
+  "updated_at": "2026-08-15T22:36:32.711372+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1233,6 +1233,20 @@
         "title:ratel ai ratel",
         "github:title:ratel ai ratel",
         "id:292482e29dbd3abe"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "id": "818b2f4763318922",
+      "title": "echoVic/blade-code",
+      "url": "https://github.com/echoVic/blade-code",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/echoVic/blade-code",
+        "github:echovic/blade-code",
+        "title:echovic blade code",
+        "github:title:echovic blade code",
+        "id:818b2f4763318922"
       ]
     }
   ]
