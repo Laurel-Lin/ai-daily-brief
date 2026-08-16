@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T22:36:32.711372+00:00",
+  "updated_at": "2026-08-16T22:35:46.650235+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1247,6 +1247,48 @@
         "title:echovic blade code",
         "github:title:echovic blade code",
         "id:818b2f4763318922"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "1c2ab0a11df720a5",
+      "title": "diillson/chatcli",
+      "url": "https://github.com/diillson/chatcli",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/diillson/chatcli",
+        "github:diillson/chatcli",
+        "title:diillson chatcli",
+        "github:title:diillson chatcli",
+        "id:1c2ab0a11df720a5"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "488d4bdbba749dda",
+      "title": "ZaxbyHub/opencode-swarm",
+      "url": "https://github.com/ZaxbyHub/opencode-swarm",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ZaxbyHub/opencode-swarm",
+        "github:zaxbyhub/opencode-swarm",
+        "title:zaxbyhub opencode swarm",
+        "github:title:zaxbyhub opencode swarm",
+        "id:488d4bdbba749dda"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "9429f158f9fd3d2d",
+      "title": "openai/openai-agents-js",
+      "url": "https://github.com/openai/openai-agents-js",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/openai/openai-agents-js",
+        "github:openai/openai-agents-js",
+        "title:openai openai agents js",
+        "github:title:openai openai agents js",
+        "id:9429f158f9fd3d2d"
       ]
     }
   ]
