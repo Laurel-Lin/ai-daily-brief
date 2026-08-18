@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T22:39:25.160680+00:00",
+  "updated_at": "2026-08-18T22:40:50.837996+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1331,6 +1331,48 @@
         "title:jfarcand mirroir mcp",
         "github:title:jfarcand mirroir mcp",
         "id:a5cee3817cf4fe19"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "a516bca2e08323bf",
+      "title": "simstudioai/sim",
+      "url": "https://github.com/simstudioai/sim",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/simstudioai/sim",
+        "github:simstudioai/sim",
+        "title:simstudioai sim",
+        "github:title:simstudioai sim",
+        "id:a516bca2e08323bf"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "5daccebb253b5f78",
+      "title": "Dicklesworthstone/ntm",
+      "url": "https://github.com/Dicklesworthstone/ntm",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Dicklesworthstone/ntm",
+        "github:dicklesworthstone/ntm",
+        "title:dicklesworthstone ntm",
+        "github:title:dicklesworthstone ntm",
+        "id:5daccebb253b5f78"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "96b0399813ab2fb8",
+      "title": "r33drichards/mcp-js",
+      "url": "https://github.com/r33drichards/mcp-js",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/r33drichards/mcp-js",
+        "github:r33drichards/mcp-js",
+        "title:r33drichards mcp js",
+        "github:title:r33drichards mcp js",
+        "id:96b0399813ab2fb8"
       ]
     }
   ]
