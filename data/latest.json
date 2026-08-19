@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-08-18T22:40:50.839801+00:00",
-  "date": "2026-08-19",
-  "digest_path": "digests/2026-08-19.md",
-  "artifact_name": "ai-daily-brief-2026-08-19",
+  "generated_at": "2026-08-19T22:40:14.332994+00:00",
+  "date": "2026-08-20",
+  "digest_path": "digests/2026-08-20.md",
+  "artifact_name": "ai-daily-brief-2026-08-20",
   "stats": {
-    "raw_candidates": 248,
+    "raw_candidates": 255,
     "scored_candidates": 18,
     "deduplicated_candidates": 18,
-    "selected_candidates": 3,
-    "filtered_candidates": 249,
+    "selected_candidates": 1,
+    "filtered_candidates": 259,
     "blocked_examples": [
+      {
+        "title": "Replit expands access to software creation with GPT-5.6 Luna",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "ChatGPT Ads expands across Europe",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Strengthening democratic oversight in national security",
+        "reason": "不在日报日期窗口内"
+      },
       {
         "title": "Partnering with CodeAI to prepare the first AI generation",
         "reason": "不在日报日期窗口内"
@@ -23,6 +35,10 @@
         "reason": "不在日报日期窗口内"
       },
       {
+        "title": "How NVIDIA scales expertise with ChatGPT Work",
+        "reason": "不在日报日期窗口内"
+      },
+      {
         "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
         "reason": "不在日报日期窗口内"
       },
@@ -32,22 +48,6 @@
       },
       {
         "title": "OpenAI joins PORTS-Pike project",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "New policy ideas for the Intelligence Age",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "The builder’s guide to GPT‑5.6",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
         "reason": "不在日报日期窗口内"
       }
     ],
@@ -67,168 +67,93 @@
   },
   "selected": [
     {
-      "id": "a516bca2e08323bf",
-      "title": "simstudioai/sim",
-      "url": "https://github.com/simstudioai/sim",
+      "id": "f4b05c772d9c5edf",
+      "title": "vivekchand/clawmetry",
+      "url": "https://github.com/vivekchand/clawmetry",
       "source": "GitHub",
       "source_type": "github",
-      "published_at": "2026-08-18T19:33:51Z",
-      "summary": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+      "published_at": "2026-08-19T19:03:36Z",
+      "summary": "See your agent think. Zero-config observability & governance for 20+ AI agent runtimes: OpenClaw, Claude Code, OpenAI Codex, Cursor, Aider, Goose, NVIDIA NemoClaw, NanoClaw & more. Live token costs, sessions, tool calls, crons.",
       "metrics": {
-        "stars": 29433,
-        "forks": 3776,
-        "open_issues": 282,
-        "created_at": "2025-01-05T22:47:49Z",
-        "pushed_at": "2026-08-18T22:38:06Z",
-        "updated_at": "2026-08-18T22:34:12Z",
+        "stars": 398,
+        "forks": 65,
+        "open_issues": 100,
+        "created_at": "2026-02-13T06:49:19Z",
+        "pushed_at": "2026-08-19T22:39:36Z",
+        "updated_at": "2026-08-19T22:31:58Z",
         "star_delta_24h": "unknown",
         "star_delta_7d": "unknown",
         "fork_delta_7d": "unknown",
-        "latest_release_at": "2026-08-18T19:33:51Z",
-        "repo_age_days": 589,
+        "latest_release_at": "2026-08-19T19:03:36Z",
+        "repo_age_days": 187,
         "signal_type": "major_release",
-        "recent_update": "2026-08-18T22:38:06Z"
+        "recent_update": "2026-08-19T22:39:36Z"
       },
       "tags": [
-        "agent-workflow",
-        "agentic-workflow",
-        "agents",
-        "ai",
-        "aiagents",
-        "anthropic",
-        "artificial-intelligence",
-        "automation",
-        "chatbot",
-        "deepseek",
-        "gemini",
-        "low-code",
-        "nextjs",
-        "no-code",
-        "openai",
-        "rag",
-        "react",
-        "typescript"
-      ],
-      "raw": {
-        "query": "rag",
-        "search_query": "rag stars:>5000 pushed:>2026-08-12 archived:false fork:false",
-        "created_at": "2025-01-05T22:47:49Z",
-        "pushed_at": "2026-08-18T22:38:06Z",
-        "updated_at": "2026-08-18T22:34:12Z",
-        "stars": 29433,
-        "forks": 3776,
-        "open_issues": 282,
-        "topics": [
-          "agent-workflow",
-          "agentic-workflow",
-          "agents",
-          "ai",
-          "aiagents",
-          "anthropic",
-          "artificial-intelligence",
-          "automation",
-          "chatbot",
-          "deepseek",
-          "gemini",
-          "low-code",
-          "nextjs",
-          "no-code",
-          "openai",
-          "rag",
-          "react",
-          "typescript"
-        ],
-        "language": "TypeScript",
-        "archived": false,
-        "fork": false,
-        "default_branch": "main",
-        "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
-        "latest_release_at": "2026-08-18T19:33:51Z",
-        "latest_release_name": "v0.8.4",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "signal_type": "major_release",
-        "repo_age_days": 589
-      },
-      "score": 82.15,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 65,
-        "novelty": 95,
-        "product_inspiration": 98,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "simstudioai/sim 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    },
-    {
-      "id": "5daccebb253b5f78",
-      "title": "Dicklesworthstone/ntm",
-      "url": "https://github.com/Dicklesworthstone/ntm",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-08-18T21:49:40Z",
-      "summary": "Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette",
-      "metrics": {
-        "stars": 428,
-        "forks": 64,
-        "open_issues": 4,
-        "created_at": "2025-12-10T07:02:48Z",
-        "pushed_at": "2026-08-18T22:39:01Z",
-        "updated_at": "2026-08-18T22:39:12Z",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "latest_release_at": "2026-08-18T21:49:40Z",
-        "repo_age_days": 251,
-        "signal_type": "major_release",
-        "recent_update": "2026-08-18T22:39:01Z"
-      },
-      "tags": [
+        "agent-monitoring",
+        "ai-agent",
         "ai-agents",
-        "cli",
+        "aider",
+        "claude-code",
+        "clawmetry",
+        "codex",
+        "cost-tracking",
+        "cursor",
+        "dashboard",
         "developer-tools",
-        "go",
-        "tmux"
+        "goose",
+        "llm",
+        "llm-observability",
+        "monitoring",
+        "nanoclaw",
+        "observability",
+        "openclaw",
+        "opentelemetry",
+        "python"
       ],
       "raw": {
-        "query": "ai coding",
-        "search_query": "ai coding pushed:>2026-08-12 stars:50..5000 archived:false fork:false",
-        "created_at": "2025-12-10T07:02:48Z",
-        "pushed_at": "2026-08-18T22:39:01Z",
-        "updated_at": "2026-08-18T22:39:12Z",
-        "stars": 428,
-        "forks": 64,
-        "open_issues": 4,
+        "query": "cursor ai",
+        "search_query": "cursor ai pushed:>2026-08-13 stars:50..5000 archived:false fork:false",
+        "created_at": "2026-02-13T06:49:19Z",
+        "pushed_at": "2026-08-19T22:39:36Z",
+        "updated_at": "2026-08-19T22:31:58Z",
+        "stars": 398,
+        "forks": 65,
+        "open_issues": 100,
         "topics": [
+          "agent-monitoring",
+          "ai-agent",
           "ai-agents",
-          "cli",
+          "aider",
+          "claude-code",
+          "clawmetry",
+          "codex",
+          "cost-tracking",
+          "cursor",
+          "dashboard",
           "developer-tools",
-          "go",
-          "tmux"
+          "goose",
+          "llm",
+          "llm-observability",
+          "monitoring",
+          "nanoclaw",
+          "observability",
+          "openclaw",
+          "opentelemetry",
+          "python"
         ],
-        "language": "Go",
+        "language": "Python",
         "archived": false,
         "fork": false,
         "default_branch": "main",
-        "description": "Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes with a TUI command palette",
-        "latest_release_at": "2026-08-18T21:49:40Z",
-        "latest_release_name": "v1.27.0",
+        "description": "See your agent think. Zero-config observability & governance for 20+ AI agent runtimes: OpenClaw, Claude Code, OpenAI Codex, Cursor, Aider, Goose, NVIDIA NemoClaw, NanoClaw & more. Live token costs, sessions, tool calls, crons.",
+        "latest_release_at": "2026-08-19T19:03:36Z",
+        "latest_release_name": "v0.12.737",
         "star_delta_24h": "unknown",
         "star_delta_7d": "unknown",
         "fork_delta_7d": "unknown",
         "signal_type": "major_release",
-        "repo_age_days": 251
+        "repo_age_days": 187
       },
       "score": 80.35,
       "score_breakdown": {
@@ -239,82 +164,7 @@
         "readable_value": 100,
         "feedback_adjustment": 0
       },
-      "why_important": "Dicklesworthstone/ntm 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    },
-    {
-      "id": "96b0399813ab2fb8",
-      "title": "r33drichards/mcp-js",
-      "url": "https://github.com/r33drichards/mcp-js",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-08-18T18:56:26Z",
-      "summary": "MCP server that exposes a V8 JavaScript runtime as a tool for AI agents like Claude and Cursor. Supports persistent heap snapshots via S3 or local filesystem, and is ready for integration with modern AI development environments.",
-      "metrics": {
-        "stars": 51,
-        "forks": 11,
-        "open_issues": 18,
-        "created_at": "2025-04-06T01:52:12Z",
-        "pushed_at": "2026-08-18T22:25:29Z",
-        "updated_at": "2026-08-18T22:23:09Z",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "latest_release_at": "2026-08-18T18:56:26Z",
-        "repo_age_days": 499,
-        "signal_type": "major_release",
-        "recent_update": "2026-08-18T22:25:29Z"
-      },
-      "tags": [
-        "javascript",
-        "mcp",
-        "mcp-server"
-      ],
-      "raw": {
-        "query": "cursor ai",
-        "search_query": "cursor ai pushed:>2026-08-12 stars:50..5000 archived:false fork:false",
-        "created_at": "2025-04-06T01:52:12Z",
-        "pushed_at": "2026-08-18T22:25:29Z",
-        "updated_at": "2026-08-18T22:23:09Z",
-        "stars": 51,
-        "forks": 11,
-        "open_issues": 18,
-        "topics": [
-          "javascript",
-          "mcp",
-          "mcp-server"
-        ],
-        "language": "Rust",
-        "archived": false,
-        "fork": false,
-        "default_branch": "main",
-        "description": "MCP server that exposes a V8 JavaScript runtime as a tool for AI agents like Claude and Cursor. Supports persistent heap snapshots via S3 or local filesystem, and is ready for integration with modern AI development environments.",
-        "latest_release_at": "2026-08-18T18:56:26Z",
-        "latest_release_name": "v0.19.1",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": "unknown",
-        "fork_delta_7d": "unknown",
-        "signal_type": "major_release",
-        "repo_age_days": 499
-      },
-      "score": 78.95,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 59.38,
-        "novelty": 95,
-        "product_inspiration": 89,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "r33drichards/mcp-js 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "why_important": "vivekchand/clawmetry 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
       "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
       "readable_value": 100,
       "feedback": {
