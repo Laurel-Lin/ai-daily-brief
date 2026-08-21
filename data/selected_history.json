@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T22:44:39.947793+00:00",
+  "updated_at": "2026-08-21T22:40:21.334691+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1429,6 +1429,48 @@
         "title:livekit agents js",
         "github:title:livekit agents js",
         "id:d27f13ae60a10d31"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "f5105cecbb2cb9a7",
+      "title": "github/gh-aw-firewall",
+      "url": "https://github.com/github/gh-aw-firewall",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/github/gh-aw-firewall",
+        "github:github/gh-aw-firewall",
+        "title:github gh aw firewall",
+        "github:title:github gh aw firewall",
+        "id:f5105cecbb2cb9a7"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "c014bdfb404b0980",
+      "title": "Leutenegger/claudish-to-english",
+      "url": "https://github.com/Leutenegger/claudish-to-english",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Leutenegger/claudish-to-english",
+        "github:leutenegger/claudish-to-english",
+        "title:leutenegger claudish english",
+        "github:title:leutenegger claudish english",
+        "id:c014bdfb404b0980"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "8457608872998ded",
+      "title": "cyanheads/clinicaltrialsgov-mcp-server",
+      "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
+        "github:cyanheads/clinicaltrialsgov-mcp-server",
+        "title:cyanheads clinicaltrialsgov mcp server",
+        "github:title:cyanheads clinicaltrialsgov mcp server",
+        "id:8457608872998ded"
       ]
     }
   ]
