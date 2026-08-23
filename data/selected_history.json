@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T22:37:16.779590+00:00",
+  "updated_at": "2026-08-23T22:36:51.706854+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1485,6 +1485,20 @@
         "title:jmagly aiwg",
         "github:title:jmagly aiwg",
         "id:54dc52a8b6ba49f8"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "bcded77b65ac0f9b",
+      "title": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/elizaOS/eliza",
+        "github:elizaos/eliza",
+        "title:elizaos eliza",
+        "github:title:elizaos eliza",
+        "id:bcded77b65ac0f9b"
       ]
     }
   ]
