@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T22:36:51.706854+00:00",
+  "updated_at": "2026-08-24T22:43:28.826452+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1499,6 +1499,48 @@
         "title:elizaos eliza",
         "github:title:elizaos eliza",
         "id:bcded77b65ac0f9b"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "bffe5c88bc3cac8a",
+      "title": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mastra-ai/mastra",
+        "github:mastra-ai/mastra",
+        "title:mastra ai mastra",
+        "github:title:mastra ai mastra",
+        "id:bffe5c88bc3cac8a"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "a82f52bd1c8c3822",
+      "title": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/screenpipe/screenpipe",
+        "github:screenpipe/screenpipe",
+        "title:screenpipe screenpipe",
+        "github:title:screenpipe screenpipe",
+        "id:a82f52bd1c8c3822"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "984be0e89e3daaec",
+      "title": "proliferate-ai/proliferate",
+      "url": "https://github.com/proliferate-ai/proliferate",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/proliferate-ai/proliferate",
+        "github:proliferate-ai/proliferate",
+        "title:proliferate ai proliferate",
+        "github:title:proliferate ai proliferate",
+        "id:984be0e89e3daaec"
       ]
     }
   ]
