@@ -1,15 +1,31 @@
 {
-  "generated_at": "2026-08-24T22:43:28.827948+00:00",
-  "date": "2026-08-25",
-  "digest_path": "digests/2026-08-25.md",
-  "artifact_name": "ai-daily-brief-2026-08-25",
+  "generated_at": "2026-08-25T22:44:10.508745+00:00",
+  "date": "2026-08-26",
+  "digest_path": "digests/2026-08-26.md",
+  "artifact_name": "ai-daily-brief-2026-08-26",
   "stats": {
-    "raw_candidates": 251,
-    "scored_candidates": 12,
-    "deduplicated_candidates": 12,
-    "selected_candidates": 3,
+    "raw_candidates": 247,
+    "scored_candidates": 9,
+    "deduplicated_candidates": 9,
+    "selected_candidates": 0,
     "filtered_candidates": 251,
     "blocked_examples": [
+      {
+        "title": "The full stack behind abundant intelligence",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Disrupting a new covert influence campaign from Russia",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+        "reason": "不在日报日期窗口内"
+      },
       {
         "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
         "reason": "不在日报日期窗口内"
@@ -33,22 +49,6 @@
       {
         "title": "ChatGPT Ads expands across Europe",
         "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Strengthening democratic oversight in national security",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Partnering with CodeAI to prepare the first AI generation",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Pacing model development in an era of cyber-critical capabilities",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-        "reason": "不在日报日期窗口内"
       }
     ],
     "main_filter_reasons": [
@@ -65,277 +65,5 @@
       "无法解释明确产品或技术启发"
     ]
   },
-  "selected": [
-    {
-      "id": "bffe5c88bc3cac8a",
-      "title": "mastra-ai/mastra",
-      "url": "https://github.com/mastra-ai/mastra",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-08-24T22:43:11Z",
-      "summary": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-      "metrics": {
-        "stars": 27437,
-        "forks": 2686,
-        "open_issues": 461,
-        "created_at": "2024-08-06T20:44:31Z",
-        "pushed_at": "2026-08-24T22:43:11Z",
-        "updated_at": "2026-08-24T22:42:31Z",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": 182,
-        "fork_delta_7d": 39,
-        "latest_release_at": null,
-        "repo_age_days": 747,
-        "signal_type": "fast_growing",
-        "recent_update": "2026-08-24T22:43:11Z"
-      },
-      "tags": [
-        "agents",
-        "ai",
-        "chatbots",
-        "evals",
-        "javascript",
-        "llm",
-        "mcp",
-        "nextjs",
-        "nodejs",
-        "reactjs",
-        "tts",
-        "typescript",
-        "workflows"
-      ],
-      "raw": {
-        "query": "llm agent",
-        "search_query": "llm agent stars:>5000 pushed:>2026-08-18 archived:false fork:false",
-        "created_at": "2024-08-06T20:44:31Z",
-        "pushed_at": "2026-08-24T22:43:11Z",
-        "updated_at": "2026-08-24T22:42:31Z",
-        "stars": 27437,
-        "forks": 2686,
-        "open_issues": 461,
-        "topics": [
-          "agents",
-          "ai",
-          "chatbots",
-          "evals",
-          "javascript",
-          "llm",
-          "mcp",
-          "nextjs",
-          "nodejs",
-          "reactjs",
-          "tts",
-          "typescript",
-          "workflows"
-        ],
-        "language": "TypeScript",
-        "archived": false,
-        "fork": false,
-        "default_branch": "main",
-        "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-        "latest_release_at": null,
-        "latest_release_name": null,
-        "star_delta_24h": "unknown",
-        "star_delta_7d": 182,
-        "fork_delta_7d": 39,
-        "signal_type": "fast_growing",
-        "repo_age_days": 747
-      },
-      "score": 87.39,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 93.17,
-        "novelty": 95,
-        "product_inspiration": 89,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "mastra-ai/mastra 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    },
-    {
-      "id": "a82f52bd1c8c3822",
-      "title": "screenpipe/screenpipe",
-      "url": "https://github.com/screenpipe/screenpipe",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-08-24T21:39:52Z",
-      "summary": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
-      "metrics": {
-        "stars": 21206,
-        "forks": 2128,
-        "open_issues": 84,
-        "created_at": "2024-06-19T13:23:56Z",
-        "pushed_at": "2026-08-24T21:39:52Z",
-        "updated_at": "2026-08-24T21:43:57Z",
-        "star_delta_24h": 17,
-        "star_delta_7d": 203,
-        "fork_delta_7d": 25,
-        "latest_release_at": null,
-        "repo_age_days": 796,
-        "signal_type": "fast_growing",
-        "recent_update": "2026-08-24T21:39:52Z"
-      },
-      "tags": [
-        "agents",
-        "agi",
-        "ai",
-        "ai-memory",
-        "audio-recording",
-        "computer-vision",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "local-ai",
-        "local-first",
-        "machine-learning",
-        "mcp",
-        "multimodal",
-        "openclaw",
-        "privacy",
-        "rewind",
-        "screen-recording",
-        "speech-to-text",
-        "ycombinator"
-      ],
-      "raw": {
-        "query": "multimodal ai",
-        "search_query": "multimodal ai stars:>5000 pushed:>2026-08-18 archived:false fork:false",
-        "created_at": "2024-06-19T13:23:56Z",
-        "pushed_at": "2026-08-24T21:39:52Z",
-        "updated_at": "2026-08-24T21:43:57Z",
-        "stars": 21206,
-        "forks": 2128,
-        "open_issues": 84,
-        "topics": [
-          "agents",
-          "agi",
-          "ai",
-          "ai-memory",
-          "audio-recording",
-          "computer-vision",
-          "hermes",
-          "hermes-agent",
-          "llm",
-          "local-ai",
-          "local-first",
-          "machine-learning",
-          "mcp",
-          "multimodal",
-          "openclaw",
-          "privacy",
-          "rewind",
-          "screen-recording",
-          "speech-to-text",
-          "ycombinator"
-        ],
-        "language": "Rust",
-        "archived": false,
-        "fork": false,
-        "default_branch": "main",
-        "description": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
-        "latest_release_at": null,
-        "latest_release_name": null,
-        "star_delta_24h": 17,
-        "star_delta_7d": 203,
-        "fork_delta_7d": 25,
-        "signal_type": "fast_growing",
-        "repo_age_days": 796
-      },
-      "score": 86.99,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 91.55,
-        "novelty": 95,
-        "product_inspiration": 89,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "screenpipe/screenpipe 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    },
-    {
-      "id": "984be0e89e3daaec",
-      "title": "proliferate-ai/proliferate",
-      "url": "https://github.com/proliferate-ai/proliferate",
-      "source": "GitHub",
-      "source_type": "github",
-      "published_at": "2026-08-24T22:24:24Z",
-      "summary": "The open-source AI IDE for Claude Code, Codex, OpenCode, and more. Run agents in parallel, locally or in the cloud, and build reusable workflows.",
-      "metrics": {
-        "stars": 378,
-        "forks": 63,
-        "open_issues": 89,
-        "created_at": "2026-04-30T23:54:35Z",
-        "pushed_at": "2026-08-24T22:24:24Z",
-        "updated_at": "2026-08-24T22:31:38Z",
-        "star_delta_24h": "unknown",
-        "star_delta_7d": 210,
-        "fork_delta_7d": 20,
-        "latest_release_at": null,
-        "repo_age_days": 115,
-        "signal_type": "fast_growing",
-        "recent_update": "2026-08-24T22:24:24Z"
-      },
-      "tags": [],
-      "raw": {
-        "query": "workflow agent",
-        "search_query": "workflow agent pushed:>2026-08-18 stars:50..5000 archived:false fork:false",
-        "created_at": "2026-04-30T23:54:35Z",
-        "pushed_at": "2026-08-24T22:24:24Z",
-        "updated_at": "2026-08-24T22:31:38Z",
-        "stars": 378,
-        "forks": 63,
-        "open_issues": 89,
-        "topics": [],
-        "language": "TypeScript",
-        "archived": false,
-        "fork": false,
-        "default_branch": "main",
-        "description": "The open-source AI IDE for Claude Code, Codex, OpenCode, and more. Run agents in parallel, locally or in the cloud, and build reusable workflows.",
-        "latest_release_at": null,
-        "latest_release_name": null,
-        "star_delta_24h": "unknown",
-        "star_delta_7d": 210,
-        "fork_delta_7d": 20,
-        "signal_type": "fast_growing",
-        "repo_age_days": 115
-      },
-      "score": 84.82,
-      "score_breakdown": {
-        "source_quality": 78,
-        "popularity": 82.87,
-        "novelty": 95,
-        "product_inspiration": 89,
-        "readable_value": 100,
-        "feedback_adjustment": 0
-      },
-      "why_important": "proliferate-ai/proliferate 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
-      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
-      "readable_value": 100,
-      "feedback": {
-        "adjustment": 0,
-        "notes": [],
-        "rejected": false
-      },
-      "related_sources": [],
-      "community_discussions": []
-    }
-  ]
+  "selected": []
 }
