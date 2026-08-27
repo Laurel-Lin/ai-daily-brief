@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T22:44:10.507183+00:00",
+  "updated_at": "2026-08-27T03:18:01.253621+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1541,6 +1541,20 @@
         "title:proliferate ai proliferate",
         "github:title:proliferate ai proliferate",
         "id:984be0e89e3daaec"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "9cc5d2de2fc754a3",
+      "title": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/shanraisshan/claude-code-best-practice",
+        "github:shanraisshan/claude-code-best-practice",
+        "title:shanraisshan claude code best practice",
+        "github:title:shanraisshan claude code best practice",
+        "id:9cc5d2de2fc754a3"
       ]
     }
   ]

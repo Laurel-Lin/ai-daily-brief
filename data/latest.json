@@ -1,15 +1,31 @@
 {
-  "generated_at": "2026-08-25T22:44:10.508745+00:00",
-  "date": "2026-08-26",
-  "digest_path": "digests/2026-08-26.md",
-  "artifact_name": "ai-daily-brief-2026-08-26",
+  "generated_at": "2026-08-27T03:18:01.255285+00:00",
+  "date": "2026-08-27",
+  "digest_path": "digests/2026-08-27.md",
+  "artifact_name": "ai-daily-brief-2026-08-27",
   "stats": {
-    "raw_candidates": 247,
-    "scored_candidates": 9,
-    "deduplicated_candidates": 9,
-    "selected_candidates": 0,
-    "filtered_candidates": 251,
+    "raw_candidates": 239,
+    "scored_candidates": 10,
+    "deduplicated_candidates": 10,
+    "selected_candidates": 1,
+    "filtered_candidates": 240,
     "blocked_examples": [
+      {
+        "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "Learning never stops: How AI makes learning continuous",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "The Hugging Face incident and the road ahead",
+        "reason": "不在日报日期窗口内"
+      },
+      {
+        "title": "How loveholidays is making everyone a builder with Codex",
+        "reason": "不在日报日期窗口内"
+      },
       {
         "title": "The full stack behind abundant intelligence",
         "reason": "不在日报日期窗口内"
@@ -31,23 +47,7 @@
         "reason": "不在日报日期窗口内"
       },
       {
-        "title": "Introducing AI Futures",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Offering Zero Data Retention for frontier models",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "Replit expands access to software creation with GPT-5.6 Luna",
-        "reason": "不在日报日期窗口内"
-      },
-      {
-        "title": "ChatGPT Ads expands across Europe",
+        "title": "Introducing Intelligence Age",
         "reason": "不在日报日期窗口内"
       }
     ],
@@ -65,5 +65,115 @@
       "无法解释明确产品或技术启发"
     ]
   },
-  "selected": []
+  "selected": [
+    {
+      "id": "9cc5d2de2fc754a3",
+      "title": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "GitHub",
+      "source_type": "github",
+      "published_at": "2026-08-27T03:13:32Z",
+      "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "metrics": {
+        "stars": 65204,
+        "forks": 6492,
+        "open_issues": 43,
+        "created_at": "2025-10-31T14:15:28Z",
+        "pushed_at": "2026-08-27T03:13:32Z",
+        "updated_at": "2026-08-27T03:14:48Z",
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "latest_release_at": null,
+        "repo_age_days": 299,
+        "signal_type": "mature_reference",
+        "recent_update": "2026-08-27T03:13:32Z"
+      },
+      "tags": [
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-engineering",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "best-practices",
+        "boris",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-agents",
+        "claude-code-best-practices",
+        "claude-code-commands",
+        "claude-code-skills",
+        "context-engineering",
+        "pakistan",
+        "pakistani-developer",
+        "vibe-coding"
+      ],
+      "raw": {
+        "query": "ai coding",
+        "search_query": "ai coding stars:>5000 pushed:>2026-08-20 archived:false fork:false",
+        "created_at": "2025-10-31T14:15:28Z",
+        "pushed_at": "2026-08-27T03:13:32Z",
+        "updated_at": "2026-08-27T03:14:48Z",
+        "stars": 65204,
+        "forks": 6492,
+        "open_issues": 43,
+        "topics": [
+          "agentic-ai",
+          "agentic-coding",
+          "agentic-engineering",
+          "agentic-workflow",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "best-practices",
+          "boris",
+          "claude",
+          "claude-ai",
+          "claude-code",
+          "claude-code-agents",
+          "claude-code-best-practices",
+          "claude-code-commands",
+          "claude-code-skills",
+          "context-engineering",
+          "pakistan",
+          "pakistani-developer",
+          "vibe-coding"
+        ],
+        "language": "HTML",
+        "archived": false,
+        "fork": false,
+        "default_branch": "main",
+        "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+        "latest_release_at": null,
+        "latest_release_name": null,
+        "star_delta_24h": "unknown",
+        "star_delta_7d": "unknown",
+        "fork_delta_7d": "unknown",
+        "signal_type": "mature_reference",
+        "repo_age_days": 299
+      },
+      "score": 80.35,
+      "score_breakdown": {
+        "source_quality": 78,
+        "popularity": 65,
+        "novelty": 95,
+        "product_inspiration": 89,
+        "readable_value": 100,
+        "feedback_adjustment": 0
+      },
+      "why_important": "shanraisshan/claude-code-best-practice 的仓库指标和更新时间显示，它正在被开发者实际使用或维护。",
+      "inspiration": "优先看它把复杂能力封装成什么入口：CLI、服务、评测框架还是应用平台。",
+      "readable_value": 100,
+      "feedback": {
+        "adjustment": 0,
+        "notes": [],
+        "rejected": false
+      },
+      "related_sources": [],
+      "community_discussions": []
+    }
+  ]
 }
