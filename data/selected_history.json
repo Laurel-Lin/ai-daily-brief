@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T03:18:01.253621+00:00",
+  "updated_at": "2026-08-28T06:06:40.836879+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1555,6 +1555,48 @@
         "title:shanraisshan claude code best practice",
         "github:title:shanraisshan claude code best practice",
         "id:9cc5d2de2fc754a3"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "80d67a389ebf9c74",
+      "title": "Pinvou/pinvou-agent",
+      "url": "https://github.com/Pinvou/pinvou-agent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Pinvou/pinvou-agent",
+        "github:pinvou/pinvou-agent",
+        "title:pinvou pinvou agent",
+        "github:title:pinvou pinvou agent",
+        "id:80d67a389ebf9c74"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "d219b8056c592a5f",
+      "title": "awslabs/cli-agent-orchestrator",
+      "url": "https://github.com/awslabs/cli-agent-orchestrator",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/awslabs/cli-agent-orchestrator",
+        "github:awslabs/cli-agent-orchestrator",
+        "title:awslabs cli agent orchestrator",
+        "github:title:awslabs cli agent orchestrator",
+        "id:d219b8056c592a5f"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "d13537a8114abe43",
+      "title": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/bojieli/ai-agent-book",
+        "github:bojieli/ai-agent-book",
+        "title:bojieli ai agent book",
+        "github:title:bojieli ai agent book",
+        "id:d13537a8114abe43"
       ]
     }
   ]
