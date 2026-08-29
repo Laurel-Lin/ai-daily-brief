@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T06:06:40.836879+00:00",
+  "updated_at": "2026-08-29T03:42:56.113248+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1597,6 +1597,48 @@
         "title:bojieli ai agent book",
         "github:title:bojieli ai agent book",
         "id:d13537a8114abe43"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "e16d19d3a268dbc5",
+      "title": "jztan/pdf-mcp",
+      "url": "https://github.com/jztan/pdf-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/jztan/pdf-mcp",
+        "github:jztan/pdf-mcp",
+        "title:jztan pdf mcp",
+        "github:title:jztan pdf mcp",
+        "id:e16d19d3a268dbc5"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "8521105d0e657165",
+      "title": "ctxrs/ctx",
+      "url": "https://github.com/ctxrs/ctx",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/ctxrs/ctx",
+        "github:ctxrs/ctx",
+        "title:ctxrs ctx",
+        "github:title:ctxrs ctx",
+        "id:8521105d0e657165"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "57b4d593514c5159",
+      "title": "DEEIX-AI/DEEIX-Chat",
+      "url": "https://github.com/DEEIX-AI/DEEIX-Chat",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/DEEIX-AI/DEEIX-Chat",
+        "github:deeix-ai/deeix-chat",
+        "title:deeix ai deeix chat",
+        "github:title:deeix ai deeix chat",
+        "id:57b4d593514c5159"
       ]
     }
   ]
