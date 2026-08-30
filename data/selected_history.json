@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T03:42:56.113248+00:00",
+  "updated_at": "2026-08-30T00:19:15.719773+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1639,6 +1639,34 @@
         "title:deeix ai deeix chat",
         "github:title:deeix ai deeix chat",
         "id:57b4d593514c5159"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "3a6e8ab2a53be093",
+      "title": "WenyuChiou/awesome-agentic-ai-zh",
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+        "github:wenyuchiou/awesome-agentic-ai-zh",
+        "title:wenyuchiou awesome agentic ai zh",
+        "github:title:wenyuchiou awesome agentic ai zh",
+        "id:3a6e8ab2a53be093"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "380c60c2126a54a8",
+      "title": "Vladimir-Human/humanizer-ru",
+      "url": "https://github.com/Vladimir-Human/humanizer-ru",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Vladimir-Human/humanizer-ru",
+        "github:vladimir-human/humanizer-ru",
+        "title:vladimir human humanizer ru",
+        "github:title:vladimir human humanizer ru",
+        "id:380c60c2126a54a8"
       ]
     }
   ]
