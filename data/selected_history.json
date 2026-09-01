@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T00:36:26.409872+00:00",
+  "updated_at": "2026-09-01T01:17:21.147951+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1709,6 +1709,48 @@
         "title:marcusquinn aidevops",
         "github:title:marcusquinn aidevops",
         "id:274a0dc5582eca27"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "c3ec533b8d86fbf5",
+      "title": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/omnigent-ai/omnigent",
+        "github:omnigent-ai/omnigent",
+        "title:omnigent ai omnigent",
+        "github:title:omnigent ai omnigent",
+        "id:c3ec533b8d86fbf5"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "1134b48fc4fd13a9",
+      "title": "gmickel/flow-next",
+      "url": "https://github.com/gmickel/flow-next",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/gmickel/flow-next",
+        "github:gmickel/flow-next",
+        "title:gmickel flow next",
+        "github:title:gmickel flow next",
+        "id:1134b48fc4fd13a9"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "10d4a59539d0fa75",
+      "title": "Q00/ouroboros",
+      "url": "https://github.com/Q00/ouroboros",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Q00/ouroboros",
+        "github:q00/ouroboros",
+        "title:q00 ouroboros",
+        "github:title:q00 ouroboros",
+        "id:10d4a59539d0fa75"
       ]
     }
   ]
