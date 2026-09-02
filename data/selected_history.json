@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T01:17:21.147951+00:00",
+  "updated_at": "2026-09-02T00:12:43.553754+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1751,6 +1751,34 @@
         "title:q00 ouroboros",
         "github:title:q00 ouroboros",
         "id:10d4a59539d0fa75"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "d59e9ac18a58599b",
+      "title": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/activepieces/activepieces",
+        "github:activepieces/activepieces",
+        "title:activepieces activepieces",
+        "github:title:activepieces activepieces",
+        "id:d59e9ac18a58599b"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "d370dc2c358769da",
+      "title": "TanStack/ai",
+      "url": "https://github.com/TanStack/ai",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/TanStack/ai",
+        "github:tanstack/ai",
+        "title:tanstack ai",
+        "github:title:tanstack ai",
+        "id:d370dc2c358769da"
       ]
     }
   ]
