@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:15:03.745531+00:00",
+  "updated_at": "2026-09-04T00:05:44.357023+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1821,6 +1821,48 @@
         "title:zaxbyhub opencode swarm",
         "github:title:zaxbyhub opencode swarm",
         "id:488d4bdbba749dda"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "68a945afba569502",
+      "title": "decocms/studio",
+      "url": "https://github.com/decocms/studio",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/decocms/studio",
+        "github:decocms/studio",
+        "title:decocms studio",
+        "github:title:decocms studio",
+        "id:68a945afba569502"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "054ce3ca69d9a963",
+      "title": "takeshy/obsidian-local-llm-hub",
+      "url": "https://github.com/takeshy/obsidian-local-llm-hub",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/takeshy/obsidian-local-llm-hub",
+        "github:takeshy/obsidian-local-llm-hub",
+        "title:takeshy obsidian local llm hub",
+        "github:title:takeshy obsidian local llm hub",
+        "id:054ce3ca69d9a963"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "55813b68c1d6c9a1",
+      "title": "genkit-ai/genkit",
+      "url": "https://github.com/genkit-ai/genkit",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/genkit-ai/genkit",
+        "github:genkit-ai/genkit",
+        "title:genkit ai genkit",
+        "github:title:genkit ai genkit",
+        "id:55813b68c1d6c9a1"
       ]
     }
   ]
