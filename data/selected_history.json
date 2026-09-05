@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T00:05:44.357023+00:00",
+  "updated_at": "2026-09-05T00:04:57.896269+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1863,6 +1863,48 @@
         "title:genkit ai genkit",
         "github:title:genkit ai genkit",
         "id:55813b68c1d6c9a1"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "823d7ae5319999f2",
+      "title": "JetBrains/junie",
+      "url": "https://github.com/JetBrains/junie",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/JetBrains/junie",
+        "github:jetbrains/junie",
+        "title:jetbrains junie",
+        "github:title:jetbrains junie",
+        "id:823d7ae5319999f2"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "2046a959577928ef",
+      "title": "dcouple/Pane",
+      "url": "https://github.com/dcouple/Pane",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/dcouple/Pane",
+        "github:dcouple/pane",
+        "title:dcouple pane",
+        "github:title:dcouple pane",
+        "id:2046a959577928ef"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "4600210162ec6ae0",
+      "title": "lidge-jun/cli-jaw",
+      "url": "https://github.com/lidge-jun/cli-jaw",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/lidge-jun/cli-jaw",
+        "github:lidge-jun/cli-jaw",
+        "title:lidge jun cli jaw",
+        "github:title:lidge jun cli jaw",
+        "id:4600210162ec6ae0"
       ]
     }
   ]
