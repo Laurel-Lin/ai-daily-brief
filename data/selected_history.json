@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:53:41.425311+00:00",
+  "updated_at": "2026-09-06T23:53:03.943608+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1947,6 +1947,48 @@
         "title:browseros ai browseros",
         "github:title:browseros ai browseros",
         "id:30ae68c0211b0139"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "8cf68d47e45413ed",
+      "title": "sdsrss/claude-mem-lite",
+      "url": "https://github.com/sdsrss/claude-mem-lite",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/sdsrss/claude-mem-lite",
+        "github:sdsrss/claude-mem-lite",
+        "title:sdsrss claude mem lite",
+        "github:title:sdsrss claude mem lite",
+        "id:8cf68d47e45413ed"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "fe7aa714dead158a",
+      "title": "poe-platform/poe-code",
+      "url": "https://github.com/poe-platform/poe-code",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/poe-platform/poe-code",
+        "github:poe-platform/poe-code",
+        "title:poe platform poe code",
+        "github:title:poe platform poe code",
+        "id:fe7aa714dead158a"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "c1ec1a983f7f1afe",
+      "title": "sirkirby/unifi-mcp",
+      "url": "https://github.com/sirkirby/unifi-mcp",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/sirkirby/unifi-mcp",
+        "github:sirkirby/unifi-mcp",
+        "title:sirkirby unifi mcp",
+        "github:title:sirkirby unifi mcp",
+        "id:c1ec1a983f7f1afe"
       ]
     }
   ]
