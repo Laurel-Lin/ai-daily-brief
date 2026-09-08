@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:53:03.943608+00:00",
+  "updated_at": "2026-09-08T00:24:44.280239+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -1989,6 +1989,50 @@
         "title:sirkirby unifi mcp",
         "github:title:sirkirby unifi mcp",
         "id:c1ec1a983f7f1afe"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "id": "775dc2edbf7bbbf5",
+      "title": "github/gh-aw-mcpg",
+      "url": "https://github.com/github/gh-aw-mcpg",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/github/gh-aw-mcpg",
+        "github:github/gh-aw-mcpg",
+        "url:https://github.com/github/gh-aw-firewall",
+        "title:github gh aw firewall",
+        "title:github gh aw mcpg",
+        "github:title:github gh aw mcpg",
+        "id:775dc2edbf7bbbf5"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "id": "0c5fbca85959527a",
+      "title": "xberg-io/xberg",
+      "url": "https://github.com/xberg-io/xberg",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/xberg-io/xberg",
+        "github:xberg-io/xberg",
+        "title:xberg io xberg",
+        "github:title:xberg io xberg",
+        "id:0c5fbca85959527a"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "id": "e528e7e159a9f1cd",
+      "title": "Miosa-osa/OSA",
+      "url": "https://github.com/Miosa-osa/OSA",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Miosa-osa/OSA",
+        "github:miosa-osa/osa",
+        "title:miosa osa osa",
+        "github:title:miosa osa osa",
+        "id:e528e7e159a9f1cd"
       ]
     }
   ]
