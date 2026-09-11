@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T00:14:10.323717+00:00",
+  "updated_at": "2026-09-11T00:09:45.475774+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2117,6 +2117,48 @@
         "title:vivekchand clawmetry",
         "github:title:vivekchand clawmetry",
         "id:f4b05c772d9c5edf"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "id": "f6a5ba2d02025ee1",
+      "title": "Peiiii/nextclaw",
+      "url": "https://github.com/Peiiii/nextclaw",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Peiiii/nextclaw",
+        "github:peiiii/nextclaw",
+        "title:peiiii nextclaw",
+        "github:title:peiiii nextclaw",
+        "id:f6a5ba2d02025ee1"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "id": "fcdaad6685cffbeb",
+      "title": "pixeltable/pixeltable",
+      "url": "https://github.com/pixeltable/pixeltable",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/pixeltable/pixeltable",
+        "github:pixeltable/pixeltable",
+        "title:pixeltable pixeltable",
+        "github:title:pixeltable pixeltable",
+        "id:fcdaad6685cffbeb"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "id": "83854b99ee387e15",
+      "title": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/googleapis/mcp-toolbox",
+        "github:googleapis/mcp-toolbox",
+        "title:googleapis mcp toolbox",
+        "github:title:googleapis mcp toolbox",
+        "id:83854b99ee387e15"
       ]
     }
   ]
