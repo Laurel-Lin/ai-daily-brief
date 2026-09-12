@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T00:09:45.475774+00:00",
+  "updated_at": "2026-09-12T00:17:37.926608+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2159,6 +2159,48 @@
         "title:googleapis mcp toolbox",
         "github:title:googleapis mcp toolbox",
         "id:83854b99ee387e15"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "69cd7fd947e7d577",
+      "title": "orneryd/NornicDB",
+      "url": "https://github.com/orneryd/NornicDB",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/orneryd/NornicDB",
+        "github:orneryd/nornicdb",
+        "title:orneryd nornicdb",
+        "github:title:orneryd nornicdb",
+        "id:69cd7fd947e7d577"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "7f7be66f00b49b21",
+      "title": "Capsize-Games/airunner",
+      "url": "https://github.com/Capsize-Games/airunner",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Capsize-Games/airunner",
+        "github:capsize-games/airunner",
+        "title:capsize games airunner",
+        "github:title:capsize games airunner",
+        "id:7f7be66f00b49b21"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "dccea06d1c62e87d",
+      "title": "kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/kruzovic7/ai-data-extractor",
+        "github:kruzovic7/ai-data-extractor",
+        "title:kruzovic7 ai data extractor",
+        "github:title:kruzovic7 ai data extractor",
+        "id:dccea06d1c62e87d"
       ]
     }
   ]
