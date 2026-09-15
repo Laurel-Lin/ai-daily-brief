@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T00:10:54.900342+00:00",
+  "updated_at": "2026-09-15T00:37:30.732619+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2285,6 +2285,20 @@
         "title:limecloud lime",
         "github:title:limecloud lime",
         "id:d11337e8ced62a3e"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "3dce568301dab8ec",
+      "title": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Gentleman-Programming/gentle-ai",
+        "github:gentleman-programming/gentle-ai",
+        "title:gentleman programming gentle ai",
+        "github:title:gentleman programming gentle ai",
+        "id:3dce568301dab8ec"
       ]
     }
   ]
