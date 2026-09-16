@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T00:37:30.732619+00:00",
+  "updated_at": "2026-09-16T00:19:05.359834+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2299,6 +2299,48 @@
         "title:gentleman programming gentle ai",
         "github:title:gentleman programming gentle ai",
         "id:3dce568301dab8ec"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "b657b83fd8ed7361",
+      "title": "cyrusagents/cyrus",
+      "url": "https://github.com/cyrusagents/cyrus",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/cyrusagents/cyrus",
+        "github:cyrusagents/cyrus",
+        "title:cyrusagents cyrus",
+        "github:title:cyrusagents cyrus",
+        "id:b657b83fd8ed7361"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "0155c698ca583e7c",
+      "title": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/manaflow-ai/cmux",
+        "github:manaflow-ai/cmux",
+        "title:manaflow ai cmux",
+        "github:title:manaflow ai cmux",
+        "id:0155c698ca583e7c"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "61b4dbd9a0819fac",
+      "title": "avibe-bot/avibe",
+      "url": "https://github.com/avibe-bot/avibe",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/avibe-bot/avibe",
+        "github:avibe-bot/avibe",
+        "title:avibe bot avibe",
+        "github:title:avibe bot avibe",
+        "id:61b4dbd9a0819fac"
       ]
     }
   ]
