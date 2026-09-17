@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:19:05.359834+00:00",
+  "updated_at": "2026-09-17T00:31:03.680158+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2341,6 +2341,34 @@
         "title:avibe bot avibe",
         "github:title:avibe bot avibe",
         "id:61b4dbd9a0819fac"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "57bd5a275f077b41",
+      "title": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Gentleman-Programming/engram",
+        "github:gentleman-programming/engram",
+        "title:gentleman programming engram",
+        "github:title:gentleman programming engram",
+        "id:57bd5a275f077b41"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "c6d6c9ba94857498",
+      "title": "tradecatlabs/vibe-coding-cn",
+      "url": "https://github.com/tradecatlabs/vibe-coding-cn",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/tradecatlabs/vibe-coding-cn",
+        "github:tradecatlabs/vibe-coding-cn",
+        "title:tradecatlabs vibe coding cn",
+        "github:title:tradecatlabs vibe coding cn",
+        "id:c6d6c9ba94857498"
       ]
     }
   ]
