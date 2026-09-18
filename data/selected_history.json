@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T00:31:03.680158+00:00",
+  "updated_at": "2026-09-18T00:16:38.615838+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2369,6 +2369,48 @@
         "title:tradecatlabs vibe coding cn",
         "github:title:tradecatlabs vibe coding cn",
         "id:c6d6c9ba94857498"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "id": "98ff65d187e0eb2c",
+      "title": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/pipecat-ai/pipecat",
+        "github:pipecat-ai/pipecat",
+        "title:pipecat ai pipecat",
+        "github:title:pipecat ai pipecat",
+        "id:98ff65d187e0eb2c"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "id": "bcee87af26b2a3f1",
+      "title": "btspoony/mstar-harness",
+      "url": "https://github.com/btspoony/mstar-harness",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/btspoony/mstar-harness",
+        "github:btspoony/mstar-harness",
+        "title:btspoony mstar harness",
+        "github:title:btspoony mstar harness",
+        "id:bcee87af26b2a3f1"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "id": "35518f15f10b05d3",
+      "title": "quarkiverse/quarkus-flow",
+      "url": "https://github.com/quarkiverse/quarkus-flow",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/quarkiverse/quarkus-flow",
+        "github:quarkiverse/quarkus-flow",
+        "title:quarkiverse quarkus flow",
+        "github:title:quarkiverse quarkus flow",
+        "id:35518f15f10b05d3"
       ]
     }
   ]
