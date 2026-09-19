@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T00:16:38.615838+00:00",
+  "updated_at": "2026-09-19T00:19:58.293393+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2411,6 +2411,48 @@
         "title:quarkiverse quarkus flow",
         "github:title:quarkiverse quarkus flow",
         "id:35518f15f10b05d3"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "73c13e8b59c83c44",
+      "title": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/melgarafael/DeskcommCRM",
+        "github:melgarafael/deskcommcrm",
+        "title:melgarafael deskcommcrm",
+        "github:title:melgarafael deskcommcrm",
+        "id:73c13e8b59c83c44"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "8ee840238e6350ce",
+      "title": "raullenchai/Rapid-MLX",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/raullenchai/Rapid-MLX",
+        "github:raullenchai/rapid-mlx",
+        "title:raullenchai rapid mlx",
+        "github:title:raullenchai rapid mlx",
+        "id:8ee840238e6350ce"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "587844ea499b98f4",
+      "title": "supernovae-st/nika",
+      "url": "https://github.com/supernovae-st/nika",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/supernovae-st/nika",
+        "github:supernovae-st/nika",
+        "title:supernovae st nika",
+        "github:title:supernovae st nika",
+        "id:587844ea499b98f4"
       ]
     }
   ]
