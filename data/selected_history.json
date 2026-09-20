@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T00:19:58.293393+00:00",
+  "updated_at": "2026-09-20T00:08:49.715250+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2453,6 +2453,48 @@
         "title:supernovae st nika",
         "github:title:supernovae st nika",
         "id:587844ea499b98f4"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "b4c0e7d4b6a5d4e8",
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/langgenius/dify",
+        "github:langgenius/dify",
+        "title:langgenius dify",
+        "github:title:langgenius dify",
+        "id:b4c0e7d4b6a5d4e8"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "0643c3a1b1c3fd07",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/affaan-m/ECC",
+        "github:affaan-m/ecc",
+        "title:affaan m ecc",
+        "github:title:affaan m ecc",
+        "id:0643c3a1b1c3fd07"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "ba53f2895973e1d4",
+      "title": "lofcz/LLMTornado",
+      "url": "https://github.com/lofcz/LLMTornado",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/lofcz/LLMTornado",
+        "github:lofcz/llmtornado",
+        "title:lofcz llmtornado",
+        "github:title:lofcz llmtornado",
+        "id:ba53f2895973e1d4"
       ]
     }
   ]
