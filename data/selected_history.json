@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T00:08:49.715250+00:00",
+  "updated_at": "2026-09-21T00:16:00.194719+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2495,6 +2495,48 @@
         "title:lofcz llmtornado",
         "github:title:lofcz llmtornado",
         "id:ba53f2895973e1d4"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "4cdb624049c40ccf",
+      "title": "zeronsh/zeron",
+      "url": "https://github.com/zeronsh/zeron",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/zeronsh/zeron",
+        "github:zeronsh/zeron",
+        "title:zeronsh zeron",
+        "github:title:zeronsh zeron",
+        "id:4cdb624049c40ccf"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "d30a14e79077f347",
+      "title": "feder-cr/AIHawk",
+      "url": "https://github.com/feder-cr/AIHawk",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/feder-cr/AIHawk",
+        "github:feder-cr/aihawk",
+        "title:feder cr aihawk",
+        "github:title:feder cr aihawk",
+        "id:d30a14e79077f347"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "8dbe276068b65d20",
+      "title": "SyntheticAutonomicMind/CLIO",
+      "url": "https://github.com/SyntheticAutonomicMind/CLIO",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/SyntheticAutonomicMind/CLIO",
+        "github:syntheticautonomicmind/clio",
+        "title:syntheticautonomicmind clio",
+        "github:title:syntheticautonomicmind clio",
+        "id:8dbe276068b65d20"
       ]
     }
   ]
