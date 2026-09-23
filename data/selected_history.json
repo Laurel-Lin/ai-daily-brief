@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T00:49:49.047882+00:00",
+  "updated_at": "2026-09-23T00:31:46.561317+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2579,6 +2579,48 @@
         "title:mervinpraison praisonai",
         "github:title:mervinpraison praisonai",
         "id:13ecee9629fa2ba1"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "4fc97102122e0bbd",
+      "title": "inference-gateway/inference-gateway",
+      "url": "https://github.com/inference-gateway/inference-gateway",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/inference-gateway/inference-gateway",
+        "github:inference-gateway/inference-gateway",
+        "title:inference gateway inference gateway",
+        "github:title:inference gateway inference gateway",
+        "id:4fc97102122e0bbd"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "9f0d34a9aa240157",
+      "title": "conorbronsdon/avoid-ai-writing",
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/conorbronsdon/avoid-ai-writing",
+        "github:conorbronsdon/avoid-ai-writing",
+        "title:conorbronsdon avoid ai writing",
+        "github:title:conorbronsdon avoid ai writing",
+        "id:9f0d34a9aa240157"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "f23b045038595244",
+      "title": "mindroom-ai/mindroom",
+      "url": "https://github.com/mindroom-ai/mindroom",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mindroom-ai/mindroom",
+        "github:mindroom-ai/mindroom",
+        "title:mindroom ai mindroom",
+        "github:title:mindroom ai mindroom",
+        "id:f23b045038595244"
       ]
     }
   ]
