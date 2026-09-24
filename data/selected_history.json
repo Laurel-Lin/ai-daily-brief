@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T00:31:46.561317+00:00",
+  "updated_at": "2026-09-24T00:29:53.561112+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2621,6 +2621,48 @@
         "title:mindroom ai mindroom",
         "github:title:mindroom ai mindroom",
         "id:f23b045038595244"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "bcded77b65ac0f9b",
+      "title": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/elizaOS/eliza",
+        "github:elizaos/eliza",
+        "title:elizaos eliza",
+        "github:title:elizaos eliza",
+        "id:bcded77b65ac0f9b"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "b448ee7fc29ddf86",
+      "title": "greenfield-inc/Pane",
+      "url": "https://github.com/greenfield-inc/Pane",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/greenfield-inc/Pane",
+        "github:greenfield-inc/pane",
+        "title:greenfield inc pane",
+        "github:title:greenfield inc pane",
+        "id:b448ee7fc29ddf86"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "5de3280b158fc05f",
+      "title": "christopherkarani/Wax",
+      "url": "https://github.com/christopherkarani/Wax",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/christopherkarani/Wax",
+        "github:christopherkarani/wax",
+        "title:christopherkarani wax",
+        "github:title:christopherkarani wax",
+        "id:5de3280b158fc05f"
       ]
     }
   ]
