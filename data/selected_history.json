@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T00:37:38.625319+00:00",
+  "updated_at": "2026-09-27T00:35:12.498022+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2747,6 +2747,48 @@
         "title:googleapis mcp toolbox",
         "github:title:googleapis mcp toolbox",
         "id:83854b99ee387e15"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "id": "63c1ccbbeec8f42a",
+      "title": "hashgraph-online/hol-guard",
+      "url": "https://github.com/hashgraph-online/hol-guard",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/hashgraph-online/hol-guard",
+        "github:hashgraph-online/hol-guard",
+        "title:hashgraph online hol guard",
+        "github:title:hashgraph online hol guard",
+        "id:63c1ccbbeec8f42a"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "id": "6a2e8da27ca457b0",
+      "title": "slkiser/opencode-quota",
+      "url": "https://github.com/slkiser/opencode-quota",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/slkiser/opencode-quota",
+        "github:slkiser/opencode-quota",
+        "title:slkiser opencode quota",
+        "github:title:slkiser opencode quota",
+        "id:6a2e8da27ca457b0"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "id": "eeb757dc0e77bcac",
+      "title": "gmickel/gno",
+      "url": "https://github.com/gmickel/gno",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/gmickel/gno",
+        "github:gmickel/gno",
+        "title:gmickel gno",
+        "github:title:gmickel gno",
+        "id:eeb757dc0e77bcac"
       ]
     }
   ]
