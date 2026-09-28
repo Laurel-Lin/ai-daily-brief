@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T00:35:12.498022+00:00",
+  "updated_at": "2026-09-28T00:44:30.964120+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2789,6 +2789,48 @@
         "title:gmickel gno",
         "github:title:gmickel gno",
         "id:eeb757dc0e77bcac"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "id": "0700bee465328beb",
+      "title": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/vastsa/PI-Desktop",
+        "github:vastsa/pi-desktop",
+        "title:vastsa pi desktop",
+        "github:title:vastsa pi desktop",
+        "id:0700bee465328beb"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "id": "309893f5457b98a8",
+      "title": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/xerj-org/xerj",
+        "github:xerj-org/xerj",
+        "title:xerj org xerj",
+        "github:title:xerj org xerj",
+        "id:309893f5457b98a8"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "id": "52c1b9df3d812a3e",
+      "title": "sceneview/sceneview",
+      "url": "https://github.com/sceneview/sceneview",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/sceneview/sceneview",
+        "github:sceneview/sceneview",
+        "title:sceneview sceneview",
+        "github:title:sceneview sceneview",
+        "id:52c1b9df3d812a3e"
       ]
     }
   ]
