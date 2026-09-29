@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T00:44:30.964120+00:00",
+  "updated_at": "2026-09-29T01:56:14.001067+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2831,6 +2831,48 @@
         "title:sceneview sceneview",
         "github:title:sceneview sceneview",
         "id:52c1b9df3d812a3e"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "14c5c62d7363bd29",
+      "title": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/diegosouzapw/OmniRoute",
+        "github:diegosouzapw/omniroute",
+        "title:diegosouzapw omniroute",
+        "github:title:diegosouzapw omniroute",
+        "id:14c5c62d7363bd29"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "a82f52bd1c8c3822",
+      "title": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/screenpipe/screenpipe",
+        "github:screenpipe/screenpipe",
+        "title:screenpipe screenpipe",
+        "github:title:screenpipe screenpipe",
+        "id:a82f52bd1c8c3822"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "571750d5fe35189d",
+      "title": "NPC-Worldwide/npcpy",
+      "url": "https://github.com/NPC-Worldwide/npcpy",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/NPC-Worldwide/npcpy",
+        "github:npc-worldwide/npcpy",
+        "title:npc worldwide npcpy",
+        "github:title:npc worldwide npcpy",
+        "id:571750d5fe35189d"
       ]
     }
   ]
