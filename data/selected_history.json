@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T01:56:14.001067+00:00",
+  "updated_at": "2026-09-30T01:18:03.864393+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2873,6 +2873,48 @@
         "title:npc worldwide npcpy",
         "github:title:npc worldwide npcpy",
         "id:571750d5fe35189d"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "id": "625101aa899291d5",
+      "title": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Osmantic/ODS",
+        "github:osmantic/ods",
+        "title:osmantic ods",
+        "github:title:osmantic ods",
+        "id:625101aa899291d5"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "id": "535f195594a97738",
+      "title": "tractorjuice/arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/tractorjuice/arc-kit",
+        "github:tractorjuice/arc-kit",
+        "title:tractorjuice arc kit",
+        "github:title:tractorjuice arc kit",
+        "id:535f195594a97738"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "id": "b3536bda3a939f74",
+      "title": "pqpo/pragma",
+      "url": "https://github.com/pqpo/pragma",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/pqpo/pragma",
+        "github:pqpo/pragma",
+        "title:pqpo pragma",
+        "github:title:pqpo pragma",
+        "id:b3536bda3a939f74"
       ]
     }
   ]
