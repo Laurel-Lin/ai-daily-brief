@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T01:18:03.864393+00:00",
+  "updated_at": "2026-10-01T01:17:35.223052+00:00",
   "items": [
     {
       "date": "2026-07-03",
@@ -2915,6 +2915,48 @@
         "title:pqpo pragma",
         "github:title:pqpo pragma",
         "id:b3536bda3a939f74"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "d11337e8ced62a3e",
+      "title": "limecloud/lime",
+      "url": "https://github.com/limecloud/lime",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/limecloud/lime",
+        "github:limecloud/lime",
+        "title:limecloud lime",
+        "github:title:limecloud lime",
+        "id:d11337e8ced62a3e"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "f4b05c772d9c5edf",
+      "title": "vivekchand/clawmetry",
+      "url": "https://github.com/vivekchand/clawmetry",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/vivekchand/clawmetry",
+        "github:vivekchand/clawmetry",
+        "title:vivekchand clawmetry",
+        "github:title:vivekchand clawmetry",
+        "id:f4b05c772d9c5edf"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "4f974fbc7adcd72d",
+      "title": "sublang-ai/cligent",
+      "url": "https://github.com/sublang-ai/cligent",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/sublang-ai/cligent",
+        "github:sublang-ai/cligent",
+        "title:sublang ai cligent",
+        "github:title:sublang ai cligent",
+        "id:4f974fbc7adcd72d"
       ]
     }
   ]
