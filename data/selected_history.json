@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T01:11:52.428667+00:00",
+  "updated_at": "2026-10-04T00:37:04.434104+00:00",
   "items": [
     {
       "date": "2026-07-12",
@@ -2870,6 +2870,48 @@
         "title:kyanitelabs kinocut",
         "github:title:kyanitelabs kinocut",
         "id:71b1e76380b1dbb9"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "ec8b5697d9803fc0",
+      "title": "kitfunso/hippo-memory",
+      "url": "https://github.com/kitfunso/hippo-memory",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/kitfunso/hippo-memory",
+        "github:kitfunso/hippo-memory",
+        "title:kitfunso hippo memory",
+        "github:title:kitfunso hippo memory",
+        "id:ec8b5697d9803fc0"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "0d6b50026f4945da",
+      "title": "puritysb/AgentDeck",
+      "url": "https://github.com/puritysb/AgentDeck",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/puritysb/AgentDeck",
+        "github:puritysb/agentdeck",
+        "title:puritysb agentdeck",
+        "github:title:puritysb agentdeck",
+        "id:0d6b50026f4945da"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "63d64eacba030cfb",
+      "title": "severity1/claude-agent-sdk-go",
+      "url": "https://github.com/severity1/claude-agent-sdk-go",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/severity1/claude-agent-sdk-go",
+        "github:severity1/claude-agent-sdk-go",
+        "title:severity1 claude agent sdk go",
+        "github:title:severity1 claude agent sdk go",
+        "id:63d64eacba030cfb"
       ]
     }
   ]
