@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T00:55:04.933590+00:00",
+  "updated_at": "2026-10-06T02:17:56.028914+00:00",
   "items": [
     {
       "date": "2026-07-12",
@@ -2954,6 +2954,48 @@
         "title:prefecthq fastmcp",
         "github:title:prefecthq fastmcp",
         "id:f58d3f7e8ebeab4b"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "726303f5217d26c3",
+      "title": "agent-sh/agentsys",
+      "url": "https://github.com/agent-sh/agentsys",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/agent-sh/agentsys",
+        "github:agent-sh/agentsys",
+        "title:agent sh agentsys",
+        "github:title:agent sh agentsys",
+        "id:726303f5217d26c3"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "7cbe5ec135bea151",
+      "title": "dongnguyenvie/BashCut",
+      "url": "https://github.com/dongnguyenvie/BashCut",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/dongnguyenvie/BashCut",
+        "github:dongnguyenvie/bashcut",
+        "title:dongnguyenvie bashcut",
+        "github:title:dongnguyenvie bashcut",
+        "id:7cbe5ec135bea151"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "dc2631b1e6dbd020",
+      "title": "liliang-cn/cortexdb",
+      "url": "https://github.com/liliang-cn/cortexdb",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/liliang-cn/cortexdb",
+        "github:liliang-cn/cortexdb",
+        "title:liliang cn cortexdb",
+        "github:title:liliang cn cortexdb",
+        "id:dc2631b1e6dbd020"
       ]
     }
   ]
