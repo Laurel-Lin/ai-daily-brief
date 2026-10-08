@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T01:31:56.084126+00:00",
+  "updated_at": "2026-10-08T01:55:25.222547+00:00",
   "items": [
     {
       "date": "2026-07-12",
@@ -3038,6 +3038,48 @@
         "title:genkit ai genkit",
         "github:title:genkit ai genkit",
         "id:55813b68c1d6c9a1"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "bffe5c88bc3cac8a",
+      "title": "mastra-ai/mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/mastra-ai/mastra",
+        "github:mastra-ai/mastra",
+        "title:mastra ai mastra",
+        "github:title:mastra ai mastra",
+        "id:bffe5c88bc3cac8a"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "ed6d76f31098c8c6",
+      "title": "hyperb1iss/sibyl",
+      "url": "https://github.com/hyperb1iss/sibyl",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/hyperb1iss/sibyl",
+        "github:hyperb1iss/sibyl",
+        "title:hyperb1iss sibyl",
+        "github:title:hyperb1iss sibyl",
+        "id:ed6d76f31098c8c6"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "5e68c1ab2c61d91f",
+      "title": "Digital-Process-Tools/claude-remember",
+      "url": "https://github.com/Digital-Process-Tools/claude-remember",
+      "source_type": "github",
+      "keys": [
+        "url:https://github.com/Digital-Process-Tools/claude-remember",
+        "github:digital-process-tools/claude-remember",
+        "title:digital process tools claude remember",
+        "github:title:digital process tools claude remember",
+        "id:5e68c1ab2c61d91f"
       ]
     }
   ]
